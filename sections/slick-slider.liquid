@@ -1,5 +1,5 @@
 <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
-<div class="slider-for page-width">
+<div class="multiple-items page-width">
   <div>your content1</div>
   <div>your content2</div>
   <div>your content3</div>
@@ -15,20 +15,10 @@
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script type="text/javascript">
   $(document).ready(function () {
-    $('.slider-for').slick({
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      arrows: false,
-      fade: true,
-      asNavFor: '.slider-nav',
-    });
-    $('.slider-nav').slick({
+    $('.multiple-items').slick({
+      infinite: true,
       slidesToShow: 3,
-      slidesToScroll: 1,
-      asNavFor: '.slider-for',
-      dots: true,
-      centerMode: true,
-      focusOnSelect: true,
+      slidesToScroll: 3,
     });
   });
 </script>
