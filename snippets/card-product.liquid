@@ -212,8 +212,7 @@
               </div>
             {%- endif -%}
           </div>
-        </div>
-                     <product-form data-section-id="{{ section.id }}">
+                        <product-form data-section-id="{{ section.id }}">
                 {%- form 'product',
                   card_product,
                   id: product_form_id,
@@ -268,6 +267,8 @@
                   </button>
                 {%- endform -%}
               </product-form>
+        </div>
+       
         
         <div class="card__badge {{ settings.badge_position }}">
           {%- if card_product.available == false -%}
