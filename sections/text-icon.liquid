@@ -10,7 +10,32 @@
 {% schema %}
   {
     "name": "Text icon",
-    "settings": [],
+    "settings": [
+      
+    ],
+    "blocks": [
+      {
+        "type" : "add_block",
+         "name": "Block",
+         "settings": [
+           {
+             "type": "image_picker",
+              "id" : "iconImage",
+               "label": "Icon Image"
+           },
+           {
+             "type": "text",
+              "id": "title",
+               "label": "Title"
+           },
+           {
+             "type": "inline_richtext",
+              "id": "subTitle",
+              "label": "Sub Title"
+           }
+         ]
+      }
+    ],
     "presets": [
       {
         "name" : "Text icon"
