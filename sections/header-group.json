@@ -11,10 +11,18 @@
             "text": "Welcome to our store",
             "link": ""
           }
+        },
+        "announcement_QPQDk6": {
+          "type": "announcement",
+          "settings": {
+            "text": "Welcome to our store",
+            "link": ""
+          }
         }
       },
       "block_order": [
-        "announcement-bar-0"
+        "announcement-bar-0",
+        "announcement_QPQDk6"
       ],
       "settings": {
         "color_scheme": "",
