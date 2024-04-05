@@ -104,10 +104,19 @@
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
       }
+    },
+    "text_icon_f8UTy6": {
+      "type": "text-icon",
+      "settings": {
+        "heading": "Title",
+        "subHeading": "subtitle",
+        "headingSize": "fs-3"
+      }
     }
   },
   "order": [
     "image_banner",
-    "slideshow_zMxiqB"
+    "slideshow_zMxiqB",
+    "text_icon_f8UTy6"
   ]
 }
