@@ -4,12 +4,17 @@
     "theme_name": "Dawn 2023",
     "theme_version": "12.0.0",
     "theme_author": "Rohit Maurya",
-    "theme_documentation_url": "https://help.shopify.com/manual/online-store/themes",
-    "theme_support_url": "https://support.shopify.com/"
+    "theme_documentation_url": "https:\/\/help.shopify.com\/manual\/online-store\/themes",
+    "theme_support_url": "https:\/\/support.shopify.com\/"
   },
   {
     "name": "t:settings_schema.logo.name",
     "settings": [
+      {
+        "type": "text",
+        "id": "logoText",
+        "label": "Text"
+      },
       {
         "type": "image_picker",
         "id": "logo",
