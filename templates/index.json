@@ -164,6 +164,7 @@
     "featured_collection_xXC7Cm": {
       "type": "featured-collection",
       "settings": {
+        "adsImage": "shopify:\/\/shop_images\/S3221470b7f4848c39e9a3c780c2a66fa1.webp",
         "title": "Featured collection",
         "heading_size": "h2",
         "description": "",
