@@ -7,10 +7,12 @@
      {% endif %}
    <div class="cardDiv {{ section.settings.textPosition }}">
    {% for block in section.blocks  %}
+     <a href="" 
      <div class="iconImage">{{ block.settings.iconImage | img_url : '' }}</div>
      <div class="textWithIconTitle">{{ block.settings.title }}</div>
     <div class="textWithIconSubTitle">{{ block.settings.subTitle }}</div>
-     <div class="textWithIconDescription">{{ block.settings.subTitle }}</div>
+     <div class="textWithIconDescription">{{ block.settings.description }}</div>
+     </a>
       {% endfor %}
      </div>
 </div>
