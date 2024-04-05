@@ -2,6 +2,10 @@
    {% if section.settings.heading != blank %}
    <div class="Heading {{ section.settings.headingSize }}">{{ section.settings.heading }}</div>
      {% endif %}
+  {% if section.settings.subHeading != blank %}
+   <div class="SubHeading">{{ section.settings.subHeading }}</div>
+     {% endif %}
+  
    <div class="cardDiv {{ section.settings.textPosition }}">
   <div class="iconImage"></div>
   <div class="textWithIconTitle">    </div>
