@@ -97,7 +97,7 @@
               style="--animation-order: {{ forloop.index }};"
             {% endif %}
           > 
-            {% if section.settings.adsImage %}
+            {% if section.settings.adsImage != blank and forloop.index0 == 0 %}
                <img src="{{ section.settings.adsImage | img_url : '' }}" height="200px" width="100px" />
             {% else %}
             {% render 'card-product',
