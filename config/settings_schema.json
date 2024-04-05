@@ -8,16 +8,6 @@
     "theme_support_url": "https:\/\/support.shopify.com\/"
   },
   {
-    "name": "Bootstrap Info",
-    "settings": [
-      {
-        "type": "checkbox",
-        "id": "enableBootstrap",
-        "label": "Enable Bootstrap"
-      }
-    ]
-  },
-  {
     "name": "t:settings_schema.logo.name",
     "settings": [
       {
