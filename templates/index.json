@@ -73,7 +73,7 @@
         "slide_FKMUkB": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/accessory-1869926_1920.jpg",
+            "image": "shopify:\/\/shop_images\/pocket-watch-665871_1920.jpg",
             "bannerCaption": "",
             "heading": "Image slide",
             "heading_size": "h1",
@@ -84,7 +84,7 @@
             "box_align": "middle-center",
             "show_text_box": false,
             "text_alignment": "center",
-            "image_overlay_opacity": 0,
+            "image_overlay_opacity": 10,
             "color_scheme": "",
             "text_alignment_mobile": "center"
           }
