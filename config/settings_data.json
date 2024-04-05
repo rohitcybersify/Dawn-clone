@@ -1,6 +1,5 @@
 {
   "current": {
-    "enableBootstrap": true,
     "enableLogoText": true,
     "logoText": "Wooden Watch",
     "logo_width": 150,
@@ -114,6 +113,7 @@
     "show_vendor": false,
     "show_cart_note": false,
     "cart_drawer_collection": "",
+    "enableBootstrap": true,
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
