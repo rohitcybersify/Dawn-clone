@@ -98,7 +98,7 @@
             {% endif %}
           > 
             {% if section.settings.adsImage %}
-               <img src="{{ section.settings.adsImage | img_url : '' }}" />
+               <img src="{{ section.settings.adsImage | img_url : '' }}" height="200px" width="100px" />
             {% else %}
             {% render 'card-product',
               card_product: product,
