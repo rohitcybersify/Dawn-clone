@@ -199,11 +199,13 @@
             {%- endif -%}
 
             {% render 'price', product: card_product, price_class: '', show_compare_at_price: true %}
-             <div class="checkInStock">
+           
                {% if card_product.variants.first.inventory_quantity > 0 %}
+                   <div class="checkInStock">
              {{ card_product.variants.first.inventory_quantity }} <span>in Stock</span>
-                {% endif %}
-               </div>
+                              </div>
+                     {% endif %}
+
             {%- if card_product.quantity_price_breaks_configured? -%}
               <div class="card__information-volume-pricing-note">
                 <span class="caption">{{ 'products.product.volume_pricing.note' | t }}</span>
