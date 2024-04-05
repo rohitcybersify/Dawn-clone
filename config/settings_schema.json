@@ -11,6 +11,11 @@
     "name": "t:settings_schema.logo.name",
     "settings": [
       {
+        "type": "checkbox",
+        "id": "enableLogoText",
+        "label": "Enable logo text"
+      },
+      {
         "type": "text",
         "id": "logoText",
         "label": "Text"
