@@ -211,6 +211,7 @@
       ],
       "settings": {
         "title": "Collections",
+        "btnLabel": "Shop Now",
         "heading_size": "h1",
         "image_ratio": "square",
         "columns_desktop": 4,
