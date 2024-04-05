@@ -1,5 +1,6 @@
 {
   "current": {
+    "enableBootstrap": true,
     "enableLogoText": true,
     "logoText": "Wooden Watch",
     "logo_width": 150,
