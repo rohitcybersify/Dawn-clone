@@ -76,7 +76,8 @@
               card_collection: block.settings.collection,
               media_aspect_ratio: section.settings.image_ratio,
               columns: columns,
-              placeholder_image: placeholder_image
+              placeholder_image: placeholder_image,
+              shop_btn : section.settings.btnLabel
             %}
           </li>
         {%- endfor -%}
@@ -144,6 +145,11 @@
       "id": "title",
       "default": "Collections",
       "label": "t:sections.collection-list.settings.title.label"
+    },
+    {
+      "type" : "text",
+       "id" : "btnLabel",
+        "label": "Collection Button Label"
     },
     {
       "type": "select",
