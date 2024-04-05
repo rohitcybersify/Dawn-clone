@@ -92,6 +92,8 @@
                 {% endif %}
                 class="full-unstyled-link"
               >
+                Shop Now
+             </a>
                 {%- if card_collection.title != blank -%}
                   {{- card_collection.title | escape -}}
                 {%- else -%}
@@ -100,7 +102,7 @@
                 {%- if card_collection.description == blank -%}
                   <span class="icon-wrap">{% render 'icon-arrow' %}</span>
                 {%- endif %}
-              </a>
+             
             </h3>
             {%- if card_collection.description != blank -%}
               <p class="card__caption">
