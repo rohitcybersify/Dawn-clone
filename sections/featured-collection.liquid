@@ -98,9 +98,8 @@
             {% endif %}
           > 
             {% if section.settings.adsImage %}
-
+               <img src="{{ section.settings.adsImage | img_url : '' }}" />
             {% else %}
-            
             {% render 'card-product',
               card_product: product,
               media_aspect_ratio: section.settings.image_ratio,
