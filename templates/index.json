@@ -55,9 +55,10 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/clock-429955_1920.jpg",
-            "heading": "Image slide",
+            "bannerCaption": "Amazing look for Wooden watch",
+            "heading": "Transform functional tables",
             "heading_size": "h0",
-            "subheading": "Tell your brand's story through images",
+            "subheading": "Elevate Your Interior Design with Stylish and Functional Tables.",
             "button_label": "Buy Now",
             "link": "",
             "button_style_secondary": false,
@@ -73,6 +74,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/accessory-1869926_1920.jpg",
+            "bannerCaption": "",
             "heading": "Image slide",
             "heading_size": "h1",
             "subheading": "Tell your brand's story through images",
