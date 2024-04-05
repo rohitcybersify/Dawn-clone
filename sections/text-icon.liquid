@@ -5,11 +5,12 @@
   {% if section.settings.subHeading != blank %}
    <div class="SubHeading">{{ section.settings.subHeading }}</div>
      {% endif %}
-  
    <div class="cardDiv {{ section.settings.textPosition }}">
-  <div class="iconImage"></div>
-  <div class="textWithIconTitle">    </div>
+   {% for block in section.blocks  %}
+     <div class="iconImage"></div>
+     <div class="textWithIconTitle">    </div>
     <div class="textWithIconSubTitle">   </div>
+      {% endfor %}
      </div>
 </div>
 {% schema %}
