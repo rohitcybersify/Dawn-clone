@@ -170,6 +170,18 @@
             "collection": "imac"
           }
         },
+        "featured_collection_VMXdGQ": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "featured_collection_QDTPfw": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
         "featured_collection_GcYyYg": {
           "type": "featured_collection",
           "settings": {
@@ -191,6 +203,8 @@
       },
       "block_order": [
         "featured_collection_VrpGR7",
+        "featured_collection_VMXdGQ",
+        "featured_collection_QDTPfw",
         "featured_collection_GcYyYg",
         "featured_collection_xE8nmN",
         "featured_collection_FUpRYJ"
