@@ -90,6 +90,7 @@
       >
           <!-- <img src="{{ section.settings.adsImage | img_url : '' }}" height="200px" width="100px" /> -->
           {% if section.settings.adsImage != blank %}
+             <li>
                <div class="featuredProductImage" style="background-image:url('{{ section.settings.adsImage | img_url : '' }}');">
                   <div class="cardBody">
                     {% if section.settings.caption != blank %}
@@ -112,6 +113,7 @@
                     
                   </div>
                </div>
+            </li>
            {% endif %}
         {%- for product in section.settings.collection.products limit: section.settings.products_to_show -%}
           <li
