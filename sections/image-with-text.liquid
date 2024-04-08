@@ -49,6 +49,15 @@
         {%- endif -%}
       </div>
       <!-- second Image -->
+      {% if section.settings.secondImage != blank %}
+      <div class="secondImageOverLap">
+         {{
+            section.settings.secondImage
+            | image_url: width: 1500
+            | image_tag: loading: 'lazy', sizes: sizes, widths: widths
+          }}
+      </div>
+        {% endif %}
     </div>
     <div class="image-with-text__text-item grid__item">
       <div
