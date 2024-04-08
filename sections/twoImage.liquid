@@ -2,7 +2,7 @@
          {% if section.settings.image1 != blank %}
         <div class="inner-div" {% if section.settings.image1 != blank %} style="background-image:url('{{ section.settings.image1 | img_url : '' }}')" {% endif %}>
              {% if section.settings.title1 %}
-                <div class="divTag"></div>
+                <div class="divTag">{{ section.settings.title2 }}</div>
               {% endif %}
            {% if section.settings.button1 %}
             <a href="{% if section.settings.link1 %}{{ section.settings.link1 }}{% else %}#{% endif %}">{{ section.settings.button1 }}</a>
@@ -12,7 +12,7 @@
       {% if section.settings.image2 != blank %}
         <div class="inner-div" {% if section.settings.image2 != blank %} style="background-image:url('{{ section.settings.image2 | img_url : '' }}')" {% endif %}>
              {% if section.settings.title2 %}
-                <div class="divTag"></div>
+                <div class="divTag">{{ section.settings.title2 }}</div>
               {% endif %}
            {% if section.settings.button2 %}
             <a href="{% if section.settings.link2 %}{{ section.settings.link2 }}{% else %}#{% endif %}">{{ section.settings.button2 }}</a>
