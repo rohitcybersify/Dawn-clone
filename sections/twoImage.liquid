@@ -1,16 +1,3 @@
-<style>
-        /* Adding some basic styling for better visualization */
-        .main-div {
-            border: 2px solid #333;
-            padding: 20px;
-            margin: 20px;
-        }
-        .inner-div {
-            border: 1px solid #666;
-            padding: 10px;
-            margin: 10px;
-        }
-    </style>
 <div class="main-div">
     {% if section.settings.image1 != blank %}
     <div class="inner-div common-class" {% if section.settings.image1 != blank %} style="background-image:url('{{ section.settings.image1 | img_url : '' }}')" {% endif %}>
