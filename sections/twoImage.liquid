@@ -1,8 +1,12 @@
     <div class="main-div">
          {% if section.settings.image1 != blank %}
-        <div class="inner-div" >
-           
+        <div class="inner-div" {% if section.settings.image1 != blank %} style="background-image:url('{{ section.settings.image1 | img_url : '' }}')" {% endif %}>
+             {% if section.settings.title1 %}
+                <div class="divTag"></div>
+              {% endif %}
+           {% if section.settings.title1 %}
             <button>Button in Inner Div 1</button>
+             {% endif %}
         </div>
            {% endif %}
         <div class="inner-div">
