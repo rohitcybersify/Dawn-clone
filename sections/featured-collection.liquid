@@ -88,7 +88,6 @@
         role="list"
         aria-label="{{ 'general.slider.name' | t }}"
       >
-          <!-- <img src="{{ section.settings.adsImage | img_url : '' }}" height="200px" width="100px" /> -->
           {% if section.settings.adsImage != blank %}
              <li>
                <div class="featuredProductImage" style="background-image:url('{{ section.settings.adsImage | img_url : '' }}');">
@@ -198,6 +197,32 @@
     "groups": ["header", "footer"]
   },
   "settings": [
+     {
+      "type": "inline_richtext",
+      "id": "title",
+      "default": "Featured collection",
+      "label": "t:sections.featured-collection.settings.title.label"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "options": [
+        {
+          "value": "h2",
+          "label": "t:sections.all.heading_size.options__1.label"
+        },
+        {
+          "value": "h1",
+          "label": "t:sections.all.heading_size.options__2.label"
+        },
+        {
+          "value": "h0",
+          "label": "t:sections.all.heading_size.options__3.label"
+        }
+      ],
+      "default": "h1",
+      "label": "t:sections.all.heading_size.label"
+    },
     {
       "type": "header",
        "content" : "Collections Image"
@@ -226,32 +251,6 @@
       "type": "url",
        "id": "buttonLink",
        "label": "URL"
-    },
-    {
-      "type": "inline_richtext",
-      "id": "title",
-      "default": "Featured collection",
-      "label": "t:sections.featured-collection.settings.title.label"
-    },
-    {
-      "type": "select",
-      "id": "heading_size",
-      "options": [
-        {
-          "value": "h2",
-          "label": "t:sections.all.heading_size.options__1.label"
-        },
-        {
-          "value": "h1",
-          "label": "t:sections.all.heading_size.options__2.label"
-        },
-        {
-          "value": "h0",
-          "label": "t:sections.all.heading_size.options__3.label"
-        }
-      ],
-      "default": "h1",
-      "label": "t:sections.all.heading_size.label"
     },
     {
       "type": "richtext",
