@@ -1,6 +1,69 @@
+  <div class="main-div">
+        <div class="inner-div">
+            <!-- Content for first inner div -->
+            <p>This is HTML text in Inner Div 1</p>
+        </div>
+        <div class="inner-div">
+            <!-- Content for second inner div -->
+            <p>This is HTML text in Inner Div 2</p>
+        </div>
+    </div>
+
+    <!-- Adding buttons separately -->
+    <div class="main-div">
+        <div class="inner-div">
+            <!-- Button for first inner div -->
+            <button>Button in Inner Div 1</button>
+        </div>
+        <div class="inner-div">
+            <!-- Button for second inner div -->
+            <button>Button in Inner Div 2</button>
+        </div>
+    </div>
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Two Image",
+    "settings": [
+      {
+        "type":  "image_picker",
+         "id" : "image1",
+        "label": "Image"
+      },
+      {
+        "type": "text",
+         "id" : "title1",
+         "label": "Title"
+      },
+      {
+        "type": "text",
+         "id": "button1",
+          "label": "Button"
+      },
+      {
+        "type": "url",
+          "id": "link1",
+         "label": "URL"
+      },
+       {
+        "type":  "image_picker",
+         "id" : "image2",
+        "label": "Image"
+      },
+      {
+        "type": "text",
+         "id" : "title2",
+         "label": "Title"
+      },
+      {
+        "type": "text",
+         "id": "button2",
+          "label": "Button"
+      },
+      {
+        "type": "url",
+          "id": "link2",
+         "label": "URL"
+      }
+    ]
   }
 {% endschema %}
