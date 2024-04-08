@@ -344,12 +344,18 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/S84f9903f5cbf41ef9b35e22caf5a8cf41.webp"
           }
+        },
+        "slide_GQBMG8": {
+          "type": "slide",
+          "settings": {
+          }
         }
       },
       "block_order": [
         "slide_g9Berd",
         "slide_xGDqYY",
-        "slide_M66xmm"
+        "slide_M66xmm",
+        "slide_GQBMG8"
       ],
       "settings": {
         "show_container": true
