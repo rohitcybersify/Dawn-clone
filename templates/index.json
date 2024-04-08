@@ -272,6 +272,52 @@
         "button2": "Shop Now",
         "link2": "shopify:\/\/collections"
       }
+    },
+    "image_with_text_9eWdib": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_wMmXmQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "text_YDhVP7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_jbhay3": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_wMmXmQ",
+        "text_YDhVP7",
+        "button_jbhay3"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/pocket-watch-665871_1920.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -280,6 +326,7 @@
     "collection_list_nYeRfW",
     "featured_collection_xXC7Cm",
     "image_with_text_NN3Mjf",
-    "two_image_AGKPbC"
+    "two_image_AGKPbC",
+    "image_with_text_9eWdib"
   ]
 }
