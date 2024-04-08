@@ -356,6 +356,12 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/2019_Mac_Pro_case_off_front_fans_6nt9-by_634b393c-510b-4a79-b420-f3179b070355.jpg"
           }
+        },
+        "slide_PVWUVe": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2019_Mac_Pro_rear_ports._3_x7k6-94_1637c2f5-fd83-4d74-8115-837cb042c2bd.jpg"
+          }
         }
       },
       "block_order": [
@@ -363,7 +369,8 @@
         "slide_xGDqYY",
         "slide_M66xmm",
         "slide_GQBMG8",
-        "slide_CxF9WQ"
+        "slide_CxF9WQ",
+        "slide_PVWUVe"
       ],
       "settings": {
         "show_container": true
