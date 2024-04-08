@@ -93,10 +93,14 @@
                <div class="featuredProductImage" style="background-image:url('{{ section.settings.adsImage | img_url : '' }}');">
                   <div class="cardBody">
                     {% if section.settings.caption != blank %}
-                     <div class="cardCaption"></div>
+                     <div class="cardCaption">
+                      {{ section.settings.caption }}
+                      </div>
                      {% endif %}
                      {% if section.settings.imageTitle != blank %}
-                     <div class="cardTitle"></div>
+                     <div class="cardTitle">
+                     {{ section.settings.imageTitle }}
+                     </div>
                      {% endif %}
                      {% if section.settings.buttonLabel != blank %}
                      <div class="cardButton">
