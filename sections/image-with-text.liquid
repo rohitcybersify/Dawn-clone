@@ -79,7 +79,7 @@
                   {% if block.settings.iconImage1 or block.settings.iconText1 %}
                    <div class="icon1">
                      {% if block.settings.iconImage1 != blank %}
-                     <img class="iconImage" src="{{ block.settings.iconImage1 | img_url : '' }}" />
+                     <img class="iconImage" height="25px" width="25px" src="{{ block.settings.iconImage1 | img_url : '' }}" />
                         {% endif %}
                        {% if block.settings.iconText1 != blank %}
                           <div class="iconText">{{ block.settings.iconText1 }}</div>
@@ -89,7 +89,7 @@
                  {% if block.settings.iconImage2 or block.settings.iconText2 %}
                    <div class="icon2">
                      {% if block.settings.iconImage2 != blank %}
-                     <img class="iconImage" src="{{ block.settings.iconImage2 | img_url : '' }}" />
+                     <img class="iconImage" height="25px" width="25px" src="{{ block.settings.iconImage2 | img_url : '' }}" />
                         {% endif %}
                        {% if block.settings.iconText2 != blank %}
                           <div class="iconText">{{ block.settings.iconText2 }}</div>
