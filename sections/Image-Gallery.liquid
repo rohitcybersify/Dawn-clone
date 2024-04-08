@@ -1,6 +1,52 @@
+<section class="mains {% if section.settings.show_container %} page-width {% endif %}">
+  <div class="multiple-items">   
+   {% for block in section.blocks %}
+     <div class="slide-image"> 
+         <img  src="{{ block.settings.image | image_url  }}" height="300px" width="300px">        
+     </div>
+    {% endfor %}
+    
+  </div>  
+</section>
+
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Gallery",
+    "settings": [ 
+      {
+  "type": "checkbox",
+  "id": "show_container",
+  "label": "Enable Container",
+  "default": false
+}
+    ],
+    "blocks":[
+      
+  {
+    "name": "Image",
+    "type": "slide",
+    "settings": [
+        {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Select Image"
+    }
+    ]
+  }
+    ],
+    "presets": [
+     {"name": "Gallery"}
+    ]
   }
 {% endschema %}
+
+<script>
+  $(document).ready(function(){  
+$('.multiple-items').slick({
+  slidesToShow: 6,
+  slidesToScroll: 1,
+  arrows: true
+});
+    });
+</script> 
