@@ -89,8 +89,10 @@
         aria-label="{{ 'general.slider.name' | t }}"
       >
           <!-- <img src="{{ section.settings.adsImage | img_url : '' }}" height="200px" width="100px" /> -->
-          {% if section.settings.adsImage != blank and forloop.index0 == 0 %}
-               <div class="featuredProductImage" style="background-image:url('{{ section.settings.adsImage | img_url : '' }}')"></div>
+          {% if section.settings.adsImage != blank %}
+               <div class="featuredProductImage" style="background-image:url('{{ section.settings.adsImage | img_url : '' }}')">
+                 
+               </div>
            {% endif %}
         {%- for product in section.settings.collection.products limit: section.settings.products_to_show -%}
           <li
