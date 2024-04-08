@@ -262,6 +262,7 @@
     "two_image_AGKPbC": {
       "type": "twoImage",
       "settings": {
+        "pageWidthType": "",
         "image1": "shopify:\/\/shop_images\/time-3091031_1920.jpg",
         "title1": "Men's Watch",
         "button1": "Shop Now",
