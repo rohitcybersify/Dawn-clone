@@ -362,6 +362,12 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/2019_Mac_Pro_rear_ports._3_x7k6-94_1637c2f5-fd83-4d74-8115-837cb042c2bd.jpg"
           }
+        },
+        "slide_fWqHKX": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/refurb-mbp14-space-m1-2021_AV3_ad2fcb70-8528-46c7-83b0-e73b7e9756a0.jpg"
+          }
         }
       },
       "block_order": [
@@ -370,7 +376,8 @@
         "slide_M66xmm",
         "slide_GQBMG8",
         "slide_CxF9WQ",
-        "slide_PVWUVe"
+        "slide_PVWUVe",
+        "slide_fWqHKX"
       ],
       "settings": {
         "show_container": true
