@@ -223,8 +223,9 @@
           "type": "icon",
           "settings": {
             "iconImage1": "shopify:\/\/shop_images\/certificate-check-svgrepo-com.svg",
-            "iconText1": "",
-            "iconText2": ""
+            "iconText1": "Warranty :2 Year International",
+            "iconImage2": "shopify:\/\/shop_images\/gift-box-svgrepo-com.svg",
+            "iconText2": "Free Gift Box"
           }
         },
         "button_3j6q89": {
