@@ -219,6 +219,13 @@
             "text_style": "body"
           }
         },
+        "icon_McQUNq": {
+          "type": "icon",
+          "settings": {
+            "iconText1": "",
+            "iconText2": ""
+          }
+        },
         "button_3j6q89": {
           "type": "button",
           "settings": {
@@ -232,6 +239,7 @@
         "heading_7Cnmeg",
         "caption_NFhiNF",
         "text_P3itpw",
+        "icon_McQUNq",
         "button_3j6q89"
       ],
       "settings": {
