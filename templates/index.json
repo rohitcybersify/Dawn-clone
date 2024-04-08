@@ -348,6 +348,12 @@
         "slide_GQBMG8": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/download_nahb-2f_0yqw-04_s4ut-mn_7ipu-uf_84ys-vk_ktc1-bj_dmx8-7e_4c3821d1-3d92-4298-bda3-f533b9992fd5.jpg"
+          }
+        },
+        "slide_CxF9WQ": {
+          "type": "slide",
+          "settings": {
           }
         }
       },
@@ -355,7 +361,8 @@
         "slide_g9Berd",
         "slide_xGDqYY",
         "slide_M66xmm",
-        "slide_GQBMG8"
+        "slide_GQBMG8",
+        "slide_CxF9WQ"
       ],
       "settings": {
         "show_container": true
