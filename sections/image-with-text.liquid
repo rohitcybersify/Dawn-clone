@@ -74,6 +74,8 @@
               <div class="image-with-text__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
                 {{ block.settings.text }}
               </div>
+             {% when 'icon' %}
+               
             {%- when 'button' -%}
               {%- if block.settings.button_label != blank -%}
                 <a
