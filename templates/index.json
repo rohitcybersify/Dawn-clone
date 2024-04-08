@@ -338,11 +338,18 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Sd539592d22224b94b4b95ba87388c363x.webp"
           }
+        },
+        "slide_M66xmm": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/S84f9903f5cbf41ef9b35e22caf5a8cf41.webp"
+          }
         }
       },
       "block_order": [
         "slide_g9Berd",
-        "slide_xGDqYY"
+        "slide_xGDqYY",
+        "slide_M66xmm"
       ],
       "settings": {
         "show_container": true
