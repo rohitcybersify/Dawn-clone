@@ -1,4 +1,4 @@
-<div class="main-div">
+<div class="main-div {{ section.settings.pageWidthType }}">
     {% if section.settings.image1 != blank %}
     <div class="inner-div common-class" {% if section.settings.image1 != blank %} style="background-image:url('{{ section.settings.image1 | img_url : '' }}')" {% endif %}>
         {% if section.settings.title1 %}
