@@ -88,6 +88,7 @@
         role="list"
         aria-label="{{ 'general.slider.name' | t }}"
       >
+          <img src="{{ section.settings.adsImage | img_url : '' }}" height="200px" width="100px" />
         {%- for product in section.settings.collection.products limit: section.settings.products_to_show -%}
           <li
             id="Slide-{{ section.id }}-{{ forloop.index }}"
