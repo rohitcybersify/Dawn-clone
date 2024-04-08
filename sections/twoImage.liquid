@@ -4,15 +4,22 @@
              {% if section.settings.title1 %}
                 <div class="divTag"></div>
               {% endif %}
-           {% if section.settings.title1 %}
-            <button>Button in Inner Div 1</button>
+           {% if section.settings.button1 %}
+            <a href="{% if section.settings.link1 %}{{ section.settings.link1 }}{% else %}#{% endif %}">{{ section.settings.button1 }}</a>
              {% endif %}
         </div>
            {% endif %}
-        <div class="inner-div">
-            <!-- Button for second inner div -->
-            <button>Button in Inner Div 2</button>
+      {% if section.settings.image2 != blank %}
+        <div class="inner-div" {% if section.settings.image2 != blank %} style="background-image:url('{{ section.settings.image2 | img_url : '' }}')" {% endif %}>
+             {% if section.settings.title2 %}
+                <div class="divTag"></div>
+              {% endif %}
+           {% if section.settings.button2 %}
+            <a href="{% if section.settings.link2 %}{{ section.settings.link2 }}{% else %}#{% endif %}">{{ section.settings.button2 }}</a>
+             {% endif %}
         </div>
+           {% endif %}
+       
     </div>
 {% schema %}
   {
