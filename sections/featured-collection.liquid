@@ -91,7 +91,22 @@
           <!-- <img src="{{ section.settings.adsImage | img_url : '' }}" height="200px" width="100px" /> -->
           {% if section.settings.adsImage != blank %}
                <div class="featuredProductImage" style="background-image:url('{{ section.settings.adsImage | img_url : '' }}');">
-                 
+                  <div class="cardBody">
+                    {% if section.settings.caption != blank %}
+                     <div class="cardCaption"></div>
+                     {% endif %}
+                     {% if section.settings.imageTitle != blank %}
+                     <div class="cardTitle"></div>
+                     {% endif %}
+                     {% if section.settings.buttonLabel != blank %}
+                     <div class="cardButton">
+                        <a href="{% if section.settings.buttonLink != blank %}{{ section.settings.buttonLink }}{% else %}#{% endif %}">
+                          {{ section.settings.buttonLabel }}
+                        </a>
+                     </div>
+                     {% endif %}
+                    
+                  </div>
                </div>
            {% endif %}
         {%- for product in section.settings.collection.products limit: section.settings.products_to_show -%}
