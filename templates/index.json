@@ -222,6 +222,7 @@
         "icon_McQUNq": {
           "type": "icon",
           "settings": {
+            "iconImage1": "shopify:\/\/shop_images\/certificate-check-svgrepo-com.svg",
             "iconText1": "",
             "iconText2": ""
           }
