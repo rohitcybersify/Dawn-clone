@@ -200,8 +200,16 @@
         "heading_7Cnmeg": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "Featured  Product",
             "heading_size": "h1"
+          }
+        },
+        "caption_NFhiNF": {
+          "type": "caption",
+          "settings": {
+            "caption": "Timekeeper of Precision",
+            "text_style": "subtitle",
+            "text_size": "large"
           }
         },
         "text_P3itpw": {
@@ -222,6 +230,7 @@
       },
       "block_order": [
         "heading_7Cnmeg",
+        "caption_NFhiNF",
         "text_P3itpw",
         "button_3j6q89"
       ],
@@ -229,7 +238,7 @@
         "image": "shopify:\/\/shop_images\/time-3091031_1920.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "image_first",
+        "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
