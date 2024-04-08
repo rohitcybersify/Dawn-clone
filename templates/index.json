@@ -374,6 +374,12 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Sf501f3b0f3524e5c8fbd7e6360fb558ae.webp"
           }
+        },
+        "slide_CFrLqH": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2019_Mac_Pro_rear_ports.jpg_2_3mjp-bs_b416be10-95cd-4f06-bcc8-6986074e2bad.jpg"
+          }
         }
       },
       "block_order": [
@@ -384,7 +390,8 @@
         "slide_CxF9WQ",
         "slide_PVWUVe",
         "slide_fWqHKX",
-        "slide_qkWdkJ"
+        "slide_qkWdkJ",
+        "slide_CFrLqH"
       ],
       "settings": {
         "show_container": true
