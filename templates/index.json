@@ -306,6 +306,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/pocket-watch-665871_1920.jpg",
+        "secondImage": "shopify:\/\/shop_images\/accessory-1869926_1920.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
