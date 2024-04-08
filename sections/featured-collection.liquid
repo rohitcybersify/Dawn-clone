@@ -99,6 +99,7 @@
           > 
             {% if section.settings.adsImage != blank and forloop.index0 == 0 %}
                <img src="{{ section.settings.adsImage | img_url : '' }}" height="200px" width="100px" />
+               <div class="featuredProductImage" style="background-image:url('{{ section.settings.adsImage | img_url : '' }}')"></div>
             {% else %}
             {% render 'card-product',
               card_product: product,
