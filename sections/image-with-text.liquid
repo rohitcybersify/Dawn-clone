@@ -79,10 +79,11 @@
                   {% if block.settings.iconImage1 or block.settings.iconText1 %}
                    <div class="icon1">
                      {% if block.settings.iconImage1 != blank %}
-                     <img src="{{ block.settings.iconImage1 | img_url : '' }}" />
+                     <img class="iconImage" src="{{ block.settings.iconImage1 | img_url : '' }}" />
                         {% endif %}
-                       {% if block.settings.iconImage1 != blank %}
-                        {% endif %}
+                       {% if block.settings.iconText1 != blank %}
+                          <div class="iconText">{{ block.settings.iconText1 }}</div>
+                       {% endif %}
                    </div>
                  {% endif %}
                  {% if block.settings.iconImage2 or block.settings.iconText2 %}
