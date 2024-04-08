@@ -258,6 +258,55 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "image_banner_YCNrQ9": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_f9xjqd": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "text_RT8HEg": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "buttons_dYtFzA": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_f9xjqd",
+        "text_RT8HEg",
+        "buttons_dYtFzA"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/time-3091031_1920.jpg",
+        "image_2": "shopify:\/\/shop_images\/pocket-watch-665871_1920.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
@@ -265,6 +314,7 @@
     "multicolumn_ip8qta",
     "collection_list_nYeRfW",
     "featured_collection_xXC7Cm",
-    "image_with_text_NN3Mjf"
+    "image_with_text_NN3Mjf",
+    "image_banner_YCNrQ9"
   ]
 }
