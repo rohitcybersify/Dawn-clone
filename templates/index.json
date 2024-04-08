@@ -368,6 +368,12 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/refurb-mbp14-space-m1-2021_AV3_ad2fcb70-8528-46c7-83b0-e73b7e9756a0.jpg"
           }
+        },
+        "slide_qkWdkJ": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Sf501f3b0f3524e5c8fbd7e6360fb558ae.webp"
+          }
         }
       },
       "block_order": [
@@ -377,7 +383,8 @@
         "slide_GQBMG8",
         "slide_CxF9WQ",
         "slide_PVWUVe",
-        "slide_fWqHKX"
+        "slide_fWqHKX",
+        "slide_qkWdkJ"
       ],
       "settings": {
         "show_container": true
