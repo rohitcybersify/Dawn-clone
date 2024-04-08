@@ -332,10 +332,17 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/S0ca7c177f4ce4c768f58c661d6d2e09cl.webp"
           }
+        },
+        "slide_xGDqYY": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Sd539592d22224b94b4b95ba87388c363x.webp"
+          }
         }
       },
       "block_order": [
-        "slide_g9Berd"
+        "slide_g9Berd",
+        "slide_xGDqYY"
       ],
       "settings": {
         "show_container": true
