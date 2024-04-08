@@ -77,7 +77,9 @@
              {% when 'icon' %}
                <div class="iconsBlock">
                   {% if block.settings.iconImage1 or block.settings.iconText1 %}
-                   <div class="icon1"></div>
+                   <div class="icon1">
+                     <img src="{{ block.settings.iconImage1 | img_url : '' }}" />
+                   </div>
                  {% endif %}
                  {% if block.settings.iconImage2 or block.settings.iconText2 %}
                    <div class="icon2"></div>
