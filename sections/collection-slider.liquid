@@ -184,7 +184,7 @@
       "max": 25,
       "step": 1,
       "default": 4,
-      "label": "products_to_show"
+      "label": "Products To Show"
     },
     {
       "type": "range",
@@ -193,25 +193,24 @@
       "max": 5,
       "step": 1,
       "default": 4,
-      "label": "columns_desktop"
+      "label": "Columns Desktop"
     },
     
     {
       "type": "checkbox",
       "id": "enable_desktop_slider",
-      "label": "enable_desktop_slider",
-      "default": false
+      "label": "Enable Desktop Slider",
+      "default": true
     },
     {
       "type": "color_scheme",
       "id": "color_scheme",
-      "label": "t:sections.all.colors.label",
-      "info": "t:sections.all.colors.has_cards_info",
+      "label": "Card Background",
       "default": "background-1"
     },
     {
       "type": "header",
-      "content": "image shape"
+      "content": "Image shape"
     },
     {
       "type": "select",
@@ -219,19 +218,19 @@
       "options": [
         {
           "value": "adapt",
-          "label": "adapt"
+          "label": "Adapt"
         },
         {
           "value": "portrait",
-          "label": "t:sections.featured-collection.settings.image_ratio.options__2.label"
+          "label": "Portrait"
         },
         {
           "value": "square",
-          "label": "t:sections.featured-collection.settings.image_ratio.options__3.label"
+          "label": "Square"
         }
       ],
       "default": "adapt",
-      "label": "t:sections.featured-collection.settings.image_ratio.label"
+      "label": "Adapt"
     },
     {
       "type": "select",
@@ -239,59 +238,57 @@
       "options": [
         {
           "value": "default",
-          "label": "default"
+          "label": "Default"
         },
         {
           "value": "arch",
-          "label": "t:sections.all.image_shape.options__2.label"
+          "label": "Arch"
         },
         {
           "value": "blob",
-          "label": "t:sections.all.image_shape.options__3.label"
+          "label": "Blob"
         },
         {
           "value": "chevronleft",
-          "label": "t:sections.all.image_shape.options__4.label"
+          "label": "Chevronleft"
         },
         {
           "value": "chevronright",
-          "label": "t:sections.all.image_shape.options__5.label"
+          "label": "Chevronright"
         },
         {
           "value": "diamond",
-          "label": "t:sections.all.image_shape.options__6.label"
+          "label": "Diamond"
         },
         {
           "value": "parallelogram",
-          "label": "t:sections.all.image_shape.options__7.label"
+          "label": "Parallelogram"
         },
         {
           "value": "round",
-          "label": "t:sections.all.image_shape.options__8.label"
+          "label": "Round"
         }
       ],
       "default": "default",
-      "label": "t:sections.all.image_shape.label",
-      "info": "t:sections.all.image_shape.info"
+      "label": "Image Shape"
     },
     {
       "type": "checkbox",
       "id": "show_secondary_image",
       "default": false,
-      "label": "t:sections.featured-collection.settings.show_secondary_image.label"
+      "label": "Show Secondary Image"
     },
     {
       "type": "checkbox",
       "id": "show_vendor",
       "default": false,
-      "label": "t:sections.featured-collection.settings.show_vendor.label"
+      "label": "Show Vender"
     },
     {
       "type": "checkbox",
       "id": "show_rating",
       "default": false,
-      "label": "t:sections.featured-collection.settings.show_rating.label",
-      "info": "t:sections.featured-collection.settings.show_rating.info"
+      "label": "Show Rating"    
     },
     {
       "type": "checkbox",
@@ -301,21 +298,21 @@
     },
     {
       "type": "header",
-      "content": "t:sections.featured-collection.settings.header_mobile.content"
+      "content": "Mobile"
     },
     {
       "type": "select",
       "id": "columns_mobile",
       "default": "2",
-      "label": "t:sections.featured-collection.settings.columns_mobile.label",
+      "label": "Mobile Columns",
       "options": [
         {
           "value": "1",
-          "label": "t:sections.featured-collection.settings.columns_mobile.options__1.label"
+          "label": "1"
         },
         {
           "value": "2",
-          "label": "t:sections.featured-collection.settings.columns_mobile.options__2.label"
+          "label": "2"
         }
       ]
     },
@@ -323,11 +320,11 @@
       "type": "checkbox",
       "id": "swipe_on_mobile",
       "default": false,
-      "label": "t:sections.featured-collection.settings.swipe_on_mobile.label"
+      "label": "Swipe on Mobile"
     },
     {
       "type": "header",
-      "content": "t:sections.all.padding.section_padding_heading"
+      "content": "Section Padding"
     },
     {
       "type": "range",
@@ -336,7 +333,7 @@
       "max": 100,
       "step": 4,
       "unit": "px",
-      "label": "t:sections.all.padding.padding_top",
+      "label": "Padding Top",
       "default": 36
     },
     {
@@ -346,7 +343,7 @@
       "max": 100,
       "step": 4,
       "unit": "px",
-      "label": "t:sections.all.padding.padding_bottom",
+      "label": "Padding Bottom",
       "default": 36
     }
   ],
@@ -359,35 +356,35 @@
             {
       "type": "richtext",
       "id": "title",     
-      "label": "title"
+      "label": "Title"
     },    
     {
       "type": "collection",
       "id": "collection",
-      "label": "collection"
+      "label": "Collection"
     },
         {
       "type": "checkbox",
       "id": "show_view_all",
       "default": true,
-      "label": "show_view_all"
+      "label": "Show View All"
     },
     {
       "type": "select",
       "id": "view_all_style",
-      "label": "view_all_style",
+      "label": "View All Style",
       "options": [
         {
           "value": "link",
-          "label": "link"
+          "label": "Link"
         },
         {
           "value": "outline",
-          "label": "outline"
+          "label": "Outline"
         },
         {
           "value": "solid",
-          "label": "solid"
+          "label": "Solid"
         }
       ],
       "default": "solid"
