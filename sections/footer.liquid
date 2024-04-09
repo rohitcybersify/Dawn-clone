@@ -83,12 +83,8 @@
                     {% render block %}
                   {%- when 'text' -%}
                     <div class="footer-block__details-content rte">
-                      {{ block.settings.subtext }}
-
-                    
-                     {%- render 'social-icons', class: 'footer__list-social' -%}
-                     
-
+                      {{ block.settings.subtext }}                 
+                  <div class="socials">   {%- render 'social-icons', class: 'footer__list-social' -%}   </div>                 
                     </div>
                   {%- when 'link_list' -%}
                     {%- if block.settings.menu != blank -%}
