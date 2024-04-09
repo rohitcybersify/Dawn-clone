@@ -74,7 +74,7 @@
         {{- 'products.product.value_unavailable' | t: option_value: value -}}
       {%- else -%}
         {{- value -}}
-        <p>{{  }}</p>
+        <p>{{ value.price }}</p>
       {%- endif %}
     </option>
   {%- endif -%}
