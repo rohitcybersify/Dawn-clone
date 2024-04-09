@@ -30,17 +30,15 @@ body, h2 {
 	align-items: flex-end;
 }
 .footer__content-top {
-	max-width: 1280px;
-	margin: 0 auto;
-	padding: 15px;
+	max-width: 1280px !important;
+	margin: 0 auto !important;
+	padding: 15px !important;
 }
 .footer {
 	margin-top: 0 !important;
 }
 .newsletter__wrapper .icon_text svg {
-	font-size: ;
 	width: 30px !important;
-	line-height: ;
 }
 .newsletter__wrapper .icon_text {
 	align-items: center;
