@@ -39,6 +39,13 @@
     "footer": {
       "type": "footer",
       "blocks": {
+        "text_i4Lr9p": {
+          "type": "text",
+          "settings": {
+            "heading": "Wrish",
+            "subtext": "<p>179 johnstone St, Fitzroy VIC 3065<br\/>sayhello@wrishwatch.com<br\/>(03) 7003 6943<\/p>"
+          }
+        },
         "footer-0": {
           "type": "link_list",
           "settings": {
@@ -49,7 +56,7 @@
         "footer-1": {
           "type": "link_list",
           "settings": {
-            "heading": "Info",
+            "heading": "Information",
             "menu": "footer"
           }
         },
@@ -59,20 +66,13 @@
             "heading": "Our mission",
             "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
           }
-        },
-        "text_i4Lr9p": {
-          "type": "text",
-          "settings": {
-            "heading": "Wrish",
-            "subtext": "<p>179 johnstone St, Fitzroy VIC 3065<br\/>sayhello@wrishwatch.com<br\/>(03) 7003 6943<\/p>"
-          }
         }
       },
       "block_order": [
+        "text_i4Lr9p",
         "footer-0",
         "footer-1",
-        "footer-2",
-        "text_i4Lr9p"
+        "footer-2"
       ],
       "settings": {
         "color_scheme": "background-1",
