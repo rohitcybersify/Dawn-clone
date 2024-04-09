@@ -59,7 +59,7 @@ body, h2 {
 	padding-left: 0px;
 }
 .newsletter-form__button {
-	width: 8rem;
+	width: 8rem !important;
 	font-family: outfit;
 	font-size: 16px;
 }
