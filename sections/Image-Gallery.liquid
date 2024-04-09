@@ -44,15 +44,20 @@
 <script>
   $(document).ready(function(){  
 $('.multiple-items').slick({
-    pauseOnHover: true,
-  slidesToShow: 5,    
-  speed: 5000,
-  autoplay: true,
-  infinite: true,
-  autoplaySpeed: 0,
-  cssEase: 'linear',
- slideToScroll: 1,    
-  arrows:false,
+   
+         draggable:false,
+        slidesToShow:5,
+        infinite:true,
+        slidesToScrol1: 1,
+        autoplay: true,
+        autoplaySpeed: 0, 
+        arrows:false,
+        speed:3000,
+      easing:'linear',
+        variableWidth:true,
+        pauseOnHover:true,
+      slide: '.slider .group',
+      swipeToSlide:true,
     responsive: [
     {
       breakpoint: 1200,
