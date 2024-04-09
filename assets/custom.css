@@ -46,14 +46,15 @@ body, h2 {
 .newsletter-form__field-wrapper .field::after {
 	display: none;
 }
-.newsletter-form__field-wrapper .field input[type="email"] {
-	border-bottom: 1.8px solid #000;
-	width: 500px;
-}
 .field__input::placeholder, .customer .field input::placeholder {
 	opacity: 0.5;
 	font-family: outfit !important;
 }
 .newsletter-form__field-wrapper .field__label {
 	display:none;
+}
+.newsletter-form__field-wrapper .field input[type="email"] {
+	border-bottom: 2px solid #000;
+	width: 500px;
+	padding-left: 0px;
 }
