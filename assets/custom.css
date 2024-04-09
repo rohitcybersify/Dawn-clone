@@ -47,7 +47,7 @@ body, h2 {
 	display: none;
 }
 .field__input::placeholder, .customer .field input::placeholder {
-	opacity: 0.5;
+	opacity: 0.5 !important;
 	font-family: outfit !important;
 }
 .newsletter-form__field-wrapper .field__label {
