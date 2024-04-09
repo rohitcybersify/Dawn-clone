@@ -384,55 +384,43 @@
         "slide_g9Berd": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/S0ca7c177f4ce4c768f58c661d6d2e09cl.webp"
+            "image": "shopify:\/\/shop_images\/Watch_7.png"
           }
         },
         "slide_xGDqYY": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Sd539592d22224b94b4b95ba87388c363x.webp"
+            "image": "shopify:\/\/shop_images\/Watch_5.png"
           }
         },
         "slide_M66xmm": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/S84f9903f5cbf41ef9b35e22caf5a8cf41.webp"
+            "image": "shopify:\/\/shop_images\/Watch_1.png"
           }
         },
         "slide_GQBMG8": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/download_nahb-2f_0yqw-04_s4ut-mn_7ipu-uf_84ys-vk_ktc1-bj_dmx8-7e_4c3821d1-3d92-4298-bda3-f533b9992fd5.jpg"
+            "image": "shopify:\/\/shop_images\/Watch_2.png"
           }
         },
         "slide_CxF9WQ": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2019_Mac_Pro_case_off_front_fans_6nt9-by_634b393c-510b-4a79-b420-f3179b070355.jpg"
+            "image": "shopify:\/\/shop_images\/Watch_4.png"
           }
         },
         "slide_PVWUVe": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2019_Mac_Pro_rear_ports._3_x7k6-94_1637c2f5-fd83-4d74-8115-837cb042c2bd.jpg"
+            "image": "shopify:\/\/shop_images\/Watch_7.png"
           }
         },
         "slide_fWqHKX": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/refurb-mbp14-space-m1-2021_AV3_ad2fcb70-8528-46c7-83b0-e73b7e9756a0.jpg"
-          }
-        },
-        "slide_qkWdkJ": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Sf501f3b0f3524e5c8fbd7e6360fb558ae.webp"
-          }
-        },
-        "slide_CFrLqH": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/2019_Mac_Pro_rear_ports.jpg_2_3mjp-bs_b416be10-95cd-4f06-bcc8-6986074e2bad.jpg"
+            "image": "shopify:\/\/shop_images\/Watch_6.webp"
           }
         }
       },
@@ -443,9 +431,7 @@
         "slide_GQBMG8",
         "slide_CxF9WQ",
         "slide_PVWUVe",
-        "slide_fWqHKX",
-        "slide_qkWdkJ",
-        "slide_CFrLqH"
+        "slide_fWqHKX"
       ],
       "settings": {
         "show_container": false
