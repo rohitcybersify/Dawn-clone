@@ -66,5 +66,5 @@ body, h2 {
 	text-transform: uppercase;
 }
 .field__input:focus-visible {
-	box-shadow: none;
+	box-shadow: none !important;
 }
