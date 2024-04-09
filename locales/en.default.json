@@ -511,7 +511,8 @@
   "shopify": {
     "checkout": {
       "shop_policies": {
-        "privacy_policy": "Privacy"
+        "privacy_policy": "Privacy",
+        "shipping_policy": "Terms"
       }
     }
   }
