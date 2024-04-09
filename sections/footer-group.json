@@ -46,13 +46,6 @@
             "subtext": "<p>179 johnstone St, Fitzroy VIC 3065<br\/>sayhello@wrishwatch.com<br\/>(03) 7003 6943<\/p>"
           }
         },
-        "footer-0": {
-          "type": "link_list",
-          "settings": {
-            "heading": "Quick links",
-            "menu": "footer"
-          }
-        },
         "footer-1": {
           "type": "link_list",
           "settings": {
@@ -60,19 +53,26 @@
             "menu": "footer"
           }
         },
-        "footer-2": {
-          "type": "text",
+        "footer-0": {
+          "type": "link_list",
           "settings": {
-            "heading": "Our mission",
-            "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+            "heading": "Help",
+            "menu": "footer"
+          }
+        },
+        "link_list_eaaNaQ": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Services",
+            "menu": "footer"
           }
         }
       },
       "block_order": [
         "text_i4Lr9p",
-        "footer-0",
         "footer-1",
-        "footer-2"
+        "footer-0",
+        "link_list_eaaNaQ"
       ],
       "settings": {
         "color_scheme": "background-1",
