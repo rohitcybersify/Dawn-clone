@@ -23,9 +23,6 @@ body, h2 {
 	margin-left: -20px;
 }
 .newsletter__wrapper {
-	justify-content: space-between;
-}
-.newsletter__wrapper {
 	max-width: 1340px;
 	margin: 0 auto;
 	padding: 15px;
@@ -35,6 +32,8 @@ body, h2 {
 	margin: 0 auto;
 	padding-left: 15px;
 	padding-right: 15px;
+    justify-content: space-between;
+	align-items: center;
 }
 .footer {
 	margin: 0;
