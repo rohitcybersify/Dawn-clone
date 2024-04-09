@@ -76,3 +76,6 @@ body, h2 {
 	cursor: grabbing;
 	cursor: -webkit-grabbing;
 }
+.footer__blocks-wrapper .footer-block.grid__item:nth-child(2), .footer__blocks-wrapper .footer-block.grid__item:nth-child(3), .footer__blocks-wrapper .footer-block.grid__item:last-child {
+	padding-left: 170px;
+}
