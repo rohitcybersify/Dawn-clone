@@ -44,8 +44,6 @@
 <script>
   $(document).ready(function(){  
 $('.multiple-items').slick({
-   
-         draggable:false,
         slidesToShow:5,
         infinite:true,
         slidesToScrol1: 1,
@@ -56,7 +54,7 @@ $('.multiple-items').slick({
       easing:'linear',
         variableWidth:true,
         pauseOnHover:true,
-    
+      swipeToSlide:true,
     responsive: [
     {
       breakpoint: 1200,
