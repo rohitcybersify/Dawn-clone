@@ -76,7 +76,9 @@
         {{- value -}}
       
           {% for variant in product.variants %}
+               {% if variant.title == value %}
               {{ variant.price | money }}
+                {% endif %}
           {% endfor %}
       {%- endif %}
     </option>
