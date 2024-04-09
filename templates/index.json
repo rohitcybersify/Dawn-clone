@@ -344,21 +344,11 @@
             "show_view_all": true,
             "view_all_style": "solid"
           }
-        },
-        "slider_UKLcN7": {
-          "type": "Slider",
-          "settings": {
-            "title": "<p>Top-Rated<\/p>",
-            "collection": "ring",
-            "show_view_all": true,
-            "view_all_style": "solid"
-          }
         }
       },
       "block_order": [
         "slider_UPzwLk",
-        "slider_rFbdCp",
-        "slider_UKLcN7"
+        "slider_rFbdCp"
       ],
       "settings": {
         "full_width": true,
