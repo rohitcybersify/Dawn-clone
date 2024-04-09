@@ -50,7 +50,10 @@ body, h2 {
 	border-bottom: 1.8px solid #000;
 	width: 500px;
 }
-.newsletter-form__field-wrapper .field__label {
-	left: 0;
+.field__input::placeholder, .customer .field input::placeholder {
 	opacity: 0.5;
+	font-family: outfit !important;
+}
+.newsletter-form__field-wrapper .field__label {
+	display:none;
 }
