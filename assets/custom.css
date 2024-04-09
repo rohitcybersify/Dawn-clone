@@ -61,5 +61,7 @@ body, h2 {
 .newsletter-form__button {
 	width: 8rem !important;
 	font-family: outfit;
-	font-size: 16px;
+	font-size: 14px;
+	color: #000 !important;
+	text-transform: uppercase;
 }
