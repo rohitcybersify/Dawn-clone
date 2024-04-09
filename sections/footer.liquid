@@ -376,9 +376,8 @@
             {%- endfor -%}
           </ul>
         {%- endif -%}
-      </div>
 
-               {%- if section.settings.payment_enable -%}
+                        {%- if section.settings.payment_enable -%}
           <div class="footer__payment">
             <span class="visually-hidden">{{ 'sections.footer.payment' | t }}</span>
             <ul class="list list-payment" role="list">
@@ -389,7 +388,10 @@
               {%- endfor -%}
             </ul>
           </div>
-        {%- endif -%}    
+        {%- endif -%}  
+      </div>
+
+  
 
     </div>
   </div>
