@@ -351,7 +351,7 @@
       </div>
 
         
-        {%- if section.settings.show_policy -%}
+       
 
           <ul class="policy-links">
                         {%- for link in section.settings.bottommenu.links -%}
@@ -364,9 +364,9 @@
                             </a>
                           </li>
                         {%- endfor -%}
-</ul>
+  v       </ul>
           
-          
+           {%- if section.settings.show_policy -%}
           <ul class="policies list-unstyled">
             {%- for policy in shop.policies -%}
               {%- if policy != blank -%}
