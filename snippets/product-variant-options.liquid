@@ -77,7 +77,7 @@
       
           {% for variant in product.variants %}
                {% if variant.title == value %}
-              <p>From {{ variant.price | money }} </p>
+              <div>From {{ variant.price | money }} </div>
                 {% endif %}
           {% endfor %}
       {%- endif %}
