@@ -73,4 +73,6 @@ body, h2 {
 	width: 350px;
 	height: 350px;
 	position: relative;
+	cursor: grabbing;
+	cursor: -webkit-grabbing;
 }
