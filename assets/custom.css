@@ -68,3 +68,9 @@ body, h2 {
 .field__input:focus-visible {
 	box-shadow: none !important;
 }
+.slick-slide img {
+	object-fit: cover;
+	width: 350px;
+	height: 350px;
+	position: relative;
+}
