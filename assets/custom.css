@@ -226,7 +226,17 @@ ul.policy-links li a:hover {
 
 /* banner section css start */
 .slider-buttons {
-  /* display: none !important; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  z-index: 9999;
+  width: 100%;
+  color: #fff;
+}
+.slider-buttons svg {
+  filter: invert(1);
 }
 /* banner section css end */
 
