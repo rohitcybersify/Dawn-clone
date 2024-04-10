@@ -85,7 +85,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/money.png",
             "title": "Secure Payment",
-            "text": "<p>Your Peace of Mind Matters<\/p>",
+            "text": "<p>100% Secured Payment<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -95,7 +95,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/badge.png",
             "title": "Quality  Assured",
-            "text": "<p>Elevating Your Expectations<\/p>",
+            "text": "<p>Assured 100% Quality<\/p>",
             "link_label": "",
             "link": ""
           }
