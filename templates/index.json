@@ -75,7 +75,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/free-delivery.png",
             "title": "Free Shipping",
-            "text": "<p>Free Shipping on Every Order!<\/p>",
+            "text": "<p>Free Shipping on Order<\/p>",
             "link_label": "",
             "link": ""
           }
