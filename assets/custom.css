@@ -202,6 +202,10 @@ ul.policy-links li a:hover {
   align-items: center;
   gap: 20px;
 }
+.feature-section .iconsBlock .icon1 img,
+.feature-section .iconsBlock .icon2 img {
+  filter: invert(1);
+}
 /* feature section css ended  */
 @media screen and (min-width: 750px) {
   .section-sections--22093648888119__footer-padding {
