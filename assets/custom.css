@@ -142,7 +142,7 @@ ul.policy-links li a:hover {
   border-radius: 50%;
   cursor: pointer;
   transition: all 0.3s ease-in;
-  padding: 7px;
+  padding: 7px !important;
 }
 .footer__list-social.list-social:only-child {
   justify-content: flex-start !important;
