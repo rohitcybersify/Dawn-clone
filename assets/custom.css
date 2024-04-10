@@ -104,10 +104,12 @@ h2 {
 ul.policy-links {
   display: flex;
   align-items: baseline;
-  gap: 30px;
+  gap: 20px;
   list-style: none;
 }
 ul.policy-links li a {
-  color: #121212bf;
-  font-size: 12px;
+    color: #000000bf;
+    font-size: 12px;
+    font-weight: 600;
+}
 }
