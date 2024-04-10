@@ -257,6 +257,7 @@ ul.policy-links li a:hover {
   .multiColumns .multicolumn-card__image-wrapper {
     margin-left: 0 !important;
     margin-right: 0 !important;
+    padding: 0 !important;
   }
 }
 
