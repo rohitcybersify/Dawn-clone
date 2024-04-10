@@ -163,3 +163,11 @@ ul.policy-links li a:hover {
     text-decoration: none !important;
   }
 }
+
+@media screen and (max-width: 1140px) {
+  .footer__blocks-wrapper .footer-block.grid__item:nth-child(2),
+  .footer__blocks-wrapper .footer-block.grid__item:nth-child(3),
+  .footer__blocks-wrapper .footer-block.grid__item:last-child {
+    padding-left: 140px;
+  }
+}
