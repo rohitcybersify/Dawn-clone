@@ -235,8 +235,8 @@ ul.policy-links li a:hover {
   display: flex;
 }
 .multiColumns .multicolumn-list__item .media--adapt .multicolumn-card__image {
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
 }
 .multiColumns h3.inline-richtext {
   font-size: 18px;
@@ -269,7 +269,7 @@ ul.policy-links li a:hover {
     margin-left: 0 !important;
     margin-right: 0 !important;
     padding: 0 !important;
-    width: 30px;
+    width: 30px !important;
   }
   .multiColumns .multicolumn-card__info {
     padding: 0 !important;
