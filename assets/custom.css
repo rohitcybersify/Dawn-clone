@@ -118,5 +118,5 @@ ul.policy-links li a {
 
 .footer__content-bottom-wrapper--center {
   padding: 10px;
-  max-width: 1290px;
+  max-width: 1290px !important;
 }
