@@ -113,9 +113,6 @@ ul.policy-links li a {
   font-weight: 600;
   transition: all 0.3s ease-in;
 }
-ul.policy-links li a:hover {
-  text-decoration: none;
-}
 .copyright__content {
   font-size: 12px;
 }
@@ -133,6 +130,11 @@ ul.policy-links li a:hover {
 }
 .copyright__content {
   font-size: 14px !important;
+}
+ul.policy-links li a:hover {
+  text-decoration: none;
+  color: #000 !important;
+  text-decoration: none;
 }
 @media screen and (min-width: 750px) {
   .section-sections--22093648888119__footer-padding {
