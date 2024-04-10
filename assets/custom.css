@@ -184,7 +184,7 @@ ul.policy-links li a:hover {
   color: #fff !important;
   font-size: 18px;
 }
-.feature-section .image-with-text .grid {
+.feature-section .image-with-text.grid {
   width: 1280px !important;
   margin: auto;
 }
