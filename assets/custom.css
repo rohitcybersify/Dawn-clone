@@ -177,6 +177,9 @@ ul.policy-links li a:hover {
   font-size: 20px;
   margin: 0 0 0;
 }
+.feature-section.page-width {
+  max-width: 100%;
+}
 .feature-section .image-with-text__text p {
   color: #fff !important;
   font-size: 18px;
