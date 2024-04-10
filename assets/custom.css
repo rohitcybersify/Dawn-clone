@@ -223,6 +223,9 @@ ul.policy-links li a:hover {
 }
 /* feature section css ended  */
 
+/* resposnive css start */
+
+/* min-media css  */
 @media screen and (min-width: 750px) {
   .section-sections--22093648888119__footer-padding {
     padding-bottom: 0 !important;
@@ -236,6 +239,7 @@ ul.policy-links li a:hover {
   }
 }
 
+/* max-media css  */
 @media screen and (max-width: 1140px) {
   .footer__blocks-wrapper .footer-block.grid__item:nth-child(2),
   .footer__blocks-wrapper .footer-block.grid__item:nth-child(3),
