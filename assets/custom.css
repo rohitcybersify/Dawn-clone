@@ -160,10 +160,10 @@ ul.policy-links li a:hover {
 }
 
 .feature-section {
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-position-x: -100%;
+  width: 100% !important;
+  height: 100% !important;
+  background-size: cover !important;
+  background-position-x: -100% !important;
 }
 
 @media screen and (min-width: 750px) {
