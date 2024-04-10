@@ -154,6 +154,11 @@ ul.policy-links li a:hover {
 .footer__copyright {
   text-align: center;
 }
+
+.feature-section .image-with-text__media {
+  display: none;
+}
+
 @media screen and (min-width: 750px) {
   .section-sections--22093648888119__footer-padding {
     padding-bottom: 0 !important;
