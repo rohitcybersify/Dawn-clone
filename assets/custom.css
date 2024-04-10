@@ -108,8 +108,10 @@ ul.policy-links {
   list-style: none;
 }
 ul.policy-links li a {
-    color: #000000bf;
-    font-size: 12px;
-    font-weight: 600;
+  color: #000000bf;
+  font-size: 12px;
+  font-weight: 600;
 }
+.copyright__content {
+  font-size: 12px;
 }
