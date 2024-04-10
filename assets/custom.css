@@ -250,9 +250,9 @@ ul.policy-links li a:hover {
   .feature-section .grid--2-col-tablet .grid__item {
     width: 100%;
   }
-  .multiColumns .background-none .multicolumn-card__image-wrapper {
-    margin-left: 0;
-    margin-right: 0;
+  .multiColumns .multicolumn-card__image-wrapper {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
   }
 }
 
