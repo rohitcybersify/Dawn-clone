@@ -176,6 +176,9 @@ ul.policy-links li a:hover {
   font-size: 20px;
   margin: 0 0 0;
 }
+.feature-section p {
+  color: #fff;
+}
 /* feature section css ended  */
 @media screen and (min-width: 750px) {
   .section-sections--22093648888119__footer-padding {
