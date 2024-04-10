@@ -284,6 +284,9 @@ ul.policy-links li a:hover {
   .multiColumns .multicolumn-card__info {
     padding: 0 !important;
   }
+  .slideshow__controls {
+    position: absolute;
+  }
 }
 
 /* max-media css  */
