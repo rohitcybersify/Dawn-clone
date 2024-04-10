@@ -154,8 +154,8 @@ ul.policy-links li a:hover {
 .footer__copyright {
   text-align: center;
 }
-
-.feature-section .image-with-text__media {
+/* feature section css start  */
+.image-with-text__media {
   display: none;
 }
 
@@ -165,7 +165,12 @@ ul.policy-links li a:hover {
   background-size: cover !important;
   background-position-x: -100% !important;
 }
-
+.feature-section h2 {
+  color: #fff;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+/* feature section css ended  */
 @media screen and (min-width: 750px) {
   .section-sections--22093648888119__footer-padding {
     padding-bottom: 0 !important;
