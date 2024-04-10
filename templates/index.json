@@ -108,7 +108,7 @@
         "column_BX8hjq"
       ],
       "settings": {
-        "className": "",
+        "className": "multiColumns",
         "title": "",
         "heading_size": "h1",
         "image_width": "third",
