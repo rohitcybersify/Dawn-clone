@@ -187,3 +187,8 @@ ul.policy-links li a:hover {
     width: 48%;
   }
 }
+
+@media screen and (max-width: 749px) .footer .grid {
+  display: flex important;
+  margin: 10px !important;
+}
