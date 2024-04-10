@@ -138,12 +138,15 @@ ul.policy-links li a:hover {
 }
 
 .icons-wrapper a.link.list-social__link {
-  padding-left: 0;
+  border: 1px solid #d2d2d2bf;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
 }
-
 .footer__list-social.list-social:only-child {
   justify-content: flex-start !important;
   padding: 0 !important;
+  gap: 10px;
 }
 
 @media screen and (min-width: 750px) {
