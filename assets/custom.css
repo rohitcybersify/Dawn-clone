@@ -269,6 +269,7 @@ ul.policy-links li a:hover {
     margin-left: 0 !important;
     margin-right: 0 !important;
     padding: 0 !important;
+    width: 30px;
   }
   .multiColumns .multicolumn-card__info {
     padding: 0 !important;
