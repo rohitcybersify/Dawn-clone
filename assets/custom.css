@@ -115,6 +115,8 @@ ul.policy-links li a {
 .copyright__content {
   font-size: 12px;
 }
+
 .footer__content-bottom-wrapper--center {
   padding: 10px;
+  max-width: 1290px;
 }
