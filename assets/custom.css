@@ -152,12 +152,12 @@ ul.policy-links li a:hover {
   width: 20px;
 }
 .footer__copyright {
-    text-align: center;t;
+  text-align: center;
 }
 @media screen and (min-width: 750px) {
- .section-sections--22093648888119__footer-padding {
+  .section-sections--22093648888119__footer-padding {
     padding-bottom: 0 !important;
-}
+  }
   .footer-block__details-content .list-menu__item--link:hover,
   .copyright__content a:hover {
     text-decoration: none !important;
