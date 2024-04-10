@@ -168,6 +168,22 @@ ul.policy-links li a:hover {
   .footer__blocks-wrapper .footer-block.grid__item:nth-child(2),
   .footer__blocks-wrapper .footer-block.grid__item:nth-child(3),
   .footer__blocks-wrapper .footer-block.grid__item:last-child {
-    padding-left: 140px;
+    padding-left: 100px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .footer-block.grid__item {
+    width: 23%;
+  }
+  .footer__blocks-wrapper .footer-block.grid__item:nth-child(2),
+  .footer__blocks-wrapper .footer-block.grid__item:nth-child(3),
+  .footer__blocks-wrapper .footer-block.grid__item:last-child {
+    padding-left: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .footer-block.grid__item {
+    width: 48%;
   }
 }
