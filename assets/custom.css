@@ -238,6 +238,14 @@ ul.policy-links li a:hover {
   width: 60px;
   height: 60px;
 }
+.multiColumns h3.inline-richtext {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0 !important;
+}
+.multiColumns .multicolumn-card__info > :nth-child(2) {
+  margin-top: 0;
+}
 /*services css end  */
 
 /* resposnive css start */
