@@ -142,8 +142,8 @@ ul.policy-links li a:hover {
 }
 
 .footer__list-social.list-social:only-child {
-  justify-content: flex-start;
-  padding: 0;
+  justify-content: flex-start !important;
+  padding: 0 !important;
 }
 
 @media screen and (min-width: 750px) {
