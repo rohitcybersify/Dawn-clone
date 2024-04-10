@@ -231,7 +231,7 @@ ul.policy-links li a:hover {
 /* banner section css end */
 
 /*services css start  */
-.multiColumns .multicolumn.background-none .multicolumn-card {
+.multiColumns .multicolumn-card.content-container {
   display: flex;
 }
 /*services css end  */
