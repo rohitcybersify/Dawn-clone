@@ -164,6 +164,7 @@ ul.policy-links li a:hover {
   height: 100% !important;
   background-size: cover !important;
   background-position-x: -100% !important;
+  color: #fff;
 }
 .feature-section h2 {
   color: #fff;
