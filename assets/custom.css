@@ -186,7 +186,8 @@ ul.policy-links li a:hover {
 }
 .feature-section
   .image-with-text__grid.grid.grid--gapless.grid--1-col.grid--2-col-tablet.image-with-text__grid--reverse {
-  width: 1280px !important;
+  max-width: 1280px !important;
+    width:1280px !important
   margin: auto;
 }
 .iconsBlock {
