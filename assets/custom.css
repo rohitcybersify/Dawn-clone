@@ -181,7 +181,7 @@ ul.policy-links li a:hover {
   max-width: 100%;
 }
 .feature-section .image-with-text__text p {
-  color: #fff !important;
+  color: #ffffffbf!important
   font-size: 18px;
 }
 .feature-section
@@ -201,6 +201,7 @@ ul.policy-links li a:hover {
   display: flex;
   align-items: center;
   gap: 20px;
+    color: #ffffffbf!important
 }
 .feature-section .iconsBlock .icon1 img,
 .feature-section .iconsBlock .icon2 img {
