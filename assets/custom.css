@@ -285,7 +285,7 @@ ul.policy-links li a:hover {
     padding: 0 !important;
   }
   .slideshow__controls {
-    position: absolute;
+    position: absolute !important;
   }
 }
 
