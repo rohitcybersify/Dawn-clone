@@ -100,3 +100,14 @@ h2 {
   justify-content: space-between;
   align-items: center;
 }
+
+ul.policy-links {
+  display: flex;
+  align-items: baseline;
+  gap: 30px;
+  list-style: none;
+}
+ul.policy-links li a {
+  color: #121212bf;
+  font-size: 12px;
+}
