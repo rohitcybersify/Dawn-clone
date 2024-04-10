@@ -178,7 +178,7 @@ ul.policy-links li a:hover {
   margin: 0 0 0;
 }
 .feature-section .image-with-text__text p {
-  color: #fff;
+  color: #fff !important;
   font-size: 18px;
 }
 /* feature section css ended  */
