@@ -98,7 +98,7 @@
       ],
       "settings": {
         "className": "",
-        "title": "Multicolumn",
+        "title": "",
         "heading_size": "h1",
         "image_width": "third",
         "image_ratio": "adapt",
@@ -247,8 +247,8 @@
         "button_3j6q89"
       ],
       "settings": {
-        "className": "",
-        "image": "shopify:\/\/shop_images\/time-3091031_1920.jpg",
+        "className": "feature-section",
+        "backgoundImage": "shopify:\/\/shop_images\/banner-bg.webp",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
