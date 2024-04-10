@@ -207,6 +207,13 @@ ul.policy-links li a:hover {
 .feature-section .iconsBlock .icon2 img {
   filter: invert(1);
 }
+
+.imageBg {
+  background: brown;
+  padding: 30px;
+  border-radius: 50%;
+}
+
 /* feature section css ended  */
 @media screen and (min-width: 750px) {
   .section-sections--22093648888119__footer-padding {
