@@ -197,6 +197,7 @@ ul.policy-links li a:hover {
   display: flex;
   align-items: center;
   gap: 30px;
+  margin: 2rem 0;
 }
 .feature-section .iconsBlock .icon1,
 .feature-section .iconsBlock .icon2 {
