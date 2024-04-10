@@ -112,6 +112,9 @@ ul.policy-links li a {
   font-size: 12px;
   font-weight: 600;
 }
+ul.policy-links li a:hover {
+  color: #000;
+}
 .copyright__content {
   font-size: 12px;
 }
