@@ -319,10 +319,10 @@ ul.policy-links li a:hover {
   position: relative;
   background-size: cover;
   width: 100%;
-  padding: 20px;
 }
 .product-grid .featuredProductImage .cardBody {
   position: absolute;
+  padding: 0 20px;
   bottom: 30px;
 }
 .product-grid .featuredProductImage .cardCaption {
