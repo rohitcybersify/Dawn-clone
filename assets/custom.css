@@ -222,6 +222,9 @@ ul.policy-links li a:hover {
   justify-content: center;
   align-items: center;
 }
+.collection-list-wrapper .card__media .media {
+  border-radius: 15px;
+}
 /* feature section css ended  */
 
 /* banner section css start */
