@@ -325,6 +325,14 @@ ul.policy-links li a:hover {
   position: absolute;
   bottom: 30px;
 }
+.product-grid .featuredProductImage .cardCaption {
+  color: #fff;
+  padding: 1px 18px;
+  font-size: 13px;
+  border: 1px solid #fff;
+  display: inline-block;
+  border-radius: 12px;
+}
 /* feature collection end */
 
 /* resposnive css start */
