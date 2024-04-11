@@ -333,6 +333,13 @@ ul.policy-links li a:hover {
   display: inline-block;
   border-radius: 12px;
 }
+.product-grid .cardTitle {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 23px;
+  margin: 12px 0;
+}
 /* feature collection end */
 
 /* resposnive css start */
