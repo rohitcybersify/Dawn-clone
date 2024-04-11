@@ -364,6 +364,10 @@ h3.card__heading.h5 .full-unstyled-link {
 h3.card__heading.h5 .full-unstyled-link:hover {
   text-decoration: none;
 }
+.featuredProductImage {
+  border-radius: 15px;
+}
+
 /* feature collection end */
 
 /* resposnive css start */
