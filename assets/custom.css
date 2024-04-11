@@ -264,6 +264,19 @@ ul.policy-links li a:hover {
 }
 /*services css end  */
 
+/*collection section css start  */
+.collection-list-wrapper a.full-unstyled-link {
+  border: 1px solid #fff;
+  display: inline-block;
+  padding: 4px 20px;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+/*collection section css end  */
+
 /* resposnive css start */
 
 /* min-media css  */
