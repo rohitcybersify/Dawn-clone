@@ -390,7 +390,12 @@ h3.card__heading.h5 .full-unstyled-link:hover {
     position: absolute !important;
   }
 }
-
+@media screen and (min-width: 990px) {
+  h3.card__heading.h5 .underline-links-hover:hover a {
+    text-decoration: none;
+    text-underline-offset: 0.3rem;
+  }
+}
 /* max-media css  */
 @media screen and (max-width: 1140px) {
   .footer__blocks-wrapper .footer-block.grid__item:nth-child(2),
