@@ -315,6 +315,11 @@ ul.policy-links li a:hover {
   display: flex;
   position: relative;
 }
+.featuredProductImage {
+  position: relative;
+  background-size: cover;
+  width: 100%;
+}
 /* feature collection end */
 
 /* resposnive css start */
