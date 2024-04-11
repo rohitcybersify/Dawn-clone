@@ -320,6 +320,10 @@ ul.policy-links li a:hover {
   background-size: cover;
   width: 100%;
 }
+.product-grid .featuredProductImage .cardBody {
+  position: absolute;
+  bottom: 30px;
+}
 /* feature collection end */
 
 /* resposnive css start */
