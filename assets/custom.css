@@ -309,6 +309,12 @@ ul.policy-links li a:hover {
   font-size: 40px;
   font-weight: 400;
 }
+.product-grid li:first-child {
+  max-width: 268px;
+  width: 100%;
+  display: flex;
+  position: relative;
+}
 /* feature collection end */
 
 /* resposnive css start */
