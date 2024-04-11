@@ -275,6 +275,9 @@ ul.policy-links li a:hover {
   font-weight: 500;
   margin-top: 10px;
 }
+.collection-list-wrapper .card__content {
+  justify-content: center;
+}
 /*collection section css end  */
 
 /* resposnive css start */
