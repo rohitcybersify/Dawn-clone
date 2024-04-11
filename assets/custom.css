@@ -367,7 +367,9 @@ h3.card__heading.h5 .full-unstyled-link:hover {
 .featuredProductImage {
   border-radius: 15px;
 }
-
+.product-grid .card__media {
+  border-radius: 15px;
+}
 /* feature collection end */
 
 /* resposnive css start */
