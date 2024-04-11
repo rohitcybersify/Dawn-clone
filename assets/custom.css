@@ -352,7 +352,7 @@ ul.policy-links li a:hover {
   transition: all 0.3s ease-in;
 }
 .product-grid .cardButton a:hover {
-  background: transform;
+  background: transparent;
 }
 /* feature collection end */
 
