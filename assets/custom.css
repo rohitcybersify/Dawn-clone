@@ -274,10 +274,11 @@ ul.policy-links li a:hover {
   font-size: 16px;
   font-weight: 500;
   margin-top: 10px;
+  transition: all 0.3s ease-in;
 }
 .collection-list-wrapper a.full-unstyled-link:hover {
   background: #fff;
-  color: #000;
+  color: #191918;
 }
 .collection-list-wrapper .card__content {
   justify-content: center;
