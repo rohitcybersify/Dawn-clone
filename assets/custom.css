@@ -278,6 +278,12 @@ ul.policy-links li a:hover {
 .collection-list-wrapper .card__content {
   justify-content: center;
 }
+.collection-list-wrapper h3.card__heading {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
 /*collection section css end  */
 
 /* resposnive css start */
