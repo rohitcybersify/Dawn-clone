@@ -275,6 +275,10 @@ ul.policy-links li a:hover {
   font-weight: 500;
   margin-top: 10px;
 }
+.collection-list-wrapper a.full-unstyled-link:hover {
+  background: #fff;
+  color: #000;
+}
 .collection-list-wrapper .card__content {
   justify-content: center;
 }
@@ -288,6 +292,9 @@ ul.policy-links li a:hover {
   position: absolute;
   top: 45%;
   transform: translateY(-50%);
+}
+.card__information {
+  text-align: center;
 }
 /*collection section css end  */
 
