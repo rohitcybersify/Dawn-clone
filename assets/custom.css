@@ -342,7 +342,7 @@ ul.policy-links li a:hover {
 }
 .product-grid .cardButton a {
   color: #000;
-  background: #fff;
+  background: #191918;
   border-radius: 17px;
   border: 1px solid #fff;
   font-size: 16px;
@@ -353,6 +353,7 @@ ul.policy-links li a:hover {
 }
 .product-grid .cardButton a:hover {
   background: transparent;
+  color: #fff;
 }
 /* feature collection end */
 
