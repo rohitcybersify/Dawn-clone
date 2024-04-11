@@ -341,8 +341,8 @@ ul.policy-links li a:hover {
   margin: 12px 0;
 }
 .product-grid .cardButton a {
-  color: #000;
-  background: #191918;
+  color: #191918;
+  background: #fff;
   border-radius: 17px;
   border: 1px solid #fff;
   font-size: 16px;
