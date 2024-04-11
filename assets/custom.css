@@ -392,6 +392,11 @@ h3.card__heading.h5 .full-unstyled-link:hover {
   font-weight: 500;
   display: block;
 }
+.product-grid .quick-add__submit {
+  border-radius: 15px;
+  background: #333;
+  color: #fff;
+}
 
 /* feature collection end */
 
