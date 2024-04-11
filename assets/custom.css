@@ -379,6 +379,16 @@ h3.card__heading.h5 .full-unstyled-link:hover {
   color: #a0a0a0;
   font-size: 12px;
 }
+.product-grid .checkInStock {
+  color: #00af00;
+  font-size: 14px;
+  margin: 0;
+}
+.product-grid span.price-item.price-item--sale.price-item--last {
+  font-size: 15px;
+  font-weight: 500;
+  display: block;
+}
 /* feature collection end */
 
 /* resposnive css start */
