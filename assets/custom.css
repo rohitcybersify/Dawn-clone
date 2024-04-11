@@ -371,6 +371,10 @@ h3.card__heading.h5 .full-unstyled-link:hover {
 .product-grid .card__inner {
   border-radius: 15px;
 }
+.product-grid .card-information {
+  width: 100%;
+  text-align: center;
+}
 /* feature collection end */
 
 /* resposnive css start */
