@@ -375,6 +375,10 @@ h3.card__heading.h5 .full-unstyled-link:hover {
   width: 100%;
   text-align: center;
 }
+.product-grid s.price-item.price-item--regular {
+  color: #a0a0a0;
+  font-size: 12px;
+}
 /* feature collection end */
 
 /* resposnive css start */
