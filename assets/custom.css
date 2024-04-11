@@ -355,6 +355,10 @@ ul.policy-links li a:hover {
   background: transparent;
   color: #fff;
 }
+h3.card__heading.h5 .full-unstyled-link {
+  font-size: 16px;
+}
+
 /* feature collection end */
 
 /* resposnive css start */
