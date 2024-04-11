@@ -397,6 +397,10 @@ h3.card__heading.h5 .full-unstyled-link:hover {
   background: #333;
   color: #fff;
 }
+.button:before,
+button:after {
+  display: none;
+}
 
 /* feature collection end */
 
