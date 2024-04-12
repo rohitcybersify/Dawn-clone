@@ -356,21 +356,11 @@
             "show_view_all": true,
             "view_all_style": "solid"
           }
-        },
-        "slider_J3Agih": {
-          "type": "Slider",
-          "settings": {
-            "title": "<p>Testtttt<\/p>",
-            "collection": "macbook-pro",
-            "show_view_all": true,
-            "view_all_style": "solid"
-          }
         }
       },
       "block_order": [
         "slider_UPzwLk",
-        "slider_rFbdCp",
-        "slider_J3Agih"
+        "slider_rFbdCp"
       ],
       "settings": {
         "full_width": true,
