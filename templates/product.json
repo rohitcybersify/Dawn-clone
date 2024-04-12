@@ -88,7 +88,15 @@
         },
         "description": {
           "type": "description",
+          "disabled": true,
           "settings": {
+          }
+        },
+        "popup_F6TicV": {
+          "type": "popup",
+          "settings": {
+            "text": "Pop-up link text",
+            "page": ""
           }
         }
       },
@@ -104,7 +112,8 @@
         "collapsible-row-2",
         "collapsible-row-3",
         "share",
-        "description"
+        "description",
+        "popup_F6TicV"
       ],
       "settings": {
         "enable_sticky_info": true,
