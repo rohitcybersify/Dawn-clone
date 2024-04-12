@@ -74,11 +74,13 @@
         {{- 'products.product.value_unavailable' | t: option_value: value -}}
       {%- else -%}
         {{- value -}}
+          {% if enablePrice %}
           {% for variant in product.variants %}
                {% if variant.title == value %}
               <div>From {{ variant.price | money }} </div>
                 {% endif %}
           {% endfor %}
+            {% endif %}
       {%- endif %}
     </option>
   {%- endif -%}
