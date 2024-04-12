@@ -86,6 +86,15 @@
             "share_label": "Share"
           }
         },
+        "collapsible_tab_rNCNgx": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "content": "",
+            "page": ""
+          }
+        },
         "description": {
           "type": "description",
           "disabled": true,
@@ -118,6 +127,7 @@
         "collapsible-row-2",
         "collapsible-row-3",
         "share",
+        "collapsible_tab_rNCNgx",
         "description",
         "complementary_r9jGhz"
       ],
