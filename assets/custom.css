@@ -405,6 +405,9 @@ button:after {
   border: 1px solid #ebebeb;
   border-radius: 15px;
 }
+.product-grid .card__content {
+  padding: 0 15px;
+}
 /* feature collection end */
 
 /* resposnive css start */
