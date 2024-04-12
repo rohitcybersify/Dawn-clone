@@ -424,6 +424,11 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Watch_6.webp"
           }
+        },
+        "slide_FYQVzW": {
+          "type": "slide",
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -433,7 +438,8 @@
         "slide_M66xmm",
         "slide_CxF9WQ",
         "slide_PVWUVe",
-        "slide_fWqHKX"
+        "slide_fWqHKX",
+        "slide_FYQVzW"
       ],
       "settings": {
         "show_container": false
