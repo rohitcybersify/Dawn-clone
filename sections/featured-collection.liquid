@@ -123,6 +123,9 @@
               style="--animation-order: {{ forloop.index }};"
             {% endif %}
           > 
+            {% if forloop.index == 1 %}
+            <h1>testttt</h1>
+            {% else %}
             {% render 'card-product',
               card_product: product,
               media_aspect_ratio: section.settings.image_ratio,
@@ -133,6 +136,7 @@
               show_quick_add: section.settings.enable_quick_add,
               section_id: section.id
             %}
+            {% endif %}
           </li>
         {%- else -%}
           {%- for i in (1..4) -%}
