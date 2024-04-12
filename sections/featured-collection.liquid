@@ -88,11 +88,6 @@
         role="list"
         aria-label="{{ 'general.slider.name' | t }}"
       >
-        
-             <li>
-                
-            </li>
-          
         {%- for product in section.settings.collection.products limit: section.settings.products_to_show -%}
           <li
             id="Slide-{{ section.id }}-{{ forloop.index }}"
