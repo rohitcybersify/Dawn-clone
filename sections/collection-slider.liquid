@@ -53,8 +53,10 @@
     <div class="collection__title title-wrapper title-wrapper--no-top-margin page-width{% if show_mobile_slider %} title-wrapper--self-padded-tablet-down{% endif %}{% if show_desktop_slider %} collection__title--desktop-slider{% endif %}">
   <div class="tab-customize">
       {%  for block in section.blocks %}
+        {% if block.settings.title %}
   <button class="tablinks-cus" onclick="openTab(event, 'tab-{{ forloop.index0 }}')" id="tab-cus-active">{{ block.settings.title }}</button> 
-  {%  endfor  %}
+    {% endif %}
+          {%  endfor  %}
   </div>
     </div>
 
