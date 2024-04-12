@@ -86,32 +86,10 @@
             "share_label": "Share"
           }
         },
-        "collapsible_tab_rNCNgx": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "content": "",
-            "page": ""
-          }
-        },
         "description": {
           "type": "description",
           "disabled": true,
           "settings": {
-          }
-        },
-        "complementary_r9jGhz": {
-          "type": "complementary",
-          "settings": {
-            "block_heading": "Pairs well with",
-            "make_collapsible_row": true,
-            "icon": "price_tag",
-            "product_list_limit": 10,
-            "products_per_page": 3,
-            "pagination_style": "numbers",
-            "image_ratio": "square",
-            "enable_quick_add": true
           }
         }
       },
@@ -127,9 +105,7 @@
         "collapsible-row-2",
         "collapsible-row-3",
         "share",
-        "collapsible_tab_rNCNgx",
-        "description",
-        "complementary_r9jGhz"
+        "description"
       ],
       "settings": {
         "enable_sticky_info": true,
