@@ -1,9 +1,11 @@
 <section class="mains {% if section.settings.show_container %} page-width {% endif %}">
   <div class="multiple-items">   
    {% for block in section.blocks %}
+     {% if block.settings.image != blank %}
      <div class="slide-image" style="width:350px; height:350px;"> 
          <img  src="{{ block.settings.image | image_url  }}" height="" width="">        
      </div>
+       {% endif %}
     {% endfor %}
     
   </div>  
