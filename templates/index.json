@@ -308,8 +308,8 @@
         "button_jbhay3": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
+            "button_label": "Shop Now",
+            "button_link": "#",
             "button_style_secondary": false
           }
         }
@@ -356,11 +356,21 @@
             "show_view_all": true,
             "view_all_style": "solid"
           }
+        },
+        "slider_J3Agih": {
+          "type": "Slider",
+          "settings": {
+            "title": "<p>ttttt<\/p>",
+            "collection": "testt",
+            "show_view_all": true,
+            "view_all_style": "solid"
+          }
         }
       },
       "block_order": [
         "slider_UPzwLk",
-        "slider_rFbdCp"
+        "slider_rFbdCp",
+        "slider_J3Agih"
       ],
       "settings": {
         "full_width": true,
@@ -373,7 +383,7 @@
         "show_secondary_image": true,
         "show_vendor": true,
         "show_rating": true,
-        "enable_quick_add": true,
+        "enable_quick_add": false,
         "columns_mobile": "2",
         "swipe_on_mobile": true,
         "padding_top": 36,
