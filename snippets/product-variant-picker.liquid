@@ -54,7 +54,7 @@
               name="options[{{ option.name | escape }}]"
               form="{{ product_form_id }}"
             >
-              {% render 'product-variant-options', product: product, option: option, block: block %}
+              {% render 'product-variant-options', product: product, option: option, block: block , enableVariantPrice : enableVariantPrice %}
             </select>
             {% render 'icon-caret' %}
           </div>
