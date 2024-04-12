@@ -36,7 +36,7 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true,
+            "show_dynamic_checkout": false,
             "show_gift_card_recipient": true
           }
         },
@@ -50,7 +50,7 @@
           "settings": {
             "heading": "Materials",
             "icon": "leather",
-            "content": "",
+            "content": "<p>Discover the Latest in fgjgfjhgj Innovations for Your Everyday Needs.<\/p>",
             "page": ""
           }
         },
