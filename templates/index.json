@@ -181,7 +181,7 @@
         "heading_size": "h2",
         "adsImage": "shopify:\/\/shop_images\/S3221470b7f4848c39e9a3c780c2a66fa1.webp",
         "caption": "{{ section.settings.collection.title }}",
-        "imageTitle": "Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.",
+        "imageTitle": "Pair text with an image to focus on your chosen product, collection, or blog post.",
         "buttonLabel": "Column",
         "buttonLink": "shopify:\/\/collections\/macbook",
         "description": "",
