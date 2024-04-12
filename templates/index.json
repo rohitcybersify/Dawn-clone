@@ -360,8 +360,8 @@
         "slider_J3Agih": {
           "type": "Slider",
           "settings": {
-            "title": "<p>ttttt<\/p>",
-            "collection": "testt",
+            "title": "<p>Testtttt<\/p>",
+            "collection": "macbook-pro",
             "show_view_all": true,
             "view_all_style": "solid"
           }
