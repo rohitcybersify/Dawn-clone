@@ -131,7 +131,8 @@
               show_vendor: section.settings.show_vendor,
               show_rating: section.settings.show_rating,
               show_quick_add: section.settings.enable_quick_add,
-              section_id: section.id
+              section_id: section.id,
+              show_instock : section.settings.enableStocks
             %}
             {% endif %}
           </li>
@@ -288,6 +289,15 @@
         }
       ],
       "default": "body"
+    },
+    {
+      "type": "header",
+       "content": "Settings"
+    },
+    {
+      "type": "checkbox",
+       "id" : "enableStocks",
+        "label": "Show in Stock Options"
     },
     {
       "type": "collection",
