@@ -313,8 +313,8 @@ ul.policy-links li a:hover {
   font-weight: 400;
 }
 .product-grid li:first-child {
-  max-width: 268px;
-  width: 100%;
+  /* max-width: 268px;
+  width: 100%; */
   display: flex;
   position: relative;
 }
