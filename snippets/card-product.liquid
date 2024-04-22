@@ -213,7 +213,7 @@
               </div>
             {%- endif -%}
           </div>
-          
+                 {% if enableAddToCart %}
                         <product-form data-section-id="{{ section.id }}">
                 {%- form 'product',
                   card_product,
@@ -269,6 +269,7 @@
                   </button>
                 {%- endform -%}
               </product-form>
+          {% endif %}
         </div>
        
         
