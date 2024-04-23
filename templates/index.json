@@ -337,57 +337,6 @@
         "link2": "shopify:\/\/collections"
       }
     },
-    "collage_qpNWbC": {
-      "type": "collage",
-      "blocks": {
-        "image_r4xApi": {
-          "type": "image",
-          "settings": {
-          }
-        },
-        "collection_FKbWq7": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "collection_yJDdMp": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "collection_9WXzkg": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "collection_WxWKm6": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_r4xApi",
-        "collection_FKbWq7",
-        "collection_yJDdMp",
-        "collection_9WXzkg",
-        "collection_WxWKm6"
-      ],
-      "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h1",
-        "desktop_layout": "left",
-        "mobile_layout": "column",
-        "card_styles": "product-card-wrapper",
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "image_with_text_9eWdib": {
       "type": "image-with-text",
       "blocks": {
@@ -554,7 +503,6 @@
     "image_with_text_q9wFd4",
     "image_with_text_NN3Mjf",
     "two_image_AGKPbC",
-    "collage_qpNWbC",
     "image_with_text_9eWdib",
     "collection_slider_PePn6P",
     "image_gallery_EgWVRf"
