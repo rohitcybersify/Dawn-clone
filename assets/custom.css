@@ -426,6 +426,10 @@ button:after {
   top: 0px;
   left: 10px;
 }
+.collection .product-grid .quick-add__submit {
+  background: transparent;
+  display: inline-block;
+}
 /* feature collection end */
 
 /* resposnive css start */
