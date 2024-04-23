@@ -209,6 +209,53 @@
         "padding_bottom": 36
       }
     },
+    "image_with_text_q9wFd4": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_ULK98C": {
+          "type": "heading",
+          "settings": {
+            "heading": "Watch Buying Guide",
+            "heading_size": "h1"
+          }
+        },
+        "text_RLUQUh": {
+          "type": "text",
+          "settings": {
+            "text": "<p>From watch trends to how it works, sizing and cases, follow our guide to buying your first timepiece.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_cQaggr": {
+          "type": "button",
+          "settings": {
+            "button_label": "EXPLORE NOW",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_ULK98C",
+        "text_RLUQUh",
+        "button_cQaggr"
+      ],
+      "settings": {
+        "className": "",
+        "image": "shopify:\/\/shop_images\/watchbuyingguide.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image_with_text_NN3Mjf": {
       "type": "image-with-text",
       "blocks": {
@@ -452,6 +499,7 @@
     "multicolumn_ip8qta",
     "collection_list_nYeRfW",
     "featured_collection_xXC7Cm",
+    "image_with_text_q9wFd4",
     "image_with_text_NN3Mjf",
     "two_image_AGKPbC",
     "image_with_text_9eWdib",
