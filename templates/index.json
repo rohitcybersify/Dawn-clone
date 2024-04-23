@@ -323,6 +323,45 @@
         "padding_bottom": 36
       }
     },
+    "collage_BT3G3k": {
+      "type": "collage",
+      "blocks": {
+        "image_MzQ7j3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pexels-ayyappa-film-creations-587546-3419331.jpg"
+          }
+        },
+        "product_JHEzxj": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "second_image": false
+          }
+        },
+        "collection_8h4Jir": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_MzQ7j3",
+        "product_JHEzxj",
+        "collection_8h4Jir"
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "two_image_AGKPbC": {
       "type": "twoImage",
       "settings": {
@@ -502,6 +541,7 @@
     "featured_collection_xXC7Cm",
     "image_with_text_q9wFd4",
     "image_with_text_NN3Mjf",
+    "collage_BT3G3k",
     "two_image_AGKPbC",
     "image_with_text_9eWdib",
     "collection_slider_PePn6P",
