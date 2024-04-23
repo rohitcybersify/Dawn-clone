@@ -345,14 +345,25 @@
           "settings": {
           }
         },
-        "product_3pjcWB": {
-          "type": "product",
+        "collection_FKbWq7": {
+          "type": "collection",
           "settings": {
-            "product": "",
-            "second_image": false
+            "collection": ""
           }
         },
-        "collection_FKbWq7": {
+        "collection_yJDdMp": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "collection_9WXzkg": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "collection_WxWKm6": {
           "type": "collection",
           "settings": {
             "collection": ""
@@ -361,8 +372,10 @@
       },
       "block_order": [
         "image_r4xApi",
-        "product_3pjcWB",
-        "collection_FKbWq7"
+        "collection_FKbWq7",
+        "collection_yJDdMp",
+        "collection_9WXzkg",
+        "collection_WxWKm6"
       ],
       "settings": {
         "heading": "Multimedia collage",
