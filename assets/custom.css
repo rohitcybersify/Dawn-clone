@@ -442,7 +442,11 @@ svg#Layer_1 {
 .watch_buy div#ImageWithText--template--22093649117495__image_with_text_q9wFd4 {
   background-color: #f8f8f8 !important;
 }
-
+.watch_buy .image-with-text .grid {
+  margin-bottom: 0;
+  display: flex !important;
+  flex-direction: row-reverse !important;
+}
 /* resposnive css start */
 
 /* min-media css  */
