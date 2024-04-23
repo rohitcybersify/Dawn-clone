@@ -439,6 +439,10 @@ svg#Layer_1 {
 }
 /* feature collection end */
 
+.watch_buy .image-with-text:not(.image-with-text--overlap) .color-background-1 {
+  background-color: #f8f8f8 !important;
+}
+
 /* resposnive css start */
 
 /* min-media css  */
