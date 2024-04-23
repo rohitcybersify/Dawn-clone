@@ -306,6 +306,7 @@
         "icon_McQUNq",
         "button_3j6q89"
       ],
+      "disabled": true,
       "settings": {
         "className": "feature-section",
         "backgoundImage": "shopify:\/\/shop_images\/banner-bg.webp",
