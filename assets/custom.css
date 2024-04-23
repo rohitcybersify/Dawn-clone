@@ -447,6 +447,9 @@ svg#Layer_1 {
   display: flex !important;
   flex-direction: row-reverse !important;
 }
+.watch_buy .button {
+  opacity: 1 !important;
+}
 /* resposnive css start */
 
 /* min-media css  */
