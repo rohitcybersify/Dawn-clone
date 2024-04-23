@@ -385,6 +385,38 @@
         "padding_bottom": 36
       }
     },
+    "image_with_text_kgzrzc": {
+      "type": "image-with-text",
+      "blocks": {
+        "block_image_DyfBNp": {
+          "type": "block-image",
+          "settings": {
+            "blockImage": "shopify:\/\/shop_images\/girard-perregaux-neo-bridge-84000-21-3236-5cx-multiple-9_a69cf7c9-bc6c-4298-820d-05a11a40a0ed.jpg",
+            "title": "",
+            "button": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "block_image_DyfBNp"
+      ],
+      "settings": {
+        "className": "",
+        "image": "shopify:\/\/shop_images\/image-45-copyright-1410x792.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "collection_slider_PePn6P": {
       "type": "collection-slider",
       "blocks": {
@@ -504,6 +536,7 @@
     "image_with_text_NN3Mjf",
     "two_image_AGKPbC",
     "image_with_text_9eWdib",
+    "image_with_text_kgzrzc",
     "collection_slider_PePn6P",
     "image_gallery_EgWVRf"
   ]
