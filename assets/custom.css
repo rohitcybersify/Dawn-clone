@@ -415,6 +415,10 @@ button:after {
 .product-grid .card__content {
   padding: 0 12px !important;
 }
+.collection .grid__item {
+  max-height: 400px;
+}
+
 /* feature collection end */
 
 /* resposnive css start */
