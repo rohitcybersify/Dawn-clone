@@ -416,9 +416,11 @@ button:after {
   padding: 0 12px !important;
 }
 .collection .grid__item {
-  max-height: 400px;
+  max-height: 420px;
 }
-
+.collection .card__inner.color-background-2.gradient.ratio {
+  max-height: 250px;
+}
 /* feature collection end */
 
 /* resposnive css start */
