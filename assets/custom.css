@@ -421,6 +421,11 @@ button:after {
 .collection .card__inner.color-background-2.gradient.ratio {
   max-height: 250px;
 }
+.collection .quick-add {
+  position: absolute;
+  top: 0px;
+  left: 10px;
+}
 /* feature collection end */
 
 /* resposnive css start */
