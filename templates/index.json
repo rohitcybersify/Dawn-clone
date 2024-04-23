@@ -241,7 +241,7 @@
         "button_cQaggr"
       ],
       "settings": {
-        "className": "",
+        "className": "watch_buy",
         "image": "shopify:\/\/shop_images\/watchbuyingguide.webp",
         "height": "adapt",
         "desktop_image_width": "medium",
