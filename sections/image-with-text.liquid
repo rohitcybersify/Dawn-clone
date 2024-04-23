@@ -111,7 +111,7 @@
              {% when "block-image" %}
                 <div class="rightImageBlock">
                    {% if block.settings.blockImage %}
-                   <img src="{{ block.settings.blockImage | img_url : "" }}" />
+                   <img height="150px" width="150px" src="{{ block.settings.blockImage | img_url : "" }}" />
                    {% endif %}
                     {% if block.settings.title %}
                     <div class="blockImageTitle">{{ block.settings.title }}</div>
