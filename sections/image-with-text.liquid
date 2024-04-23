@@ -109,7 +109,17 @@
   
                </div>
              {% when "block-image" %}
-            
+                <div class="rightImageBlock">
+                   {% if block.settings.blockImage %}
+                   <img src="{{ block.settings.blockImage | img_url : "" }}" />
+                   {% endif %}
+                    {% if block.settings.title %}
+                    <div class="blockImageTitle">{{ block.settings.title }}</div>
+                     {% endif %}
+                   {% if block.settings.button %}
+                    <a href="{{ block.settings.link }}">{{ block.settings.button }}</a>
+                     {% endif %}
+                </div>
             {%- when 'button' -%}
               {%- if block.settings.button_label != blank -%}
                 <a
