@@ -242,6 +242,10 @@
       ],
       "settings": {
         "className": "watch_buy",
+        "heading": "",
+        "viewAllBtn": "",
+        "viewAlllink": "",
+        "icon": "",
         "image": "shopify:\/\/shop_images\/watchbuyingguide.webp",
         "height": "adapt",
         "desktop_image_width": "medium",
@@ -309,6 +313,10 @@
       "disabled": true,
       "settings": {
         "className": "feature-section",
+        "heading": "",
+        "viewAllBtn": "",
+        "viewAlllink": "",
+        "icon": "",
         "backgoundImage": "shopify:\/\/shop_images\/banner-bg.webp",
         "height": "adapt",
         "desktop_image_width": "medium",
@@ -371,6 +379,10 @@
       ],
       "settings": {
         "className": "",
+        "heading": "",
+        "viewAllBtn": "",
+        "viewAlllink": "",
+        "icon": "",
         "image": "shopify:\/\/shop_images\/pocket-watch-665871_1920.jpg",
         "secondImage": "shopify:\/\/shop_images\/accessory-1869926_1920.jpg",
         "height": "adapt",
@@ -482,6 +494,10 @@
       ],
       "settings": {
         "className": "",
+        "heading": "Life Style",
+        "viewAllBtn": "View Button",
+        "viewAlllink": "shopify:\/\/collections",
+        "icon": "<svg  class=\"icon icon-account\" height=\"20px\" width=\"20px\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<path d=\"M8 5L15.57 11.6237C15.7976 11.8229 15.7976 12.1771 15.57 12.3763L8 19\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"\/>\n<\/svg>",
         "image": "shopify:\/\/shop_images\/image-45-copyright-1410x792.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
