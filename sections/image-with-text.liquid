@@ -117,7 +117,7 @@
                     <div class="blockImageTitle">{{ block.settings.title }}</div>
                      {% endif %}
                    {% if block.settings.button %}
-                    <a class="imageBlockButton" href="{% if block.settings.link %}{{ block.settings.link }}{% else %}#{% endif %}">{{ block.settings.button }}</a>
+                    <a class="imageBlockButton" href="{% if block.settings.link %}{{ block.settings.link }}{% else %}#{% endif %}">{{ block.settings.button }}{% render 'icon-right-chevron' %}</a>
                      {% endif %}
                 </div>
             {%- when 'button' -%}
