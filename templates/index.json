@@ -439,6 +439,7 @@
             "blockImage": "shopify:\/\/shop_images\/girard-perregaux-neo-bridge-84000-21-3236-5cx-multiple-9_a69cf7c9-bc6c-4298-820d-05a11a40a0ed.jpg",
             "title": "Collector Box",
             "button": "Shop Now",
+            "icon": "<svg  class=\"icon icon-account\" height=\"20px\" width=\"20px\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<path d=\"M8 5L15.57 11.6237C15.7976 11.8229 15.7976 12.1771 15.57 12.3763L8 19\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"\/>\n<\/svg>",
             "link": "shopify:\/\/collections\/imac"
           }
         },
@@ -448,6 +449,7 @@
             "blockImage": "shopify:\/\/shop_images\/girard-perregaux-neo-bridge-84000-21-3236-5cx-multiple-9_a69cf7c9-bc6c-4298-820d-05a11a40a0ed.jpg",
             "title": "Collector Box",
             "button": "Shop Now",
+            "icon": "",
             "link": "shopify:\/\/collections\/imac"
           }
         },
@@ -457,6 +459,7 @@
             "blockImage": "shopify:\/\/shop_images\/girard-perregaux-neo-bridge-84000-21-3236-5cx-multiple-9_a69cf7c9-bc6c-4298-820d-05a11a40a0ed.jpg",
             "title": "Collector Box",
             "button": "Shop Now",
+            "icon": "",
             "link": "shopify:\/\/collections\/imac"
           }
         },
@@ -466,6 +469,7 @@
             "blockImage": "shopify:\/\/shop_images\/girard-perregaux-neo-bridge-84000-21-3236-5cx-multiple-9_a69cf7c9-bc6c-4298-820d-05a11a40a0ed.jpg",
             "title": "Collector Box",
             "button": "Shop Now",
+            "icon": "",
             "link": "shopify:\/\/collections\/imac"
           }
         }
