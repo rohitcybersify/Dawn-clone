@@ -325,6 +325,7 @@
     },
     "two_image_AGKPbC": {
       "type": "twoImage",
+      "disabled": true,
       "settings": {
         "pageWidthType": "",
         "image1": "shopify:\/\/shop_images\/time-3091031_1920.jpg",
