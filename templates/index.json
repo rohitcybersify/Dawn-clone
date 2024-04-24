@@ -386,6 +386,50 @@
         "padding_bottom": 36
       }
     },
+    "collection_slider_PePn6P": {
+      "type": "collection-slider",
+      "blocks": {
+        "slider_UPzwLk": {
+          "type": "Slider",
+          "settings": {
+            "title": "<p>Featured<\/p>",
+            "collection": "imac",
+            "show_view_all": true,
+            "view_all_style": "solid"
+          }
+        },
+        "slider_rFbdCp": {
+          "type": "Slider",
+          "settings": {
+            "title": "<p>Best Selling<\/p>",
+            "collection": "macbook",
+            "show_view_all": true,
+            "view_all_style": "solid"
+          }
+        }
+      },
+      "block_order": [
+        "slider_UPzwLk",
+        "slider_rFbdCp"
+      ],
+      "settings": {
+        "full_width": true,
+        "products_to_show": 10,
+        "columns_desktop": 4,
+        "enable_desktop_slider": true,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": true,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image_with_text_kgzrzc": {
       "type": "image-with-text",
       "blocks": {
@@ -444,50 +488,6 @@
         "color_scheme": "",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "collection_slider_PePn6P": {
-      "type": "collection-slider",
-      "blocks": {
-        "slider_UPzwLk": {
-          "type": "Slider",
-          "settings": {
-            "title": "<p>Featured<\/p>",
-            "collection": "imac",
-            "show_view_all": true,
-            "view_all_style": "solid"
-          }
-        },
-        "slider_rFbdCp": {
-          "type": "Slider",
-          "settings": {
-            "title": "<p>Best Selling<\/p>",
-            "collection": "macbook",
-            "show_view_all": true,
-            "view_all_style": "solid"
-          }
-        }
-      },
-      "block_order": [
-        "slider_UPzwLk",
-        "slider_rFbdCp"
-      ],
-      "settings": {
-        "full_width": true,
-        "products_to_show": 10,
-        "columns_desktop": 4,
-        "enable_desktop_slider": true,
-        "color_scheme": "",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": true,
-        "show_rating": true,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -567,8 +567,8 @@
     "image_with_text_NN3Mjf",
     "two_image_AGKPbC",
     "image_with_text_9eWdib",
-    "image_with_text_kgzrzc",
     "collection_slider_PePn6P",
+    "image_with_text_kgzrzc",
     "image_gallery_EgWVRf"
   ]
 }
