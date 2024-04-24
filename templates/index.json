@@ -57,11 +57,6 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
-    "slick_slider_ymyX4e": {
-      "type": "slick-slider",
-      "settings": {
-      }
-    },
     "multicolumn_ip8qta": {
       "type": "multicolumn",
       "blocks": {
@@ -564,7 +559,6 @@
   },
   "order": [
     "slideshow_zMxiqB",
-    "slick_slider_ymyX4e",
     "multicolumn_ip8qta",
     "collection_list_nYeRfW",
     "featured_collection_xXC7Cm",
