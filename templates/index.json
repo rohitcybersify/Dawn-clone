@@ -626,6 +626,9 @@
         "block_JfeM4t"
       ],
       "settings": {
+        "numberSlide": 2,
+        "slidescroll": 1,
+        "arrow": true
       }
     }
   },
