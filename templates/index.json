@@ -633,6 +633,7 @@
     },
     "animation_slider_ejg3PY": {
       "type": "animation-slider",
+      "disabled": true,
       "settings": {
       }
     }
