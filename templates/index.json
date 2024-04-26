@@ -576,6 +576,11 @@
       "settings": {
         "show_container": false
       }
+    },
+    "onscroll_slider_ic4hgz": {
+      "type": "onscroll-slider",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -589,6 +594,7 @@
     "image_with_text_9eWdib",
     "collection_slider_PePn6P",
     "image_with_text_kgzrzc",
-    "image_gallery_EgWVRf"
+    "image_gallery_EgWVRf",
+    "onscroll_slider_ic4hgz"
   ]
 }
