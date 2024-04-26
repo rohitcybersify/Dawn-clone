@@ -21,7 +21,7 @@
 <script>
   // Slick Slider
 jQuery(".slick-slider").slick({
-  slidesToShow: 2,
+  slidesToShow: {{ section.settings.numberSlide }},
   slidesToScroll: 1,
   arrows : false
 });
@@ -46,7 +46,17 @@ jQuery(function () {
 {% schema %}
   {
     "name": "On Scroll Slider",
-    "settings": [],
+    "settings": [
+      {
+        "type": "range",
+         "id": "numberSlide",
+         "label": "Slide Show",
+         "min": 2,
+          "max": 25,
+          "step": 1,
+          "default" : 4
+      }
+    ],
      "blocks": [
        {
          "type": "block",
