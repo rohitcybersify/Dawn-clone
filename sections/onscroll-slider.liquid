@@ -12,26 +12,10 @@
 <div class="slick-slider">
   
  
-  <div class="element element-1"><img src="https://dummyimage.com/300x200/000/fff"></div>
+  <div class="element element-1"><img src="https://dummyimage.com/300x200/000/fff">
+  {{ product | image_url: width: 400 | image_tag: width: nil }}
+  </div>
   
-
-  <div class="element element-1"><img src="https://dummyimage.com/300x200/000/fff"></div>
-  
-
-  <div class="element element-1"><img src="https://dummyimage.com/300x200/000/fff"></div>
-
-  <div class="element element-1"><img src="https://dummyimage.com/300x200/000/fff"></div>
-  
-
-  <div class="element element-1"><img src="https://dummyimage.com/300x200/000/fff"></div>
-  
-
-  <div class="element element-1"><img src="https://dummyimage.com/300x200/000/fff"></div>
-  
-
-  <div class="element element-1"><img src="https://dummyimage.com/300x200/000/fff"></div>
-
-  <div class="element element-1"><img src="https://dummyimage.com/300x200/000/fff"></div>
 
 </div>
 <script>
@@ -63,6 +47,19 @@ jQuery(function () {
   {
     "name": "On Scroll Slider",
     "settings": [],
+     "blocks": [
+       {
+         "type": "block",
+          "name" : "Block",
+           "settings": [
+             {
+               "type": "image_picker",
+                "id": "image",
+                 "label": "Image"
+             }
+           ]
+       }
+     ],
       "presets": [
         {
           "name": "On Scroll Slider"
