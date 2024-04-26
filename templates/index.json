@@ -628,7 +628,7 @@
       "settings": {
         "numberSlide": 3,
         "slidescroll": 1,
-        "arrow": false
+        "arrow": true
       }
     },
     "animation_slider_ejg3PY": {
