@@ -23,7 +23,7 @@
 jQuery(".slick-slider").slick({
   slidesToShow: {{ section.settings.numberSlide }},
   slidesToScroll: {{ section.settings.slidescroll }},
-  arrows : false
+  arrows : {{ section.settings.arrow }}
 });
 
 // Slick Scroll
@@ -64,6 +64,12 @@ jQuery(function () {
           "max": 3,
           "step": 1,
           "default" : 1
+      },
+       {
+        "type": "checkbox",
+         "id": "arrow",
+         "label": "Arrow",
+          "default" : false
       }
     ],
      "blocks": [
