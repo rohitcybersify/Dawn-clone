@@ -7,7 +7,10 @@ h1, h2, h3, h4, h5, .h0, .h1, .h2, .h3, .h4, .h5 {
 .collection, .color-background-1.gradient {
 	background: #1A2D1F !important;
 }
-
+.color-background-1.gradient .collection-list-wrapper.page-width {
+	max-width: 100%;
+	padding: 0;
+}
 .card-information>.price {
     color: #fff;
 }
