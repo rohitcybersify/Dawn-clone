@@ -4,6 +4,10 @@
 h1, h2, h3, h4, h5, .h0, .h1, .h2, .h3, .h4, .h5 {
     color: #fff;
 }
+.collection {
+	background: #1A2D1F;
+}
+
 .card-information>.price {
     color: #fff;
 }
