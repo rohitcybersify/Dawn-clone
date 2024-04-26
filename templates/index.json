@@ -628,11 +628,12 @@
       "settings": {
         "numberSlide": 3,
         "slidescroll": 1,
-        "arrow": true
+        "arrow": false
       }
     },
     "animation_slider_ejg3PY": {
       "type": "animation-slider",
+      "disabled": true,
       "settings": {
       }
     }
