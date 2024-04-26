@@ -33,7 +33,32 @@
   <div class="element element-1"><img src="https://dummyimage.com/300x200/000/fff"></div>
 
 </div>
+<script>
+  // Slick Slider
+jQuery(".slick-slider").slick({
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  arrows : false
+});
 
+// Slick Scroll
+jQuery(function () {
+  const slider = jQuery(".slick-slider");
+  slider;
+
+  slider.on("wheel", function (e) {
+    e.preventDefault();
+
+    if (e.originalEvent.deltaY < 0) {
+      jQuery(this).slick("slickNext");
+    } else {
+      jQuery(this).slick("slickPrev");
+    }
+  });
+});
+
+// https://codepen.io/vone8/
+</script>
 {% schema %}
   {
     "name": "On Scroll Slider",
