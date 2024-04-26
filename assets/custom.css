@@ -54,7 +54,7 @@ h2 {
 .field__input::placeholder,
 .customer .field input::placeholder {
   opacity: 0.5 !important;
-  font-family: outfit !important;
+  /* font-family: outfit !important; */
 }
 .newsletter-form__field-wrapper .field__label {
   display: none;
@@ -66,7 +66,7 @@ h2 {
 }
 .newsletter-form__button {
   width: 8rem !important;
-  font-family: outfit;
+  /* font-family: outfit; */
   font-size: 14px;
   color: #000 !important;
   text-transform: uppercase;
