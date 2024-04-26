@@ -628,7 +628,12 @@
       "settings": {
         "numberSlide": 3,
         "slidescroll": 1,
-        "arrow": true
+        "arrow": false
+      }
+    },
+    "animation_slider_ejg3PY": {
+      "type": "animation-slider",
+      "settings": {
       }
     }
   },
@@ -644,6 +649,7 @@
     "collection_slider_PePn6P",
     "image_with_text_kgzrzc",
     "image_gallery_EgWVRf",
-    "onscroll_slider_ic4hgz"
+    "onscroll_slider_ic4hgz",
+    "animation_slider_ejg3PY"
   ]
 }
