@@ -6,7 +6,7 @@
         "slide_MRhpWi": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/New_Project.png",
+            "image": "shopify:\/\/shop_images\/bg-1-662ba0c77af4d.webp",
             "bannerCaption": "Amazing look for Wooden watch",
             "heading": "Transform functional tables",
             "heading_size": "h0",
@@ -14,28 +14,9 @@
             "button_label": "Buy Now",
             "link": "",
             "button_style_secondary": false,
-            "box_align": "middle-left",
+            "box_align": "middle-right",
             "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 10,
-            "color_scheme": "scheme-0d827297-8253-435d-89c9-abe01e03ee39",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_FKMUkB": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/clock-429955_1920.jpg",
-            "bannerCaption": "Classy watch",
-            "heading": "Discover the Perfect Sofa Chair for Your Home Decor.",
-            "heading_size": "h1",
-            "subheading": "Discover the perfect blend of style and functionality with our high-quality sofa chairs.",
-            "button_label": "Buy Now",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
+            "text_alignment": "right",
             "image_overlay_opacity": 10,
             "color_scheme": "scheme-0d827297-8253-435d-89c9-abe01e03ee39",
             "text_alignment_mobile": "center"
@@ -43,8 +24,7 @@
         }
       },
       "block_order": [
-        "slide_MRhpWi",
-        "slide_FKMUkB"
+        "slide_MRhpWi"
       ],
       "settings": {
         "layout": "full_bleed",
@@ -630,12 +610,6 @@
         "slidescroll": 1,
         "arrow": false
       }
-    },
-    "animation_slider_ejg3PY": {
-      "type": "animation-slider",
-      "disabled": true,
-      "settings": {
-      }
     }
   },
   "order": [
@@ -650,7 +624,6 @@
     "collection_slider_PePn6P",
     "image_with_text_kgzrzc",
     "image_gallery_EgWVRf",
-    "onscroll_slider_ic4hgz",
-    "animation_slider_ejg3PY"
+    "onscroll_slider_ic4hgz"
   ]
 }
