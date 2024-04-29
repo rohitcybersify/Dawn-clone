@@ -1,20 +1,30 @@
-.gradient {
+/* .gradient {
     background: #1a2d1f ~!important;
+} */
+h1,
+h2,
+h3,
+h4,
+h5,
+.h0,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5 {
+  color: #fff !important;
 }
-h1, h2, h3, h4, h5, .h0, .h1, .h2, .h3, .h4, .h5 {
-    color: #fff !important;
-}
-.collection, .color-background-1.gradient {
-	background: #1A2D1F !important;
+.collection,
+.color-background-1.gradient {
+  background: #1a2d1f !important;
 }
 .color-background-1.gradient .collection-list-wrapper.page-width {
-	max-width: 100%;
-	padding: 0;
+  max-width: 100%;
+  padding: 0;
 }
-.card-information>.price {
-    color: #fff;
+.card-information > .price {
+  color: #fff;
 }
-
 
 body,
 h2 {
