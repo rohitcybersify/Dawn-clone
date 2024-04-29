@@ -634,6 +634,7 @@
         "block_mfkBcX",
         "block_JfeM4t"
       ],
+      "disabled": true,
       "settings": {
         "numberSlide": 3,
         "slidescroll": 1,
