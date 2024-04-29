@@ -26,7 +26,8 @@
       {%- render 'social-icons' -%}
     {%- endif -%}
 
- {% render 'header-search', input_id: 'Search-In-Modal' %}
+  <div class="left-wrap">  
+ {% render 'header-search', input_id: 'Search-In-Modal' %} </div>
     
     {%- if section.blocks.size == 1 -%}
       <div
