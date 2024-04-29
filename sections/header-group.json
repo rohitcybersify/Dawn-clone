@@ -53,6 +53,8 @@
     "header": {
       "type": "header",
       "settings": {
+        "location_image": "shopify:\/\/shop_images\/yorkdale-logo-13.svg",
+        "location_image2": "shopify:\/\/shop_images\/squareone-logo-14.svg",
         "logo_position": "top-center",
         "menu": "wooden-watch",
         "menu_type_desktop": "mega",
