@@ -30,8 +30,8 @@
         "show_social": false,
         "left-icons": false,
         "right-icons": false,
-        "auto_rotate": false,
-        "change_slides_speed": 5,
+        "auto_rotate": true,
+        "change_slides_speed": 3,
         "enable_country_selector": false,
         "enable_language_selector": false
       }
