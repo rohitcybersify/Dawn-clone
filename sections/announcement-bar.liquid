@@ -26,6 +26,7 @@
       {%- render 'social-icons' -%}
     {%- endif -%}
 
+ {% render 'header-search', input_id: 'Search-In-Modal' %}
     
     {%- if section.blocks.size == 1 -%}
       <div
@@ -269,7 +270,6 @@
           </localization-form>
         {%- endif -%}
       </div>
-      {% render 'header-search', input_id: 'Search-In-Modal' %}
 
       {%- if shop.customer_accounts_enabled -%}
         <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}" class="header__icon header__icon--account link focus-inset{% if section.settings.menu != blank %} small-hide{% endif %}">
