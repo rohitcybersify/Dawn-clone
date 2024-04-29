@@ -121,12 +121,13 @@ ul.mega-menu__list.page-width.mega-menu__list--condensed {
   
 $(document).ready(function(){
   $(".mega-menu").mouseover(function(){     
-    $(this).children(".mega-menu__content").toggleClass("result_hover"); 
-      $(this).children(".mega-menu__content").toggleClass("remove_hover"); 
-  });  
+    $(this).children(".mega-menu__content").removeClass("result_hover"); 
+      $(this).children(".mega-menu__content").addClass("remove_hover"); 
+  }); 
+  
    $(".mega-menu").mouseout(function(){
-    $(this).children( ".mega-menu__content").toggleClass("result_hover"); 
-      $(this).children( ".mega-menu__content").toggleClass("remove_hover"); 
+    $(this).children( ".mega-menu__content").removeClass("result_hover"); 
+      $(this).children( ".mega-menu__content").addClass("remove_hover"); 
   });  
 
   //  $(".f-child").mouseover(function(){     
