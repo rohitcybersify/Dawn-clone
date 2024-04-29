@@ -1,7 +1,15 @@
-{% comment %}
-  Renders a megamenu for the header.
+ <style>
+   .js .mega-menu__content {opacity: unset!important;}
+  .result_hover {display:none;}
+  .gresult_hover {display:none;}
+  .mega-menu__content {position:absolute; width: 100%; left: 0; right: 0;z-index: 10;top:90%}
+  ul.mega-menu__list { display: flex; gap: 5%;padding: 5px 20px; background: #fff;justify-content: center; align-items: flex-start;}
+ul.mega-menu__list.page-width.mega-menu__list--condensed {
+    display: flex!important;
+}
+ </style>
 
-  Usage:
+{% comment %}
   {% render 'header-mega-menu' %}
 {% endcomment %}
 
@@ -11,8 +19,8 @@
       <li>
         {%- if link.links != blank -%}
           <header-menu>
-            <details id="Details-HeaderMenu-{{ forloop.index }}" class="mega-menu">
-              <summary
+            <div id="Details-HeaderMenu-{{ forloop.index }}" class="mega-menu">
+              <div
                 id="HeaderMenu-{{ link.handle }}"
                 class="header__menu-item list-menu__item link focus-inset"
               >
@@ -23,11 +31,11 @@
                 >
                   {{- link.title | escape -}}
                 </span>
-                {% render 'icon-caret' %}
-              </summary>
+               {% comment %} {% render 'icon-caret' %}  {% endcomment %} 
+              </div>
               <div
                 id="MegaMenu-Content-{{ forloop.index }}"
-                class="mega-menu__content color-{{ section.settings.menu_color_scheme }} gradient motion-reduce global-settings-popup"
+                class="mega-menu__content result_hover color-{{ section.settings.menu_color_scheme }} gradient motion-reduce global-settings-popup"
                 tabindex="-1"
               >
                 <ul
@@ -35,7 +43,14 @@
                   role="list"
                 >
                   {%- for childlink in link.links -%}
-                    <li>
+                    <li class="f-child">
+
+                      {% if childlink.title contains 'https' %}
+                         <a href="{{ childlink.url }}">
+                         <img src=' {{ childlink.title }}' width="50" height="60">
+                        </a>
+          
+                  {% else %}  
                       <a
                         id="HeaderMenu-{{ link.handle }}-{{ childlink.handle }}"
                         href="{{ childlink.url }}"
@@ -46,10 +61,19 @@
                       >
                         {{ childlink.title | escape }}
                       </a>
+                       {% endif %}
+                    
                       {%- if childlink.links != blank -%}
-                        <ul class="list-unstyled" role="list">
+                        <ul class="list-unstyled grand gresult_hover" role="list">
                           {%- for grandchildlink in childlink.links -%}
                             <li>
+
+                              {% if grandchildlink.title contains 'https' %}
+                         <a href="{{ grandchildlink.url }}">
+                         <img src=' {{ grandchildlink.title }}' width="50" height="60">
+                        </a>
+          
+                  {% else %}  
                               <a
                                 id="HeaderMenu-{{ link.handle }}-{{ childlink.handle }}-{{ grandchildlink.handle }}"
                                 href="{{ grandchildlink.url }}"
@@ -60,6 +84,7 @@
                               >
                                 {{ grandchildlink.title | escape }}
                               </a>
+                               {% endif %}
                             </li>
                           {%- endfor -%}
                         </ul>
@@ -68,7 +93,7 @@
                   {%- endfor -%}
                 </ul>
               </div>
-            </details>
+            </div>
           </header-menu>
         {%- else -%}
           <a
@@ -92,3 +117,28 @@
     {%- endfor -%}
   </ul>
 </nav>
+
+<script>
+  
+$(document).ready(function(){
+  $(".mega-menu").mouseover(function(){     
+    $(this).children(".mega-menu__content").toggleClass("result_hover"); 
+      $(this).children(".mega-menu__content").toggleClass("remove_hover"); 
+  });  
+   $(".mega-menu").mouseout(function(){
+    $(this).children( ".mega-menu__content").toggleClass("result_hover"); 
+      $(this).children( ".mega-menu__content").toggleClass("remove_hover"); 
+  });  
+
+   $(".f-child").mouseover(function(){     
+    $(this).children(".grand").toggleClass("gresult_hover"); 
+      $(this).children(".grand").toggleClass("gremove_hover"); 
+     
+  });  
+   $(".f-child").mouseout(function(){
+    $(this).children( ".grand").toggleClass("gresult_hover"); 
+      $(this).children( ".grand").toggleClass("gremove_hover"); 
+  });  
+  }); 
+  
+</script>
