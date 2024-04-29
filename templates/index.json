@@ -131,13 +131,41 @@
           "settings": {
             "collection": "macbook-pro"
           }
+        },
+        "featured_collection_DNeXHJ": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "macbook-pro"
+          }
+        },
+        "featured_collection_fWyacq": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "gift-set-watches"
+          }
+        },
+        "featured_collection_mqbNJj": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "macbook-pro"
+          }
+        },
+        "featured_collection_YJU8y4": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "gift-set-watches"
+          }
         }
       },
       "block_order": [
         "featured_collection_VrpGR7",
         "featured_collection_GcYyYg",
         "featured_collection_xE8nmN",
-        "featured_collection_FUpRYJ"
+        "featured_collection_FUpRYJ",
+        "featured_collection_DNeXHJ",
+        "featured_collection_fWyacq",
+        "featured_collection_mqbNJj",
+        "featured_collection_YJU8y4"
       ],
       "settings": {
         "title": "Collections",
