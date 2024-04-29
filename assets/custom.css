@@ -1,5 +1,7 @@
-
-h1,
+/* .gradient {
+    background: #1a2d1f ~!important;
+} */
+/* h1,
 h2,
 h3,
 h4,
@@ -9,8 +11,13 @@ h5,
 .h2,
 .h3,
 .h4,
-.h5 
-
+.h5 {
+  color: #fff !important;
+} */
+/* .collection,
+.color-background-1.gradient {
+  background: #1a2d1f !important;
+} */
 .color-background-1.gradient .collection-list-wrapper.page-width {
   max-width: 100%;
   padding: 0;
