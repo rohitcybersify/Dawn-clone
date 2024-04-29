@@ -35,6 +35,9 @@
  {% render 'header-search', input_id: 'Search-In-Modal' %}
      {%- endif -%}
   </div>
+
+
+<div class="middle-wrap">
     
     {%- if section.blocks.size == 1 -%}
       <div
@@ -218,6 +221,8 @@
           {%- endform -%}
         </localization-form>
       {%- endif -%}
+    </div>
+      
 
   {%- if section.settings.right-icons -%}
     <div class="header__icons{% if section.settings.enable_country_selector or section.settings.enable_language_selector %} header__icons--localization header-localization{% endif %}">
