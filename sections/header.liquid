@@ -169,7 +169,7 @@
         <h1 class="header__heading">
       {%- endif -%}
 
-<div class="flex-col">
+
        {% if section.settings.location_image != blank %} 
                     <a href="https://www.google.com/maps/place/Raffi+Jewellers+-+Yorkdale+-+Rolex+Official+Retailer/@43.7250234,-79.4561887,17z/data=!3m2!4b1!5s0x882b323414fd66c5:0xebbb95527c58e388!4m5!3m4!1s0x882b3233a764027d:0xfb2010e3fa2a2463!8m2!3d43.7250195!4d-79.4539947" target="_blank">
                  <img  src="{{ section.settings.location_image | image_url  }}" height="" width="">      
@@ -179,7 +179,7 @@
                    <img  src="{{ section.settings.location_image2 | image_url  }}" height="" width=""> 
                     </a>
   {% endif %} 
-                </div>
+              
 
           
           <a href="{{ routes.root_url }}" class="header__heading-link link link--text focus-inset">
