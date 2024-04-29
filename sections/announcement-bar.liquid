@@ -28,10 +28,13 @@
      {%- if section.settings.show_social and social_icons -%}
       {%- render 'social-icons' -%}
     {%- endif -%}
-            <a href="/wishlist" class="secondary-menu">
+         {%- if section.settings.left-icons -%}
+    <a href="/wishlist" class="secondary-menu">
               <img width="13" height="14" data-src="https://raffijewellers.com/wp-content/themes/raffi/assets/images/wishlist-icon-10.svg" alt="Wishlist Icon" src="https://raffijewellers.com/wp-content/themes/raffi/assets/images/wishlist-icon-10.svg" class=" ls-is-cached lazyloaded" style="--smush-placeholder-width: 13px; --smush-placeholder-aspect-ratio: 13/14;">
              <span class="text mobile-hide">WISHLIST</span> </a>
- {% render 'header-search', input_id: 'Search-In-Modal' %} </div>
+ {% render 'header-search', input_id: 'Search-In-Modal' %}
+     {%- endif -%}
+  </div>
     
     {%- if section.blocks.size == 1 -%}
       <div
