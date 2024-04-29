@@ -39,7 +39,7 @@
     "announcement_bar_RB6Xgp": {
       "type": "announcement-bar",
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "background-1",
         "show_line_separator": true,
         "show_social": false,
         "left-icons": true,
