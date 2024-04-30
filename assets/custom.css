@@ -713,6 +713,9 @@ h1.header__heading.flex-logoes {
 .collection .slider-buttons {
   display: none;
 }
+.collection .product-grid.slider {
+  margin-top: 0 !important;
+}
 /* resposnive css start */
 
 /* min-media css  */
