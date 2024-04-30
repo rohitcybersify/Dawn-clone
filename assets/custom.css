@@ -676,7 +676,9 @@ h1.header__heading.flex-logoes {
   max-width: 500px;
   max-height: 500px;
 }
-
+.card__information product-form {
+  display: none;
+}
 /* resposnive css start */
 
 /* min-media css  */
