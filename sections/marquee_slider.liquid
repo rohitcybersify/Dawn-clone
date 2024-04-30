@@ -1,5 +1,5 @@
 <style>
-          marquee {
+          /* marquee {
             padding: 10px;
             box-shadow: 0 1px 3px rgba(0, 0, 0, .1);
             border: 1px solid rgba(0, 0, 0, .15);
@@ -10,17 +10,57 @@
     display: flex;
     white-space: nowrap;
     animation: var(--direction) var(--marquee-speed) linear infinite;
+} */
+
+  .text-center {
+    text-align: center !important;
+}
+  .mb-5 {
+    margin-bottom: 3rem !important;
+}
+  .scrolling-text-inner {
+    display: flex;
+    white-space: nowrap;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 0;
+}
+  .scrolling-text-inner > div {
+    animation: var(--direction) var(--marquee-speed) linear infinite;
+}
+  .scrolling-text {
+    display: flex;
+}
+  .scrolling-text-item {
+    padding: 0 30px;
 }
 </style>
 
-
-<marquee class="marquee-section" style="--marquee-speed: 20s; --direction:scroll-left" direction="left" behavior="scroll" scrollamount="10">
+{% comment %}
+ <marquee class="marquee-section" style="--marquee-speed: 20s; --direction:scroll-left" direction="left" behavior="scroll" scrollamount="10">
   <div class="marquee-flex">
   {% for block in section.blocks %}
      {{ block.settings.text }}
      {% endfor %}
     </div>
-    </marquee>
+    </marquee>{% endcomment %}
+
+    <div class="scrolling-text-container">
+    <div class="scrolling-text-inner" style="--marquee-speed: 20s; --direction:scroll-left" role="marquee">
+        <div class="scrolling-text">
+            <div class="scrolling-text-item">Software Update v2.4 Available</div>
+            <div class="scrolling-text-item">New Python Course Released</div>
+            <div class="scrolling-text-item">24/7 Tech Support Available</div>
+            <div class="scrolling-text-item">Data Center Maintenance on Oct 15</div>
+        </div>
+        <div class="scrolling-text">
+            <div class="scrolling-text-item">Software Update v2.4 Available</div>
+            <div class="scrolling-text-item">New Python Course Released</div>
+            <div class="scrolling-text-item">24/7 Tech Support Available</div>
+            <div class="scrolling-text-item">Data Center Maintenance on Oct 15</div>
+        </div>
+    </div>
+</div>
 
 
 {% schema %}
