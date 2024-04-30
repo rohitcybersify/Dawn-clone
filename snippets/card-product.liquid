@@ -2,6 +2,10 @@
 .custom_featured  .card .media {
     top: 32%!important;
 }
+ .custom_featured .collection .card__inner.color-background-2.gradient.ratio {
+    max-height: 555px;
+    height: 100%;
+}
 </style>
 
 
@@ -68,7 +72,10 @@
                 aria-labelledby="StandardCardNoMediaLink-{{ section_id }}-{{ card_product.id }} NoMediaStandardBadge-{{ section_id }}-{{ card_product.id }}"
               >
                 {{ card_product.title | escape }}
-              </a> </div>
+              </a> 
+         {% render 'price', product: card_product, price_class: '', show_compare_at_price: true %}
+        
+        </div>
         
         {%- if card_product.featured_media -%}
           <div class="card__media{% if image_shape and image_shape != 'default' %} shape--{{ image_shape }} color-{{ settings.card_color_scheme }} gradient{% endif %}">
