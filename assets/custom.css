@@ -741,6 +741,10 @@ h1.header__heading.flex-logoes {
   background: #000;
   color: #fff;
 }
+.collection .tabcontent-cus {
+  border: 1px solid #eee;
+  padding: 30px;
+}
 /* resposnive css start */
 
 /* min-media css  */
