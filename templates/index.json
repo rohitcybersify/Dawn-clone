@@ -636,10 +636,22 @@
             "stencil_all_text": false,
             "stencil_text": ""
           }
+        },
+        "text_DHGTar": {
+          "type": "text",
+          "settings": {
+            "text": "Your scrolling text here",
+            "color": "#dd1d1d",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
         }
       },
       "block_order": [
-        "text_r8MPGB"
+        "text_r8MPGB",
+        "text_DHGTar"
       ],
       "settings": {
         "full_width": true,
