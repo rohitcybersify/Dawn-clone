@@ -494,11 +494,13 @@ svg#Layer_1 {
 }
 
 .secondary-menu {
-  text-decoration: none;
   font-size: 12px;
   color: #333;
   text-decoration: none;
+  display: inline-flex;
+  gap: 5px;
 }
+
 /* header new css ended */
 
 /* resposnive css start */
