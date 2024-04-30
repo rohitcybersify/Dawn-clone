@@ -631,10 +631,10 @@
           "settings": {
             "text": "Your scrolling text here",
             "color": "#dd1d1d",
-            "link": "",
+            "link": "shopify:\/\/collections",
             "use_h1": false,
             "stencil_all_text": false,
-            "stencil_text": ""
+            "stencil_text": "fdf"
           }
         },
         "text_DHGTar": {
@@ -683,8 +683,8 @@
         "text_size": 50,
         "vertical_padding": 20,
         "speed": 35,
-        "direction": "left",
-        "font": "heading",
+        "direction": "right",
+        "font": "base",
         "space": 50
       }
     }
