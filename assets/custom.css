@@ -489,7 +489,7 @@ svg#Layer_1 {
 .top_announcement
   summary.header__icon.header__icon--search.header__icon--summary.link.focus-inset.modal__toggle {
   display: inline-flex;
-  gap: 5px;
+  gap: 10px;
   text-decoration: none;
   align-items: center;
 }
