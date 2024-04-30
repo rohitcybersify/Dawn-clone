@@ -718,7 +718,8 @@ h1.header__heading.flex-logoes {
 }
 .collection__title.title-wrapper.title-wrapper--no-top-margin.page-width {
   padding: 0 !important;
-  margin: 0 !important;
+  margin: 0 0 20px 0 !important;
+  border-bottom: 1px solid #eeee;
 }
 
 .collection .slider-component-full-width .slider--desktop .slider__slide {
