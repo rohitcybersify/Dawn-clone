@@ -638,10 +638,10 @@ h1.header__heading.flex-logoes {
   display: flex;
   flex-direction: column-reverse;
 }
-.custom_featured .card__media {
-  max-height: 400px;
+.custom_featured .collection .card__inner.color-background-2.gradient.ratio {
+  display: flex;
+  flex-direction: column-reverse;
 }
-
 /* resposnive css start */
 
 /* min-media css  */
