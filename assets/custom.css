@@ -385,13 +385,13 @@ h3.card__heading.h5 .full-unstyled-link {
 h3.card__heading.h5 .full-unstyled-link:hover {
   text-decoration: none;
 }
-/* .featuredProductImage {
-  border-radius: 15px;
-} */
-/* .product-grid .card__media,
+.featuredProductImage {
+  border-radius: 0px !important;
+}
+.product-grid .card__media,
 .product-grid .card__inner {
-  border-radius: 15px;
-} */
+  border-radius: 0px !important;
+}
 .product-grid .card-information {
   position: relative;
 }
