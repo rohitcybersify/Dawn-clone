@@ -561,6 +561,11 @@ svg#Layer_1 {
 .top_announcement .modal__close-button:hover .icon {
   transform: unset;
 }
+
+.header.header--top-center {
+  display: flex !important;
+  flex-direction: column !important;
+}
 /* header new css ended */
 
 /* resposnive css start */
