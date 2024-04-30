@@ -681,6 +681,10 @@ h1.header__heading.flex-logoes {
   padding: 0 !important;
 }
 
+.collection .card__media .media img {
+  object-fit: contain !important;
+}
+
 /* resposnive css start */
 
 /* min-media css  */
