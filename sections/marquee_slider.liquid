@@ -15,7 +15,7 @@
 <marquee class="marquee-section" direction="left" behavior="scroll" scrollamount="10">
   <div class="marquee-flex">
   {% for block in section.blocks %}
-     <h5> {{ block.settings.text }} </h5>
+     {{ block.settings.text }}
      {% endfor %}
     </div>
     </marquee>

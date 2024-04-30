@@ -754,7 +754,9 @@ h1.header__heading.flex-logoes {
 .collection .card__inner.color-background-2.gradient.ratio img {
   object-fit: contain;
 }
-.collection .card__information {
+.collection .card__information,
+.collection .product-grid .card-information {
+  width: 100%;
   text-align: left;
 }
 /* resposnive css start */
