@@ -368,6 +368,7 @@
         "image_hNrbyW",
         "image_JJMPgP"
       ],
+      "disabled": true,
       "settings": {
         "customclass": "custom-grid",
         "alignment": "middle"
