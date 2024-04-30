@@ -478,6 +478,15 @@ svg#Layer_1 {
 .watch_buy .button {
   opacity: 1 !important;
 }
+
+/* header new css started */
+.color-background-1 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+/* header new css ended */
+
 /* resposnive css start */
 
 /* min-media css  */
