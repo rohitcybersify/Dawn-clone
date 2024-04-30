@@ -699,12 +699,9 @@ h1.header__heading.flex-logoes {
   color: #fff !important;
   opacity: 1 !important;
 }
-.custom_featured .product-grid .card__media {
-  max-height: 300px;
-}
 
-.custom_featured .collection .card__inner.color-background-2.gradient.ratio {
-  max-height: 500px !important;
+.collection__title.title-wrapper.title-wrapper--no-top-margin.page-width {
+  padding: 0 !important;
 }
 /* resposnive css start */
 
