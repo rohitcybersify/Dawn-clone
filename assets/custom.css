@@ -536,7 +536,10 @@ svg#Layer_1 {
   align-items: center;
   justify-content: center;
 }
-
+.top_announcement .header__icons {
+  padding-right: 0;
+  gap: 10px;
+}
 /* header new css ended */
 
 /* resposnive css start */
