@@ -815,9 +815,9 @@ h1.header__heading.flex-logoes {
   position: relative;
 }
 
-.gallery-image img {
+/* .gallery-image img {
   max-height: 350px;
-}
+} */
 
 .gallery_content {
   position: absolute;
