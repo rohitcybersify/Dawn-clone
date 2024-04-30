@@ -665,10 +665,22 @@
             "stencil_all_text": false,
             "stencil_text": ""
           }
+        },
+        "text_FW7JKV": {
+          "type": "text",
+          "settings": {
+            "text": "Your scrolling text here",
+            "color": "rgba(0,0,0,0)",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
         }
       },
       "block_order": [
-        "text_PU9Ck9"
+        "text_PU9Ck9",
+        "text_FW7JKV"
       ],
       "settings": {
         "full_width": true,
