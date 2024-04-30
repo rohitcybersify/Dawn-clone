@@ -684,12 +684,12 @@ h1.header__heading.flex-logoes {
 .collection .card__media .media img {
   object-fit: contain !important;
 }
-.collection .card__inner.color-background-2.gradient.ratio {
+/* .collection .card__inner.color-background-2.gradient.ratio {
   max-height: 100%;
   display: flex;
   flex-direction: column-reverse;
   background: #fff;
-}
+} */
 
 /* resposnive css start */
 
