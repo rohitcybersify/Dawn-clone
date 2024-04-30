@@ -633,8 +633,8 @@
             "color": "#dd1d1d",
             "link": "shopify:\/\/collections",
             "use_h1": false,
-            "stencil_all_text": false,
-            "stencil_text": ""
+            "stencil_all_text": true,
+            "stencil_text": "ttttt"
           }
         },
         "text_W9epEG": {
@@ -691,13 +691,13 @@
       ],
       "settings": {
         "full_width": true,
-        "color_scheme": "default",
-        "text_size": 50,
-        "vertical_padding": 20,
-        "speed": 35,
+        "color_scheme": "2",
+        "text_size": 40,
+        "vertical_padding": 18,
+        "speed": 13,
         "direction": "left",
-        "font": "heading",
-        "space": 50
+        "font": "base",
+        "space": 25
       }
     }
   },
