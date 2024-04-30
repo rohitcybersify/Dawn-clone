@@ -831,6 +831,17 @@ h5.grid-collection-heading {
   font-weight: 600;
   color: #fff;
 }
+
+.gallery-btn {
+  color: #fff;
+  padding: 0;
+  font-size: 14px;
+  border: 1px solid transparent;
+  display: inline-block;
+  border-radius: 12px;
+  background: transparent;
+  font-weight: 500;
+}
 /* resposnive css start */
 
 /* min-media css  */

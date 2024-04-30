@@ -2,7 +2,7 @@
    <div class="main_image">   <img  src="{{ section.settings.collection.featured_image | image_url  }}" height="400px" width="400px"> 
     <div class="main-content"> <h5 class="main-collection-heading">{{ section.settings.collection.title }}</h5>
      <p class="main-collection_description"> {{ section.settings.collection.description }}</p>
-     <a href="{{ section.settings.button-url}}"><button>{{ section.settings.button-label}} <span>{{ section.settings.button-icon}}</span></button></a>
+     <a href="{{ section.settings.button-url}}"><button>{{ section.settings.button-label}} <span class="icn">{{ section.settings.button-icon}}</span></button></a>
     </div>
    </div>
   <div class="my_gallery">   
@@ -13,7 +13,7 @@
        <div class="gallery_content"> 
          <h5 class="grid-collection-heading">
            {{ block.settings.collection1.title }} </h5>
-          <a class="gallerybutton-url" href="{{ block.settings.button-url1}}"><button class="gallery-btn">{{ block.settings.button-label1}} <span>{{  block.settings.button-icon1}}</span></button></a>
+          <a class="gallerybutton-url" href="{{ block.settings.button-url1}}"><button class="gallery-btn">{{ block.settings.button-label1}} <span class="button_icn icn">{{  block.settings.button-icon1}}</span></button></a>
        </div>
      </div>
       
