@@ -812,6 +812,10 @@ h1.header__heading.flex-logoes {
 .main_image {
   width: 39%;
 }
+
+.gallery-imageimg {
+  max-height: 400px;
+}
 /* resposnive css start */
 
 /* min-media css  */
