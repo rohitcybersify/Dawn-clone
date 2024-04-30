@@ -776,12 +776,14 @@ h1.header__heading.flex-logoes {
   height: 100%;
 }
 .custom_featured .card__media {
+  min-height: 400px;
+  height: 400px;
+}
+.collection .card__media {
   min-height: 200px;
   height: 200px;
-
   bottom: 90px !important;
   position: absolute;
-  top: 0px;
 }
 
 /* resposnive css start */
