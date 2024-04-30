@@ -587,6 +587,35 @@
         "show_container": false
       }
     },
+    "scrolling_banner_wTNHTx": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "text_nyNnnq": {
+          "type": "text",
+          "settings": {
+            "text": "Your scrolling text here",
+            "color": "rgba(0,0,0,0)",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_nyNnnq"
+      ],
+      "settings": {
+        "full_width": true,
+        "color_scheme": "default",
+        "text_size": 50,
+        "vertical_padding": 20,
+        "speed": 35,
+        "direction": "left",
+        "font": "heading",
+        "space": 50
+      }
+    },
     "featured_collection_dJ3xq9": {
       "type": "featured-collection",
       "settings": {
@@ -626,50 +655,6 @@
     "scrolling_banner_YTWRHT": {
       "type": "scrolling-banner",
       "blocks": {
-        "text_CLN6UU": {
-          "type": "text",
-          "settings": {
-            "text": "Your scrolling text here",
-            "color": "#dd1d1d",
-            "link": "shopify:\/\/collections",
-            "use_h1": false,
-            "stencil_all_text": true,
-            "stencil_text": "ttttt"
-          }
-        },
-        "text_W9epEG": {
-          "type": "text",
-          "settings": {
-            "text": "Your scrolling text here",
-            "color": "#dd1d1d",
-            "link": "shopify:\/\/collections\/gift-set-watches",
-            "use_h1": false,
-            "stencil_all_text": false,
-            "stencil_text": ""
-          }
-        },
-        "text_aaybct": {
-          "type": "text",
-          "settings": {
-            "text": "Your scrolling text here",
-            "color": "#dd1d1d",
-            "link": "",
-            "use_h1": false,
-            "stencil_all_text": false,
-            "stencil_text": ""
-          }
-        },
-        "text_XwpDR8": {
-          "type": "text",
-          "settings": {
-            "text": "Your scrolling text here",
-            "color": "#dd1d1d",
-            "link": "shopify:\/\/collections\/gift-set-watches",
-            "use_h1": false,
-            "stencil_all_text": false,
-            "stencil_text": ""
-          }
-        },
         "text_PU9Ck9": {
           "type": "text",
           "settings": {
@@ -683,10 +668,6 @@
         }
       },
       "block_order": [
-        "text_CLN6UU",
-        "text_W9epEG",
-        "text_aaybct",
-        "text_XwpDR8",
         "text_PU9Ck9"
       ],
       "settings": {
@@ -698,35 +679,6 @@
         "direction": "left",
         "font": "base",
         "space": 25
-      }
-    },
-    "scrolling_banner_wTNHTx": {
-      "type": "scrolling-banner",
-      "blocks": {
-        "text_nyNnnq": {
-          "type": "text",
-          "settings": {
-            "text": "Your scrolling text here",
-            "color": "rgba(0,0,0,0)",
-            "link": "",
-            "use_h1": false,
-            "stencil_all_text": false,
-            "stencil_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "text_nyNnnq"
-      ],
-      "settings": {
-        "full_width": true,
-        "color_scheme": "default",
-        "text_size": 50,
-        "vertical_padding": 20,
-        "speed": 35,
-        "direction": "left",
-        "font": "heading",
-        "space": 50
       }
     }
   },
@@ -742,8 +694,8 @@
     "collection_slider_PePn6P",
     "image_with_text_kgzrzc",
     "image_gallery_EgWVRf",
+    "scrolling_banner_wTNHTx",
     "featured_collection_dJ3xq9",
-    "scrolling_banner_YTWRHT",
-    "scrolling_banner_wTNHTx"
+    "scrolling_banner_YTWRHT"
   ]
 }
