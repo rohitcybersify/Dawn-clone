@@ -770,17 +770,22 @@ h1.header__heading.flex-logoes {
 .center.collection__view-all.scroll-trigger.animate--slide-in {
   margin: 50px 0 50px;
 }
-/* resposnive css start */
 
-/* .custom_featured .collection .card__inner.color-background-2.gradient.ratio {
+.custom_featured .collection .card__inner.color-background-2.gradient.ratio {
   max-height: 190px !important;
   height: 100%;
 }
 .custom_featured .card__media {
   min-height: 400px;
   height: 400px;
+
+  bottom: 90px !important;
+  position: absolute;
+  top: 0px;
 }
- */
+
+/* resposnive css start */
+
 /* min-media css  */
 @media screen and (min-width: 750px) {
   .section-sections--22093648888119__footer-padding {
