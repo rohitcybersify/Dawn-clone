@@ -603,8 +603,8 @@ h1.header__heading.flex-logoes {
   content: "";
   border-bottom: 2px solid #97999b;
   bottom: -5px;
-  left: 15px;
-  right: 15px;
+  left: 0px;
+  right: 0px;
   box-shadow: none;
   width: 80%;
   transition: all 0.4s ease-in-out;
