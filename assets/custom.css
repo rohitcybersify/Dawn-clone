@@ -609,6 +609,9 @@ h1.header__heading.flex-logoes {
   width: 80%;
   transition: all 0.4s ease-in-out;
 }
+.js .mega-menu__content {
+  transform: unset !important;
+}
 /* header new css ended */
 
 /* resposnive css start */
