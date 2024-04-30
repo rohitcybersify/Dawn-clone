@@ -688,6 +688,7 @@ h1.header__heading.flex-logoes {
 
 .cart-count-bubble span {
   color: #fff !important;
+  opacity: 1 !important;
 }
 
 /* resposnive css start */
