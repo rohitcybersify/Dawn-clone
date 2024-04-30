@@ -619,7 +619,7 @@ h1.header__heading.flex-logoes {
 .custom_featured .product-grid .card-wrapper {
   padding: 20px;
 }
-.custom_featured .custom_featured .card .media {
+.custom_featured .card .media {
   top: unset !important;
   max-width: 50% !important;
   margin: auto !important;
