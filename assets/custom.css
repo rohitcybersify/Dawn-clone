@@ -793,6 +793,10 @@ h1.header__heading.flex-logoes {
 .section_mains {
   display: flex;
 }
+.my_gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
 /* resposnive css start */
 
 /* min-media css  */
