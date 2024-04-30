@@ -524,7 +524,7 @@ svg#Layer_1 {
   opacity: 1;
 }
 .top_announcement .header__icon span {
-  width: auto;
+  width: auto !important;
   display: inline-flex;
   align-items: center;
   justify-content: center;
