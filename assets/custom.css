@@ -653,11 +653,11 @@ h1.header__heading.flex-logoes {
 }
 
 .custom-grid .flexible-layout {
-  display: grid;
+  /* display: grid;
   grid-gap: 10px;
   grid-template-columns: repeat(3, minmax(250px, 5fr));
   grid-auto-rows: 430px 100%;
-  grid-auto-flow: dense;
+  grid-auto-flow: dense; */
 }
 
 .custom-grid .flexible-layout .column img {
