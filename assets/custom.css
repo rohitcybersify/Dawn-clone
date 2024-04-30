@@ -790,7 +790,9 @@ h1.header__heading.flex-logoes {
   height: 100% !important;
   bottom: 90px !important;
 }
-
+.section_mains {
+  display: flex;
+}
 /* resposnive css start */
 
 /* min-media css  */
