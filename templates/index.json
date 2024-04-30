@@ -570,6 +570,124 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "custom_content_7wGX6m": {
+      "type": "custom-content",
+      "blocks": {
+        "image_UemWjg": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify:\/\/shop_images\/image-45-copyright-1410x792.jpg",
+            "callout_image": "",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "Subheading",
+            "title": "Tell your story",
+            "text": "<p>Pair text with an image to tell a story<\/p>",
+            "enlarge_text": false,
+            "button_label": "Shop Now",
+            "button_style": "primary",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "shadow"
+          }
+        },
+        "image_HM3QEK": {
+          "type": "image",
+          "settings": {
+            "width": "quarter",
+            "image": "shopify:\/\/shop_images\/pexels-ayyappa-film-creations-587546-3419331_d38c8891-234f-4b46-bf84-b3aa4595cd41.jpg",
+            "callout_image": "",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "Subheading",
+            "title": "Tell your story",
+            "text": "<p>Pair text with an image to tell a story<\/p>",
+            "enlarge_text": false,
+            "button_label": "Shop Now",
+            "button_style": "primary",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "shadow"
+          }
+        },
+        "image_QEht67": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "callout_image": "",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "Subheading",
+            "title": "Tell your story",
+            "text": "<p>Pair text with an image to tell a story<\/p>",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "shadow"
+          }
+        },
+        "image_hNrbyW": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "callout_image": "",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "Subheading",
+            "title": "Tell your story",
+            "text": "<p>Pair text with an image to tell a story<\/p>",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "shadow"
+          }
+        },
+        "image_JJMPgP": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "callout_image": "",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "Subheading",
+            "title": "Tell your story",
+            "text": "<p>Pair text with an image to tell a story<\/p>",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "shadow"
+          }
+        }
+      },
+      "block_order": [
+        "image_UemWjg",
+        "image_HM3QEK",
+        "image_QEht67",
+        "image_hNrbyW",
+        "image_JJMPgP"
+      ],
+      "settings": {
+        "customclass": "",
+        "alignment": "middle"
+      }
     }
   },
   "order": [
@@ -583,6 +701,7 @@
     "collection_slider_PePn6P",
     "image_with_text_kgzrzc",
     "image_gallery_EgWVRf",
-    "featured_collection_dJ3xq9"
+    "featured_collection_dJ3xq9",
+    "custom_content_7wGX6m"
   ]
 }
