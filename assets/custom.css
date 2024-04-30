@@ -553,6 +553,10 @@ svg#Layer_1 {
 .top_announcement .header__icon span:hover {
   opacity: 1;
 }
+.top_announcement .header__icon:hover .icon,
+.top_announcement .modal__close-button:hover .icon {
+  transform: unset;
+}
 /* header new css ended */
 
 /* resposnive css start */
