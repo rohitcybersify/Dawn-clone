@@ -616,6 +616,9 @@ h1.header__heading.flex-logoes {
 .custom_featured .collection .card__inner.color-background-2.gradient.ratio {
   background: transparent;
 }
+.custom_featured .product-grid .card-wrapper {
+  padding: 20px;
+}
 
 /* resposnive css start */
 
