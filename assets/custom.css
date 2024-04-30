@@ -481,7 +481,7 @@ svg#Layer_1 {
 
 /* header new css started */
 .top_announcement {
-  display: flex;
+  display: flex !important;
   justify-content: space-between;
   width: 100%;
 }
