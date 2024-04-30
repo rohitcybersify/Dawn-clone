@@ -710,7 +710,9 @@ h1.header__heading.flex-logoes {
   margin-left: 0 !important;
   scroll-margin-left: 1.5rem;
 }
-
+.collection .slider-buttons {
+  display: none;
+}
 /* resposnive css start */
 
 /* min-media css  */
