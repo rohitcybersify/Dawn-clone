@@ -1,6 +1,49 @@
+<section class="mains {% if section.settings.show_container %} page-width {% endif %}">
+   <div class="main_image">  <img  src="{{ section.settings.image-main | image_url  }}" height="" width=""> </div>
+  <div class="my_gallery">   
+   {% for block in section.blocks %}
+     {% if block.settings.image != blank %}
+     <div class="gallery-image" style="width:350px; height:350px;"> 
+         <img  src="{{ block.settings.image | image_url  }}" height="" width="">        
+     </div>
+       {% endif %}
+    {% endfor %}
+  </div>  
+</section>
+
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Magazine-Gallery",
+    "settings": [ 
+      {
+  "type": "checkbox",
+  "id": "show_container",
+  "label": "Enable Container",
+  "default": false
+},
+    {
+      "type": "image_picker",
+      "id": "image-main",
+      "label": "Select Main Image"
+    }   
+    ],
+    "blocks":[
+      
+  {
+    "name": "Image",
+    "type": "slide",
+    "settings": [
+        {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Select Image"
+    }
+    ]
+  }
+    ],
+    "presets": [
+     {"name": "Magazine-Gallery"}
+    ]
   }
 {% endschema %}
