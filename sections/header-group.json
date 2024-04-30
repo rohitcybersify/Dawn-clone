@@ -24,6 +24,7 @@
         "announcement-bar-0",
         "announcement_QPQDk6"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "accent-1",
         "show_line_separator": true,
