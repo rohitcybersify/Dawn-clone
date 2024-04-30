@@ -2,7 +2,7 @@
    <div class="main_image">   <img  src="{{ section.settings.collection.featured_image | image_url  }}" height="400px" width="400px"> 
     <div> {{ section.settings.collection.title }}
       {{ section.settings.collection.title }}
-     <a href="{{ section.settings.button-url}}"><button >{{ section.settings.button-url}}</button></a>
+     <a href="{{ section.settings.button-url}}"><button>{{ section.settings.button-label}} <span>{{ section.settings.button-icon}}</span></button></a>
     </div>
    </div>
   <div class="my_gallery">   
@@ -10,7 +10,9 @@
    
      <div class="gallery-image"> 
          <img  src="{{ block.settings.collection1.featured_image | image_url  }}" height="350px" width="350px"> 
-       <div> {{ block.settings.collection1.title }}</div>
+       <div> {{ block.settings.collection1.title }}
+          <a href="{{ section.settings.button-url1}}"><button>{{ section.settings.button-label1}} <span>{{ section.settings.button-icon1}}</span></button></a>
+       </div>
      </div>
       
     {% endfor %}
@@ -32,7 +34,24 @@
   "type": "collection",
   "id": "collection",
   "label": "Collection"
-} 
+},
+      {
+  "type": "text",
+  "id": "button-label",
+  "label": "Button Label",
+  "default": "SHOP NOW"
+},
+      {
+  "type": "html",
+  "id": "button-icon",
+  "label": "Button Icon"
+},
+      {
+  "type": "url",
+  "id": "button-url",
+  "label": "Button Url"
+}
+      
     ],
     "blocks":[
       
