@@ -123,7 +123,7 @@
                </div>
                 {% endif %}
             {% else %}
-            {% render 'card-product',
+            {% render 'cards_product',
               card_product: product,
               media_aspect_ratio: section.settings.image_ratio,
               image_shape: section.settings.image_shape,
@@ -147,7 +147,7 @@
               {% endif %}
             >
               {%- assign placeholder_image = 'product-apparel-' | append: forloop.rindex -%}
-              {% render 'card-product',
+              {% render 'cards_product',
                 show_vendor: section.settings.show_vendor,
                 placeholder_image: placeholder_image
               %}
