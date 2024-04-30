@@ -772,6 +772,15 @@ h1.header__heading.flex-logoes {
 }
 /* resposnive css start */
 
+.custom_featured .collection .card__inner.color-background-2.gradient.ratio {
+  max-height: 190px !important;
+  height: 100%;
+}
+.custom_featured .card__media {
+  min-height: 400px;
+  height: 400px;
+}
+
 /* min-media css  */
 @media screen and (min-width: 750px) {
   .section-sections--22093648888119__footer-padding {
