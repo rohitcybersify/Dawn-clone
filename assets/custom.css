@@ -655,7 +655,7 @@ h1.header__heading.flex-logoes {
 .custom-grid .flexible-layout {
   display: grid;
 }
-.each-0 {
+/* .each-0 {
   grid-column: 1;
   grid-row: 1 / span 3;
 }
@@ -670,7 +670,7 @@ h1.header__heading.flex-logoes {
 .each-4 {
   grid-column: 3 / span 1;
   grid-row: 2;
-}
+} */
 
 .custom-grid img {
   max-width: 500px;
