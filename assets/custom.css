@@ -621,10 +621,10 @@ h1.header__heading.flex-logoes {
 }
 .custom_featured .custom_featured .card .media {
   top: unset !important;
-  max-width: 50%;
-  margin: auto;
-  left: 0;
-  right: 0;
+  max-width: 50% !important;
+  margin: auto !important;
+  left: 0 !important;
+  right: 0 !important;
 }
 /* resposnive css start */
 
