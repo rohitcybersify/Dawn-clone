@@ -485,13 +485,12 @@ svg#Layer_1 {
   justify-content: space-between;
   width: 100%;
 }
-.top_announcement .left-wrap ,
-.top_announcement summary.header__icon.header__icon--search.header__icon--summary.link.focus-inset.modal__toggle {
-    display: inline-flex;
-    gap: 5px;
-    text-decoration: none;
-}
+.top_announcement .left-wrap,
+.top_announcement
+  summary.header__icon.header__icon--search.header__icon--summary.link.focus-inset.modal__toggle {
   display: inline-flex;
+  gap: 5px;
+  text-decoration: none;
 }
 /* header new css ended */
 
