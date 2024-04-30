@@ -1,6 +1,6 @@
 <section class="section_mains {% if section.settings.show_container %} page-width {% endif %}">
-   <div class="main_image gallery_content">   <img  src="{{ section.settings.collection.featured_image | image_url  }}" height="400px" width="400px"> 
-    <div class="main-content"> <h5 class="main-collection-heading">{{ section.settings.collection.title }}</h5>
+   <div class="main_image ">   <img  src="{{ section.settings.collection.featured_image | image_url  }}" height="400px" width="400px"> 
+    <div class="main-content gallery_content"> <h5 class="main-collection-heading">{{ section.settings.collection.title }}</h5>
      <p class="main-collection_description"> {{ section.settings.collection.description }}</p>
      <a href="{{ section.settings.button-url}}"><button>{{ section.settings.button-label}} <span class="icn mainbutton_icn">{{ section.settings.button-icon}}</span></button></a>
     </div>
