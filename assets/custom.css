@@ -485,6 +485,9 @@ svg#Layer_1 {
   justify-content: space-between;
   width: 100%;
 }
+.top_announcement .left-wrap {
+  display: inline-flex;
+}
 /* header new css ended */
 
 /* resposnive css start */
