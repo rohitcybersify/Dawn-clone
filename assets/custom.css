@@ -823,6 +823,13 @@ h1.header__heading.flex-logoes {
   position: absolute;
   top: 0;
   padding: 30px;
+  width: 100%;
+}
+h5.grid-collection-heading {
+  font-size: 25px;
+  margin: 0 !important;
+  font-weight: 600;
+  color: #fff;
 }
 /* resposnive css start */
 
