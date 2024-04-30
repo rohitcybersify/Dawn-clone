@@ -699,6 +699,35 @@
         "font": "base",
         "space": 25
       }
+    },
+    "scrolling_banner_wTNHTx": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "text_nyNnnq": {
+          "type": "text",
+          "settings": {
+            "text": "Your scrolling text here",
+            "color": "rgba(0,0,0,0)",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_nyNnnq"
+      ],
+      "settings": {
+        "full_width": true,
+        "color_scheme": "default",
+        "text_size": 50,
+        "vertical_padding": 20,
+        "speed": 35,
+        "direction": "left",
+        "font": "heading",
+        "space": 50
+      }
     }
   },
   "order": [
@@ -714,6 +743,7 @@
     "image_with_text_kgzrzc",
     "image_gallery_EgWVRf",
     "featured_collection_dJ3xq9",
-    "scrolling_banner_YTWRHT"
+    "scrolling_banner_YTWRHT",
+    "scrolling_banner_wTNHTx"
   ]
 }
