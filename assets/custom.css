@@ -677,6 +677,10 @@ h1.header__heading.flex-logoes {
   max-height: 500px;
 }
 
+.collection__title.title-wrapper.title-wrapper--no-top-margin.page-width {
+  padding: 0 !important;
+}
+
 /* resposnive css start */
 
 /* min-media css  */
