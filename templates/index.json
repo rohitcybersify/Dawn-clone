@@ -383,6 +383,7 @@
         "slider_rFbdCp"
       ],
       "settings": {
+        "customclass": "tablinks-section",
         "full_width": true,
         "products_to_show": 10,
         "columns_desktop": 4,
