@@ -703,6 +703,14 @@ h1.header__heading.flex-logoes {
 .collection__title.title-wrapper.title-wrapper--no-top-margin.page-width {
   padding: 0 !important;
 }
+.collection
+  .slider-component-full-width
+  .slider--desktop
+  .slider__slide:first-child {
+  margin-left: 0 !important;
+  scroll-margin-left: 1.5rem;
+}
+
 /* resposnive css start */
 
 /* min-media css  */
