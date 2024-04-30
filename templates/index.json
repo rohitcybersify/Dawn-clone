@@ -587,35 +587,6 @@
         "show_container": false
       }
     },
-    "scrolling_banner_wTNHTx": {
-      "type": "scrolling-banner",
-      "blocks": {
-        "text_nyNnnq": {
-          "type": "text",
-          "settings": {
-            "text": "Your scrolling text here",
-            "color": "rgba(0,0,0,0)",
-            "link": "",
-            "use_h1": false,
-            "stencil_all_text": false,
-            "stencil_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "text_nyNnnq"
-      ],
-      "settings": {
-        "full_width": true,
-        "color_scheme": "default",
-        "text_size": 50,
-        "vertical_padding": 20,
-        "speed": 35,
-        "direction": "left",
-        "font": "heading",
-        "space": 50
-      }
-    },
     "featured_collection_dJ3xq9": {
       "type": "featured-collection",
       "settings": {
@@ -651,47 +622,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "scrolling_banner_YTWRHT": {
-      "type": "scrolling-banner",
-      "blocks": {
-        "text_PU9Ck9": {
-          "type": "text",
-          "settings": {
-            "text": "Your scrolling text here",
-            "color": "#dd1d1d",
-            "link": "shopify:\/\/collections\/all",
-            "use_h1": false,
-            "stencil_all_text": false,
-            "stencil_text": ""
-          }
-        },
-        "text_FW7JKV": {
-          "type": "text",
-          "settings": {
-            "text": "Your scrolling text here",
-            "color": "rgba(0,0,0,0)",
-            "link": "",
-            "use_h1": false,
-            "stencil_all_text": false,
-            "stencil_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "text_PU9Ck9",
-        "text_FW7JKV"
-      ],
-      "settings": {
-        "full_width": true,
-        "color_scheme": "2",
-        "text_size": 40,
-        "vertical_padding": 18,
-        "speed": 13,
-        "direction": "left",
-        "font": "base",
-        "space": 25
-      }
     }
   },
   "order": [
@@ -706,8 +636,6 @@
     "collection_slider_PePn6P",
     "image_with_text_kgzrzc",
     "image_gallery_EgWVRf",
-    "scrolling_banner_wTNHTx",
-    "featured_collection_dJ3xq9",
-    "scrolling_banner_YTWRHT"
+    "featured_collection_dJ3xq9"
   ]
 }
