@@ -497,7 +497,8 @@ svg#Layer_1 {
 .top_announcement
   summary.header__icon.header__icon--search.header__icon--summary.link.focus-inset.modal__toggle {
   opacity: 0.4;
-  letter-spacing: 1px;
+  font-weight: 500;
+  letter-spacing: 0;
   color: #212121;
   transition: all 0.3s ease-in;
 }
@@ -508,7 +509,8 @@ svg#Layer_1 {
   display: inline-flex;
   gap: 5px;
   opacity: 0.4;
-  letter-spacing: 1px;
+  font-weight: 500;
+  letter-spacing: 0;
   color: #212121;
   transition: all 0.3s ease-in;
 }
