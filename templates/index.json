@@ -474,25 +474,37 @@
         "slide_Vij8HE": {
           "type": "slide",
           "settings": {
-            "collection1": "macbook-pro"
+            "collection1": "macbook-pro",
+            "button-label1": "SHOP NOW",
+            "button-icon1": "&gt;",
+            "button-url1": ""
           }
         },
         "slide_7eEe4Q": {
           "type": "slide",
           "settings": {
-            "collection1": "gift-set-watches"
+            "collection1": "gift-set-watches",
+            "button-label1": "SHOP NOW",
+            "button-icon1": "&gt;",
+            "button-url1": ""
           }
         },
         "slide_qMiACK": {
           "type": "slide",
           "settings": {
-            "collection1": "gift-set-watches"
+            "collection1": "gift-set-watches",
+            "button-label1": "SHOP NOW",
+            "button-icon1": "&gt;",
+            "button-url1": ""
           }
         },
         "slide_UrawW7": {
           "type": "slide",
           "settings": {
-            "collection1": "macbook-pro"
+            "collection1": "macbook-pro",
+            "button-label1": "SHOP NOW",
+            "button-icon1": "&gt;",
+            "button-url1": ""
           }
         }
       },
@@ -504,7 +516,10 @@
       ],
       "settings": {
         "show_container": true,
-        "collection": "gift-set-watches"
+        "collection": "gift-set-watches",
+        "button-label": "SHOP NOW",
+        "button-icon": "&gt;",
+        "button-url": ""
       }
     }
   },
