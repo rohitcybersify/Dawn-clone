@@ -672,6 +672,10 @@ h1.header__heading.flex-logoes {
   grid-row: 2;
 }
 
+.custom-grid img {
+  max-width: 500px;
+}
+
 /* resposnive css start */
 
 /* min-media css  */
