@@ -5,8 +5,8 @@
   <div class="my_gallery">   
    {% for block in section.blocks %}
    
-     <div class="gallery-image" style="width:350px; height:350px;"> 
-         <img  src="{{ block.settings.collection1.featured_image | image_url  }}" height="" width=""> 
+     <div class="gallery-image"> 
+         <img  src="{{ block.settings.collection1.featured_image | image_url  }}" height="350px" width="350px"> 
        <div> {{ block.settings.collection1.title }}</div>
      </div>
       
