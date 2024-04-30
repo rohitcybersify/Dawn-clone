@@ -620,8 +620,8 @@ h1.header__heading.flex-logoes {
   padding: 20px;
 }
 .custom_featured .card .media {
-  top: unset !important;
-  max-width: 50% !important;
+  top: 0 !important;
+  max-width: 40% !important;
   margin: auto !important;
   left: 0 !important;
   right: 0 !important;
