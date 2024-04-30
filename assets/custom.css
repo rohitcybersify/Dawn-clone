@@ -754,6 +754,9 @@ h1.header__heading.flex-logoes {
 .collection .card__inner.color-background-2.gradient.ratio img {
   object-fit: contain;
 }
+.collection .card__information {
+  text-align: left;
+}
 /* resposnive css start */
 
 /* min-media css  */
