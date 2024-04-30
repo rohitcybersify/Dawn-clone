@@ -905,6 +905,9 @@ section#shopify-section-template--22093649117495__featured_collection_dJ3xq9 {
   .footer-block.grid__item {
     width: 48%;
   }
+  .newsletter_text h2 {
+    font-size: 18px;
+  }
 }
 
 @media screen and (max-width: 749px) {
