@@ -1,7 +1,7 @@
 <section class="section_mains {% if section.settings.show_container %} page-width {% endif %}">
    <div class="main_image">   <img  src="{{ section.settings.collection.featured_image | image_url  }}" height="400px" width="400px"> 
-    <div> {{ section.settings.collection.title }}
-      {{ section.settings.collection.title }}
+    <div class="main-content"> {{ section.settings.collection.title }}
+      {{ section.settings.collection.description }}
      <a href="{{ section.settings.button-url}}"><button>{{ section.settings.button-label}} <span>{{ section.settings.button-icon}}</span></button></a>
     </div>
    </div>
