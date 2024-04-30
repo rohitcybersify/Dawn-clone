@@ -516,7 +516,7 @@ svg#Layer_1 {
   width: 24px !important;
   height: 24px !important;
 }
-.secondary-menu p:hover,
+.secondary-menu:hover,
 .top_announcement
   summary.header__icon.header__icon--search.header__icon--summary.link.focus-inset.modal__toggle:hover {
   opacity: 1;
