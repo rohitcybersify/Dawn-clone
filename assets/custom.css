@@ -491,6 +491,7 @@ svg#Layer_1 {
   display: inline-flex;
   gap: 5px;
   text-decoration: none;
+  align-items: center;
 }
 
 .secondary-menu {
