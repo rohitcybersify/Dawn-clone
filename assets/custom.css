@@ -681,9 +681,9 @@ h1.header__heading.flex-logoes {
   padding: 0 !important;
 }
 
-.collection .card__media .media img {
+/* .collection .card__media .media img {
   object-fit: contain !important;
-}
+} */
 /* .collection .card__inner.color-background-2.gradient.ratio {
   max-height: 100%;
   display: flex;
