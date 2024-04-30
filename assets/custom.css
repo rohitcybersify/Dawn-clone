@@ -613,6 +613,10 @@ h1.header__heading.flex-logoes {
 }
 /* header new css ended */
 
+.custom_featured .collection .card__inner.color-background-2.gradient.ratio {
+  background: transparent;
+}
+
 /* resposnive css start */
 
 /* min-media css  */
