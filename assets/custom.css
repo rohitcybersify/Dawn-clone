@@ -424,8 +424,8 @@ button:after {
   display: none;
 }
 .product-grid .card-wrapper {
-  /* border: 1px solid #000000; */
-  /* border-radius: 15px; */
+  border: 1px solid #333;
+  border-radius: 15px;
 }
 
 .product-grid .card__badge.bottom.left {
