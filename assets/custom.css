@@ -423,8 +423,8 @@ button:after {
   display: none;
 }
 .product-grid .card-wrapper {
-  border: 1px solid #ebebeb;
-  border-radius: 15px;
+  border: 1px solid #0000;
+  /* border-radius: 15px; */
 }
 
 .product-grid .card__badge.bottom.left {
