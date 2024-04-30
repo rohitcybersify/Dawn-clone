@@ -540,6 +540,22 @@ svg#Layer_1 {
   padding-right: 0;
   gap: 10px;
 }
+.top_announcement .header__icon span {
+  width: auto !important;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  opacity: 0.4;
+  font-weight: 500;
+  letter-spacing: 0;
+  color: #212121;
+  transition: all 0.3s ease-in;
+  text-decoration: none;
+}
+.top_announcement .header__icon span:hover {
+  opacity: 1;
+}
 /* header new css ended */
 
 /* resposnive css start */
