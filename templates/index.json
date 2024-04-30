@@ -630,8 +630,8 @@
           "type": "text",
           "settings": {
             "text": "Your scrolling text here",
-            "color": "rgba(0,0,0,0)",
-            "link": "",
+            "color": "#121212",
+            "link": "shopify:\/\/collections",
             "use_h1": false,
             "stencil_all_text": false,
             "stencil_text": ""
@@ -641,8 +641,8 @@
           "type": "text",
           "settings": {
             "text": "Your scrolling text here",
-            "color": "rgba(0,0,0,0)",
-            "link": "",
+            "color": "#121212",
+            "link": "shopify:\/\/collections\/gift-set-watches",
             "use_h1": false,
             "stencil_all_text": false,
             "stencil_text": ""
@@ -652,7 +652,7 @@
           "type": "text",
           "settings": {
             "text": "Your scrolling text here",
-            "color": "rgba(0,0,0,0)",
+            "color": "#dd1d1d",
             "link": "",
             "use_h1": false,
             "stencil_all_text": false,
@@ -663,8 +663,8 @@
           "type": "text",
           "settings": {
             "text": "Your scrolling text here",
-            "color": "rgba(0,0,0,0)",
-            "link": "",
+            "color": "#dd1d1d",
+            "link": "shopify:\/\/collections\/gift-set-watches",
             "use_h1": false,
             "stencil_all_text": false,
             "stencil_text": ""
@@ -674,8 +674,8 @@
           "type": "text",
           "settings": {
             "text": "Your scrolling text here",
-            "color": "rgba(0,0,0,0)",
-            "link": "",
+            "color": "#dd1d1d",
+            "link": "shopify:\/\/collections\/all",
             "use_h1": false,
             "stencil_all_text": false,
             "stencil_text": ""
