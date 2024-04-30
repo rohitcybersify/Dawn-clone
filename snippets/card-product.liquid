@@ -240,6 +240,7 @@
 
     {% comment %}        {% render 'price', product: card_product, price_class: '', show_compare_at_price: true %} {% endcomment %}
 
+            {{ card_product.description }}{{ 'fsfsfsf' }}
             {% if show_instock %}
                {% if card_product.variants.first.inventory_quantity > 0 %}
                    <div class="checkInStock">
