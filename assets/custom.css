@@ -730,6 +730,7 @@ h1.header__heading.flex-logoes {
   color: #000;
   border: 1px solid #eee;
   border-bottom: 0;
+  cursor: pointer;
 }
 .collection .tablinks-cus p {
   font-size: 14px;
