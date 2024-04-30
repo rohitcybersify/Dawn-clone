@@ -674,6 +674,7 @@ h1.header__heading.flex-logoes {
 
 .custom-grid img {
   max-width: 500px;
+  max-height: 500px;
 }
 
 /* resposnive css start */
