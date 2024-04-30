@@ -571,6 +571,7 @@ h1.header__heading.flex-logoes {
   display: flex;
   justify-content: space-between;
   width: 100%;
+  align-items: center;
 }
 .locate_links a {
   color: transparent;
