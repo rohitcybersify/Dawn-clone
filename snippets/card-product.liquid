@@ -1,4 +1,4 @@
-<style>
+{% comment %} <style>
 .custom_featured .card__media .media img {
     height: 100%;
     object-fit: contain;
@@ -27,7 +27,7 @@
  .custom_featured .full-unstyled-link {
     font-size: 17px;} 
 </style>
-
+ {% endcomment %}
 
 {% comment %}
   Renders a product card
@@ -84,7 +84,7 @@
         style="--ratio-percent: {{ 1 | divided_by: ratio | times: 100 }}%;"
       >
 
-        <div class="t_title"> 
+  {% comment %} <div class="t_title"> 
           <a
                 href="{{ card_product.url }}"
                 id="StandardCardNoMediaLink-{{ section_id }}-{{ card_product.id }}"
@@ -93,7 +93,7 @@
               >
                 {{ card_product.title | escape }}
               </a> 
-         {% render 'price', product: card_product, price_class: '', show_compare_at_price: true %}
+         {% render 'price', product: card_product, price_class: '', show_compare_at_price: true %} {% endcomment %}   
         
         </div>
         
