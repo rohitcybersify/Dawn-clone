@@ -5,7 +5,7 @@
    
      <div class="gallery-image" style="width:350px; height:350px;"> 
          <img  src="{{ block.settings.collection1.featured_image | image_url  }}" height="" width=""> 
-       <div> </div>
+       <div> {{ block.settings.collection1.title }}</div>
      </div>
       
     {% endfor %}
