@@ -12,7 +12,7 @@
 </style>
 
 
-<marquee class="marquee-section" direction="left" behavior="scroll" scrollamount="10">
+<marquee class="marquee-section" style="--marquee-speed: 20s; --direction:scroll-left" direction="left" behavior="scroll" scrollamount="10">
   <div class="marquee-flex">
   {% for block in section.blocks %}
      {{ block.settings.text }}
