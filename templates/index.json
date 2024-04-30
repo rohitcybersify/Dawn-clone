@@ -105,116 +105,38 @@
         "padding_bottom": 36
       }
     },
-    "collection_list_nYeRfW": {
-      "type": "collection-list",
-      "blocks": {
-        "featured_collection_VrpGR7": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "imac"
-          }
-        },
-        "featured_collection_GcYyYg": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "macbook"
-          }
-        },
-        "featured_collection_xE8nmN": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "macbook-pro"
-          }
-        },
-        "featured_collection_FUpRYJ": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "macbook-pro"
-          }
-        },
-        "featured_collection_DNeXHJ": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "macbook-pro"
-          }
-        },
-        "featured_collection_fWyacq": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "gift-set-watches"
-          }
-        },
-        "featured_collection_mqbNJj": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "macbook-pro"
-          }
-        },
-        "featured_collection_YJU8y4": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "gift-set-watches"
-          }
-        }
-      },
-      "block_order": [
-        "featured_collection_VrpGR7",
-        "featured_collection_GcYyYg",
-        "featured_collection_xE8nmN",
-        "featured_collection_FUpRYJ",
-        "featured_collection_DNeXHJ",
-        "featured_collection_fWyacq",
-        "featured_collection_mqbNJj",
-        "featured_collection_YJU8y4"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "",
-        "btnLabel": "Shop Now",
-        "heading_size": "h1",
-        "image_ratio": "square",
-        "columns_desktop": 4,
-        "color_scheme": "",
-        "show_view_all": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "featured_collection_xXC7Cm": {
+    "featured_collection_dJ3xq9": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
-        "className": "",
-        "title": "Featured collection",
-        "heading_size": "h2",
+        "className": "custom_featured",
+        "title": "WATCH CATALOG",
+        "heading_size": "h0",
         "adsImage": "shopify:\/\/shop_images\/pexels-jessbaileydesign-1162519.jpg",
-        "caption": "{{ section.settings.collection.title }}",
-        "imageTitle": "Pair text with an image to focus on your chosen product, collection, or blog post.",
-        "buttonLabel": "Column",
-        "buttonLink": "shopify:\/\/collections\/macbook",
-        "description": "",
+        "caption": "Classy",
+        "imageTitle": "<em>FIND OUT MORE ABOUT SOCIAL OFFERS<\/em>",
+        "buttonLabel": "Discover",
+        "buttonLink": "",
+        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<\/p>",
         "show_description": false,
         "description_style": "body",
-        "enableStocks": true,
+        "enableStocks": false,
         "collection": "imac",
-        "products_to_show": 4,
+        "products_to_show": 8,
         "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
+        "full_width": true,
+        "show_view_all": false,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
         "color_scheme": "",
         "image_ratio": "portrait",
         "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": true,
-        "show_rating": true,
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
         "enable_quick_add": true,
-        "enableAddToCart": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
+        "enableAddToCart": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -260,77 +182,6 @@
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "image_with_text_NN3Mjf": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_7Cnmeg": {
-          "type": "heading",
-          "settings": {
-            "heading": "Featured  Product",
-            "heading_size": "h1"
-          }
-        },
-        "caption_NFhiNF": {
-          "type": "caption",
-          "settings": {
-            "caption": "Timekeeper of Precision",
-            "text_style": "subtitle",
-            "text_size": "large"
-          }
-        },
-        "text_P3itpw": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "icon_McQUNq": {
-          "type": "icon",
-          "settings": {
-            "iconImage1": "shopify:\/\/shop_images\/certificate-check-svgrepo-com.svg",
-            "iconText1": "Warranty :2 Year International",
-            "iconImage2": "shopify:\/\/shop_images\/gift-box-svgrepo-com.svg",
-            "iconText2": "Free Gift Box"
-          }
-        },
-        "button_3j6q89": {
-          "type": "button",
-          "settings": {
-            "button_label": "View Details",
-            "button_link": "#",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_7Cnmeg",
-        "caption_NFhiNF",
-        "text_P3itpw",
-        "icon_McQUNq",
-        "button_3j6q89"
-      ],
-      "disabled": true,
-      "settings": {
-        "className": "feature-section",
-        "heading": "",
-        "viewAllBtn": "",
-        "viewAlllink": "",
-        "icon": "",
-        "backgoundImage": "shopify:\/\/shop_images\/banner-bg.webp",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
@@ -397,107 +248,6 @@
         "enable_quick_add": false,
         "columns_mobile": "2",
         "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "image_gallery_EgWVRf": {
-      "type": "Image-Gallery",
-      "blocks": {
-        "slide_g9Berd": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Watch_7.png"
-          }
-        },
-        "slide_GQBMG8": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Watch_2.png"
-          }
-        },
-        "slide_xGDqYY": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Watch_5.png"
-          }
-        },
-        "slide_M66xmm": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Watch_1.png"
-          }
-        },
-        "slide_CxF9WQ": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Watch_4.png"
-          }
-        },
-        "slide_PVWUVe": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Watch_7.png"
-          }
-        },
-        "slide_fWqHKX": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Watch_6.webp"
-          }
-        },
-        "slide_FYQVzW": {
-          "type": "slide",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "slide_g9Berd",
-        "slide_GQBMG8",
-        "slide_xGDqYY",
-        "slide_M66xmm",
-        "slide_CxF9WQ",
-        "slide_PVWUVe",
-        "slide_fWqHKX",
-        "slide_FYQVzW"
-      ],
-      "settings": {
-        "show_container": false
-      }
-    },
-    "featured_collection_dJ3xq9": {
-      "type": "featured-collection",
-      "settings": {
-        "className": "custom_featured",
-        "title": "WATCH CATALOG",
-        "heading_size": "h0",
-        "adsImage": "shopify:\/\/shop_images\/pexels-jessbaileydesign-1162519.jpg",
-        "caption": "Classy",
-        "imageTitle": "<em>FIND OUT MORE ABOUT SOCIAL OFFERS<\/em>",
-        "buttonLabel": "Discover",
-        "buttonLink": "",
-        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<\/p>",
-        "show_description": false,
-        "description_style": "body",
-        "enableStocks": false,
-        "collection": "imac",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": true,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "",
-        "image_ratio": "portrait",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": true,
-        "enableAddToCart": true,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -622,19 +372,81 @@
         "customclass": "custom-grid",
         "alignment": "middle"
       }
+    },
+    "image_gallery_EgWVRf": {
+      "type": "Image-Gallery",
+      "blocks": {
+        "slide_g9Berd": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Watch_7.png"
+          }
+        },
+        "slide_GQBMG8": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Watch_2.png"
+          }
+        },
+        "slide_xGDqYY": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Watch_5.png"
+          }
+        },
+        "slide_M66xmm": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Watch_1.png"
+          }
+        },
+        "slide_CxF9WQ": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Watch_4.png"
+          }
+        },
+        "slide_PVWUVe": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Watch_7.png"
+          }
+        },
+        "slide_fWqHKX": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Watch_6.webp"
+          }
+        },
+        "slide_FYQVzW": {
+          "type": "slide",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "slide_g9Berd",
+        "slide_GQBMG8",
+        "slide_xGDqYY",
+        "slide_M66xmm",
+        "slide_CxF9WQ",
+        "slide_PVWUVe",
+        "slide_fWqHKX",
+        "slide_FYQVzW"
+      ],
+      "settings": {
+        "show_container": false
+      }
     }
   },
   "order": [
     "slideshow_zMxiqB",
     "multicolumn_ip8qta",
-    "collection_list_nYeRfW",
-    "featured_collection_xXC7Cm",
+    "featured_collection_dJ3xq9",
     "image_with_text_q9wFd4",
-    "image_with_text_NN3Mjf",
     "two_image_AGKPbC",
     "collection_slider_PePn6P",
-    "image_gallery_EgWVRf",
-    "featured_collection_dJ3xq9",
-    "custom_content_7wGX6m"
+    "custom_content_7wGX6m",
+    "image_gallery_EgWVRf"
   ]
 }
