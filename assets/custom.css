@@ -796,6 +796,10 @@ h1.header__heading.flex-logoes {
 .my_gallery {
   display: flex;
   flex-wrap: wrap;
+  width: 60%;
+}
+.gallery-image {
+  width: 49%;
 }
 /* resposnive css start */
 
