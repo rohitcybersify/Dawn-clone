@@ -798,6 +798,7 @@ h1.header__heading.flex-logoes {
   width: 100%;
   height: 90%;
   object-fit: cover;
+  position: relative;
 }
 .my_gallery {
   display: flex;
