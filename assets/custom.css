@@ -919,4 +919,7 @@ section#shopify-section-template--22093649117495__featured_collection_dJ3xq9 {
   .main-content.gallery_content p {
     margin: 0;
   }
+  .my_gallery {
+    row-gap: 10px;
+  }
 }
