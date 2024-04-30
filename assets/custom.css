@@ -802,7 +802,7 @@ h1.header__heading.flex-logoes {
 .my_gallery {
   display: flex;
   flex-wrap: wrap;
-  width: 59%;
+  width: 49%;
   justify-content: space-between;
   row-gap: 30px;
 }
@@ -811,7 +811,7 @@ h1.header__heading.flex-logoes {
   position: relative;
 }
 .main_image {
-  width: 39%;
+  width: 49%;
   position: relative;
 }
 
