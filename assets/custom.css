@@ -500,6 +500,10 @@ svg#Layer_1 {
   display: inline-flex;
   gap: 5px;
 }
+.secondary-menu svg {
+  width: 24px !important;
+  height: 24px !important;
+}
 
 /* header new css ended */
 
