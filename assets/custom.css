@@ -626,11 +626,11 @@ h1.header__heading.flex-logoes {
   left: 0 !important;
   right: 0 !important;
 }
-/* .custom_featured .t_title {
+.custom_featured .t_title {
   display: flex;
   width: 100%;
   justify-content: space-between;
-} */
+}
 /* resposnive css start */
 
 /* min-media css  */
