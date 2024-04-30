@@ -9,9 +9,9 @@
    {% for block in section.blocks %}
    
      <div class="gallery-image"> 
-         <img  src="{{ block.settings.collection1.featured_image | image_url  }}" height="350px" width="350px"> 
-       <div> {{ block.settings.collection1.title }}
-          <a href="{{ block.settings.button-url1}}"><button>{{ block.settings.button-label1}} <span>{{  block.settings.button-icon1}}</span></button></a>
+         <img  class="each-image" src="{{ block.settings.collection1.featured_image | image_url  }}" height="350px" width="350px"> 
+       <div class="gallery_content"> {{ block.settings.collection1.title }}
+          <a class="gallerybutton-url" href="{{ block.settings.button-url1}}"><button class="gallery-btn">{{ block.settings.button-label1}} <span>{{  block.settings.button-icon1}}</span></button></a>
        </div>
      </div>
       
