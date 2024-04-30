@@ -909,4 +909,8 @@ section#shopify-section-template--22093649117495__featured_collection_dJ3xq9 {
     display: flex important;
     margin: 10px !important;
   }
+
+  .collection .slider-component.page-width {
+    padding: 0 !important;
+  }
 }
