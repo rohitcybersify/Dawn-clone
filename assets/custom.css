@@ -645,6 +645,9 @@ h1.header__heading.flex-logoes {
 .collection .quick-add {
   display: none;
 }
+.custom_featured .full-unstyled-link {
+  max-width: 60%;
+}
 /* resposnive css start */
 
 /* min-media css  */
