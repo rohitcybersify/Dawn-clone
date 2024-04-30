@@ -423,7 +423,7 @@ button:after {
   display: none;
 }
 .product-grid .card-wrapper {
-  border: 1px solid #0000;
+  border: 1px solid #000;
   /* border-radius: 15px; */
 }
 
