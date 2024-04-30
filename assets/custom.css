@@ -588,6 +588,10 @@ h1.header__heading.flex-logoes {
   text-align: end;
 }
 
+.links_announcement {
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+
 /* header new css ended */
 
 /* resposnive css start */
