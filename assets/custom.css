@@ -572,6 +572,9 @@ h1.header__heading.flex-logoes {
   justify-content: space-between;
   width: 100%;
 }
+.locate_links a {
+  color: transparent;
+}
 
 /* header new css ended */
 
