@@ -181,7 +181,7 @@
   {% endif %} 
               
 </div>
-          
+          <div class="logo_link">
           <a href="{{ routes.root_url }}" class="header__heading-link link link--text focus-inset">
             {%- if settings.logo != blank -%}
               <div class="header__heading-logo-wrapper">
@@ -208,7 +208,11 @@
             {%- endif -%}
           </a>
 
+        </div>
+          
+<div class="additional_link">
 <a class="add_image" href="/rolex"><div class="LinkEnabler" ></div> <img  src="{{ section.settings.additional_image | image_url  }}" height="60px" width="130px">      </a>
+   </div> 
           
       {%- if request.page_type == 'index' -%}
         </h1>
