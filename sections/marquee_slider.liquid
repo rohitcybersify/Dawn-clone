@@ -12,27 +12,60 @@
     animation: var(--direction) var(--marquee-speed) linear infinite;
 } */
 
-  .text-center {
-    text-align: center !important;
+ /* Container styles */
+.scrolling-text-container {
+    background-color: #eff5ff;
+    border-radius: 4px;
+    overflow: hidden;
 }
-  .mb-5 {
-    margin-bottom: 3rem !important;
-}
-  .scrolling-text-inner {
+
+/* Inner container styles */
+.scrolling-text-inner {
     display: flex;
     white-space: nowrap;
     font-size: 16px;
     font-weight: 600;
     padding: 8px 0;
 }
-  .scrolling-text-inner > div {
-    animation: var(--direction) var(--marquee-speed) linear infinite;
-}
-  .scrolling-text {
+
+/* Text styles */
+.scrolling-text {
     display: flex;
 }
-  .scrolling-text-item {
+
+.scrolling-text-item {
     padding: 0 30px;
+}
+
+/* Apply the animation to the text items */
+.scrolling-text-inner>div {
+    animation: var(--direction) var(--marquee-speed) linear infinite;
+}
+
+/* Pause the animation when a user hovers over it */
+.scrolling-text-container:hover .scrolling-text-inner>div {
+    animation-play-state: paused;
+}
+
+/* Setting the Animation using Keyframes */
+@keyframes scroll-left {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes scroll-right {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
 }
 </style>
 

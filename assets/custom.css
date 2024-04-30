@@ -18,6 +18,12 @@ h5,
 .color-background-1.gradient {
   background: #1a2d1f !important;
 } */
+
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
 .color-background-1.gradient .collection-list-wrapper.page-width {
   max-width: 100%;
   padding: 0;
