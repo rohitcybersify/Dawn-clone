@@ -804,6 +804,7 @@ h1.header__heading.flex-logoes {
   flex-wrap: wrap;
   width: 59%;
   justify-content: space-between;
+  row-gap: 20px;
 }
 .gallery-image {
   width: 48%;
