@@ -716,7 +716,8 @@ h1.header__heading.flex-logoes {
 .collection .product-grid.slider {
   margin-top: 0 !important;
 }
-.collection collection__title {
+.collection__title.title-wrapper.title-wrapper--no-top-margin.page-width {
+  padding: 0 !important;
   margin: 0 !important;
 }
 /* resposnive css start */
