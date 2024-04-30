@@ -688,7 +688,9 @@ h1.header__heading.flex-logoes {
   max-height: 280px;
   display: flex;
   flex-direction: column-reverse;
+  background: #fff;
 }
+
 /* resposnive css start */
 
 /* min-media css  */
