@@ -662,6 +662,11 @@ h1.header__heading.flex-logoes {
 
   grid-auto-flow: dense;
 }
+
+.custom-grid .flexible-layout .columns img {
+  width: 100%;
+  height: 100%;
+}
 /* .each-0 {
   grid-column: 1;
   grid-row: 1 / span 3;
