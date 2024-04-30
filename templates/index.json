@@ -167,6 +167,7 @@
         "featured_collection_mqbNJj",
         "featured_collection_YJU8y4"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "btnLabel": "Shop Now",
@@ -585,6 +586,41 @@
       "settings": {
         "show_container": false
       }
+    },
+    "featured_collection_46z6p8": {
+      "type": "featured-collection",
+      "settings": {
+        "className": "",
+        "title": "Featured collection",
+        "heading_size": "h1",
+        "caption": "",
+        "imageTitle": "",
+        "buttonLabel": "",
+        "buttonLink": "",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "enableStocks": true,
+        "collection": "gift-set-watches",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": true,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": true,
+        "show_rating": true,
+        "enable_quick_add": true,
+        "enableAddToCart": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -598,6 +634,7 @@
     "image_with_text_9eWdib",
     "collection_slider_PePn6P",
     "image_with_text_kgzrzc",
-    "image_gallery_EgWVRf"
+    "image_gallery_EgWVRf",
+    "featured_collection_46z6p8"
   ]
 }
