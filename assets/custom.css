@@ -818,6 +818,12 @@ h1.header__heading.flex-logoes {
 .gallery-image img {
   max-height: 350px;
 }
+
+.gallery_content {
+  position: absolute;
+  top: 0;
+  padding: 30px;
+}
 /* resposnive css start */
 
 /* min-media css  */
