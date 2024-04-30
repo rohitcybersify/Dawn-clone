@@ -385,7 +385,7 @@
       "settings": {
         "full_width": true,
         "products_to_show": 10,
-        "columns_desktop": 3,
+        "columns_desktop": 4,
         "enable_desktop_slider": true,
         "color_scheme": "",
         "image_ratio": "adapt",
