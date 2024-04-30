@@ -2,11 +2,12 @@
    <div class="main_image">  <img  src="{{ section.settings.image-main | image_url  }}" height="" width=""> </div>
   <div class="my_gallery">   
    {% for block in section.blocks %}
-     {% if block.settings.image != blank %}
+   
      <div class="gallery-image" style="width:350px; height:350px;"> 
-         <img  src="{{ block.settings.image | image_url  }}" height="" width="">        
+         <img  src="{{ block.settings.collection | image_url  }}" height="" width=""> 
+       <div> </div>
      </div>
-       {% endif %}
+      
     {% endfor %}
   </div>  
 </section>
@@ -23,10 +24,10 @@
   "default": false
 },
     {
-      "type": "image_picker",
-      "id": "image-main",
-      "label": "Select Main Image"
-    }   
+  "type": "collection",
+  "id": "collection",
+  "label": "Collection"
+} 
     ],
     "blocks":[
       
