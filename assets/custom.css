@@ -576,6 +576,18 @@ h1.header__heading.flex-logoes {
   color: transparent;
 }
 
+.locate_links {
+  width: 20%;
+  text-align: start;
+}
+.logo_link {
+  width: 60%;
+}
+.additional_link {
+  width: 20%;
+  text-align: end;
+}
+
 /* header new css ended */
 
 /* resposnive css start */
