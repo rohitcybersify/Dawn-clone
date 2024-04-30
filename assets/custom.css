@@ -658,6 +658,8 @@ h1.header__heading.flex-logoes {
   grid-template-columns: repeat(3, minmax(250px, 5fr));
   grid-auto-rows: 430px 100%;
   grid-auto-flow: dense; */
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .custom-grid .flexible-layout .column img {
