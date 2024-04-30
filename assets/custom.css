@@ -496,6 +496,11 @@ svg#Layer_1 {
   letter-spacing: 1px;
   color: #212121;
 }
+.top_announcement .left-wrap:hover,
+.top_announcement
+  summary.header__icon.header__icon--search.header__icon--summary.link.focus-inset.modal__toggle:hover {
+  opacity: 1;
+}
 
 .secondary-menu {
   font-size: 12px;
