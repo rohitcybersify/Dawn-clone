@@ -451,7 +451,7 @@
         "block_image_wY3zNA"
       ],
       "settings": {
-        "className": "",
+        "className": "custom_image_text",
         "heading": "<strong>Life Style<\/strong>",
         "viewAllBtn": "View Button",
         "viewAlllink": "shopify:\/\/collections",
