@@ -916,4 +916,7 @@ section#shopify-section-template--22093649117495__featured_collection_dJ3xq9 {
   .gallery_content {
     padding: 20px;
   }
+  .main-content.gallery_content p {
+    margin: 0;
+  }
 }
