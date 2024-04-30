@@ -763,6 +763,9 @@ h1.header__heading.flex-logoes {
   color: #a70707;
   font-size: 12px;
 }
+.center.collection__view-all.scroll-trigger.animate--slide-in {
+  margin: 50px 0 50px;
+}
 /* resposnive css start */
 
 /* min-media css  */
