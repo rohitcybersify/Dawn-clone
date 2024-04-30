@@ -590,7 +590,7 @@
     "featured_collection_dJ3xq9": {
       "type": "featured-collection",
       "settings": {
-        "className": "",
+        "className": "custom_featured",
         "title": "WATCH CATALOG",
         "heading_size": "h0",
         "adsImage": "shopify:\/\/shop_images\/pexels-jessbaileydesign-1162519.jpg",
