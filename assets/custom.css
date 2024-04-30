@@ -639,7 +639,7 @@ h1.header__heading.flex-logoes {
   flex-direction: column-reverse;
 }
 .custom_featured .card__media {
-  max-height: 400px;
+  max-height: 300px;
 }
 
 /* resposnive css start */
