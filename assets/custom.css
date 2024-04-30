@@ -825,14 +825,14 @@ h1.header__heading.flex-logoes {
   padding: 30px;
   width: 100%;
 }
-h5.grid-collection-heading {
+.section_mains h5 {
   font-size: 25px;
   margin: 0 !important;
   font-weight: 600;
   color: #fff;
 }
 
-.gallery-btn {
+.section_mains button {
   color: #fff;
   padding: 0;
   font-size: 14px;
