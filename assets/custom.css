@@ -343,6 +343,7 @@ ul.policy-links li a:hover {
   position: relative;
   background-size: cover;
   width: 100%;
+  border: 1px solid #000000;
 }
 .product-grid .featuredProductImage .cardBody {
   position: absolute;
