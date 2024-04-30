@@ -566,6 +566,13 @@ svg#Layer_1 {
   display: flex !important;
   flex-direction: column !important;
 }
+
+h1.header__heading.flex-logoes {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
 /* header new css ended */
 
 /* resposnive css start */
