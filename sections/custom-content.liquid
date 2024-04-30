@@ -8,7 +8,7 @@
     */
 </style> 
 
-<div id="section-id-{{ section.id }}" class="{{ section.settings.customclass }} container fully-spaced-row--medium section-id-{{ section.id }}">
+<div id="section-id-{{ section.id }}" class="page-width {{ section.settings.customclass }} container fully-spaced-row--medium section-id-{{ section.id }}">
   <div class="flexible-layout flexible-layout--align-center valign-{{ section.settings.alignment }}">
     {% for block in section.blocks %}
       <div id="block-id-{{ block.id }}" class="column each-{{ forloop.index0 }} column--{{ block.settings.width }} block-id-{{ block.id }} fade-in-up" {{ block.shopify_attributes }} data-cc-animate data-cc-animate-delay="{{ forloop.index | times: 0.15 }}s">
