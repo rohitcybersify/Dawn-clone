@@ -780,8 +780,8 @@ h1.header__heading.flex-logoes {
   height: 400px;
 }
 .collection .card__media {
-  min-height: 200px;
-  height: 200px;
+  min-height: 100% !important;
+  height: 100% !important;
   bottom: 90px !important;
   position: absolute;
 }
