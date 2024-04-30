@@ -440,6 +440,24 @@
     },
     "marquee_slider_F8YBj4": {
       "type": "marquee_slider",
+      "blocks": {
+        "slide_UxzAHj": {
+          "type": "slide",
+          "settings": {
+            "text": "Welcome to Our Website! 🌟 Stay Updated with the Latest News and Offers. 📢 Check Back Often for More Updates!"
+          }
+        },
+        "slide_xLXEty": {
+          "type": "slide",
+          "settings": {
+            "text": "Welcome to Our Website! 🌟 Stay Updated with the Latest News and Offers. 📢 Check Back Often for More Updates!"
+          }
+        }
+      },
+      "block_order": [
+        "slide_UxzAHj",
+        "slide_xLXEty"
+      ],
       "settings": {
       }
     }

@@ -724,6 +724,12 @@ h1.header__heading.flex-logoes {
 .collection .slider-component-full-width .slider--desktop .slider__slide {
   padding: 0 !important;
 }
+.collection .tablinks-cus {
+  background: transparent;
+  color: #000;
+  border: 1px solid #000;
+  border-bottom: 0;
+}
 /* resposnive css start */
 
 /* min-media css  */
