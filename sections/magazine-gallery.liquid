@@ -1,6 +1,9 @@
 <section class="section_mains {% if section.settings.show_container %} page-width {% endif %}">
    <div class="main_image">   <img  src="{{ section.settings.collection.featured_image | image_url  }}" height="400px" width="400px"> 
-    <div> {{ section.settings.collection.title }}</div>
+    <div> {{ section.settings.collection.title }}
+      {{ section.settings.collection.title }}
+     <a href="{{ section.settings.button-url}}"><button >{{ section.settings.button-url}}</button></a>
+    </div>
    </div>
   <div class="my_gallery">   
    {% for block in section.blocks %}
