@@ -684,7 +684,11 @@ h1.header__heading.flex-logoes {
 .collection .card__media .media img {
   object-fit: contain !important;
 }
-
+.collection .card__inner.color-background-2.gradient.ratio {
+  max-height: 280px;
+  display: flex;
+  flex-direction: column-reverse;
+}
 /* resposnive css start */
 
 /* min-media css  */
