@@ -467,6 +467,45 @@
       ],
       "settings": {
       }
+    },
+    "magazine_gallery_RVeLUx": {
+      "type": "magazine-gallery",
+      "blocks": {
+        "slide_Vij8HE": {
+          "type": "slide",
+          "settings": {
+            "collection1": "macbook-pro"
+          }
+        },
+        "slide_7eEe4Q": {
+          "type": "slide",
+          "settings": {
+            "collection1": "gift-set-watches"
+          }
+        },
+        "slide_qMiACK": {
+          "type": "slide",
+          "settings": {
+            "collection1": "gift-set-watches"
+          }
+        },
+        "slide_UrawW7": {
+          "type": "slide",
+          "settings": {
+            "collection1": "macbook-pro"
+          }
+        }
+      },
+      "block_order": [
+        "slide_Vij8HE",
+        "slide_7eEe4Q",
+        "slide_qMiACK",
+        "slide_UrawW7"
+      ],
+      "settings": {
+        "show_container": true,
+        "collection": "gift-set-watches"
+      }
     }
   },
   "order": [
@@ -478,6 +517,7 @@
     "collection_slider_PePn6P",
     "custom_content_7wGX6m",
     "image_gallery_EgWVRf",
-    "marquee_slider_F8YBj4"
+    "marquee_slider_F8YBj4",
+    "magazine_gallery_RVeLUx"
   ]
 }
