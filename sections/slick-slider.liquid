@@ -1,6 +1,5 @@
-{% comment %} slick slider {% endcomment %}
 <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
-<div class="multiple-items page-width">
+<div class="single-item page-width">
   <div>your content1</div>
   <div>your content2</div>
   <div>your content3</div>
@@ -16,9 +15,9 @@
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script type="text/javascript">
   $(document).ready(function () {
-    $('.multiple-items').slick({
+    $('.single-item').slick({
       infinite: true,
-      slidesToShow: 3,
+      slidesToShow: 1,
       slidesToScroll: 1,
     });
   });
