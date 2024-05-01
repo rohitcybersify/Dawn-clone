@@ -147,47 +147,6 @@
         "padding_bottom": 12
       }
     },
-    "image-with-text": {
-      "type": "image-with-text",
-      "blocks": {
-        "image-with-text-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
-          }
-        },
-        "image-with-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "image-with-text-0",
-        "image-with-text-1"
-      ],
-      "settings": {
-        "className": "",
-        "heading": "",
-        "viewAllBtn": "",
-        "viewAlllink": "",
-        "icon": "",
-        "height": "small",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-2",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "multicolumn": {
       "type": "multicolumn",
       "blocks": {
@@ -249,12 +208,54 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "rich_text_bAW8Ej": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_rXgeyW": {
+          "type": "heading",
+          "settings": {
+            "heading": "BLANCPAIN VILLERET WHITE DIAL MEN 40.5MM",
+            "heading_size": "h1"
+          }
+        },
+        "text_FUPDBQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our philosophy of impeccable customer service is evident throughout the entire client journey. The Raffi Jewellers’ Family is committed to delivering a superior client experience.<\/p>"
+          }
+        },
+        "button_QGRef9": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_rXgeyW",
+        "text_FUPDBQ",
+        "button_QGRef9"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
-    "image-with-text",
     "multicolumn",
-    "related-products"
+    "related-products",
+    "rich_text_bAW8Ej"
   ]
 }
