@@ -141,6 +141,36 @@
         "padding_bottom": 36
       }
     },
+    "marquee_slider_F8YBj4": {
+      "type": "marquee_slider",
+      "blocks": {
+        "slide_UxzAHj": {
+          "type": "slide",
+          "settings": {
+            "text": "<h3><em>chocolate trufflle choco rol delights wedding cakes peach pie<\/em><\/h3>"
+          }
+        },
+        "slide_xLXEty": {
+          "type": "slide",
+          "settings": {
+            "text": "<h3><em>chocolate trufflle choco rol delights wedding cakes peach pie<\/em><\/h3>"
+          }
+        },
+        "slide_bq8TXf": {
+          "type": "slide",
+          "settings": {
+            "text": "<h3><em>chocolate trufflle choco rol delights wedding cakes peach pie<\/em><\/h3>"
+          }
+        }
+      },
+      "block_order": [
+        "slide_UxzAHj",
+        "slide_xLXEty",
+        "slide_bq8TXf"
+      ],
+      "settings": {
+      }
+    },
     "image_with_text_q9wFd4": {
       "type": "image-with-text",
       "blocks": {
@@ -179,14 +209,14 @@
         "viewAlllink": "",
         "icon": "",
         "image": "shopify:\/\/shop_images\/watchbuyingguide.webp",
-        "height": "adapt",
+        "height": "medium",
         "desktop_image_width": "medium",
-        "layout": "image_first",
+        "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "color_scheme": "",
-        "image_behavior": "none",
+        "image_behavior": "zoom-in",
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
@@ -439,36 +469,6 @@
         "show_container": false
       }
     },
-    "marquee_slider_F8YBj4": {
-      "type": "marquee_slider",
-      "blocks": {
-        "slide_UxzAHj": {
-          "type": "slide",
-          "settings": {
-            "text": "<h3><em>chocolate trufflle choco rol delights wedding cakes peach pie<\/em><\/h3>"
-          }
-        },
-        "slide_xLXEty": {
-          "type": "slide",
-          "settings": {
-            "text": "<h3><em>chocolate trufflle choco rol delights wedding cakes peach pie<\/em><\/h3>"
-          }
-        },
-        "slide_bq8TXf": {
-          "type": "slide",
-          "settings": {
-            "text": "<h3><em>chocolate trufflle choco rol delights wedding cakes peach pie<\/em><\/h3>"
-          }
-        }
-      },
-      "block_order": [
-        "slide_UxzAHj",
-        "slide_xLXEty",
-        "slide_bq8TXf"
-      ],
-      "settings": {
-      }
-    },
     "magazine_gallery_RVeLUx": {
       "type": "magazine-gallery",
       "blocks": {
@@ -528,12 +528,12 @@
     "slideshow_zMxiqB",
     "multicolumn_ip8qta",
     "featured_collection_dJ3xq9",
+    "marquee_slider_F8YBj4",
     "image_with_text_q9wFd4",
     "two_image_AGKPbC",
     "collection_slider_PePn6P",
     "custom_content_7wGX6m",
     "image_gallery_EgWVRf",
-    "marquee_slider_F8YBj4",
     "magazine_gallery_RVeLUx"
   ]
 }
