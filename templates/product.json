@@ -3,15 +3,13 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "vendor": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
         "title": {
           "type": "title",
+          "settings": {
+          }
+        },
+        "description": {
+          "type": "description",
           "settings": {
           }
         },
@@ -80,16 +78,11 @@
           "settings": {
             "share_label": "Share"
           }
-        },
-        "description": {
-          "type": "description",
-          "settings": {
-          }
         }
       },
       "block_order": [
-        "vendor",
         "title",
+        "description",
         "price",
         "variant_picker",
         "quantity_selector",
@@ -98,8 +91,7 @@
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
-        "share",
-        "description"
+        "share"
       ],
       "settings": {
         "enable_sticky_info": true,
