@@ -133,7 +133,7 @@
         "collapsible-row-3"
       ],
       "settings": {
-        "enable_sticky_info": true,
+        "enable_sticky_info": false,
         "media_size": "large",
         "constrain_to_viewport": true,
         "media_fit": "contain",
