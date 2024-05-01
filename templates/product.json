@@ -89,6 +89,13 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "text_G9LDmg": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>Buy Once for $88 + $6.95 shipping<\/strong>",
+            "text_style": "body"
+          }
         }
       },
       "block_order": [
@@ -103,7 +110,8 @@
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
-        "share"
+        "share",
+        "text_G9LDmg"
       ],
       "settings": {
         "enable_sticky_info": true,
