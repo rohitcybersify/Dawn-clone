@@ -94,6 +94,13 @@
           "type": "text",
           "settings": {
             "text": "<strong>Buy Once for $88 + $6.95 shipping<\/strong>",
+            "text_style": "subtitle"
+          }
+        },
+        "text_fPhMVD": {
+          "type": "text",
+          "settings": {
+            "text": "We recommend 3-6 months of consistent use to see results.",
             "text_style": "body"
           }
         }
@@ -111,7 +118,8 @@
         "collapsible-row-2",
         "collapsible-row-3",
         "share",
-        "text_G9LDmg"
+        "text_G9LDmg",
+        "text_fPhMVD"
       ],
       "settings": {
         "enable_sticky_info": true,
