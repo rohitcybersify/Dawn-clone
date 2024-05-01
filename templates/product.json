@@ -77,15 +77,6 @@
             "heading_3": "Worldwide Shipping"
           }
         },
-        "collapsible-row-0": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Materials",
-            "icon": "leather",
-            "content": "<p>Discover the Latest in fgjgfjhgj Innovations for Your Everyday Needs.<\/p>",
-            "page": ""
-          }
-        },
         "collapsible-row-1": {
           "type": "collapsible_tab",
           "disabled": true,
@@ -96,12 +87,21 @@
             "page": ""
           }
         },
+        "collapsible-row-0": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Materials",
+            "icon": "leather",
+            "content": "<p>Discover the Latest in fgjgfjhgj Innovations for Your Everyday Needs.<\/p>",
+            "page": ""
+          }
+        },
         "collapsible-row-2": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Dimensions",
             "icon": "ruler",
-            "content": "",
+            "content": "<p>Discover the Latest in fgjgfjhgj Innovations for Your Everyday Needs.<\/p>",
             "page": ""
           }
         },
@@ -110,7 +110,7 @@
           "settings": {
             "heading": "Care Instructions",
             "icon": "heart",
-            "content": "",
+            "content": "<p>Discover the Latest in fgjgfjhgj Innovations for Your Everyday Needs.<\/p>",
             "page": ""
           }
         }
@@ -127,8 +127,8 @@
         "text_G9LDmg",
         "text_fPhMVD",
         "icon_with_text_BMpFKR",
-        "collapsible-row-0",
         "collapsible-row-1",
+        "collapsible-row-0",
         "collapsible-row-2",
         "collapsible-row-3"
       ],
