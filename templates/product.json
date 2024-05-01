@@ -107,7 +107,7 @@
         "icon_with_text_BMpFKR": {
           "type": "icon-with-text",
           "settings": {
-            "layout": "vertical",
+            "layout": "horizontal",
             "icon_1": "heart",
             "heading_1": "Most Poupular",
             "icon_2": "return",
