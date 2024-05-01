@@ -16,12 +16,9 @@
 </style>
 
 <div class="single-item page-width">
-  <div class="slide" title="slide1">your content1</div>
-  <div class="slide" title="slide2">your content2</div>
-  <div class="slide" title="slide3">your content3</div>
-  <div class="slide" title="slide4">your content4</div>
-  <div class="slide" title="slide5">your content5</div>
-  <div class="slide" title="slide6">your content6</div>
+   {% for block in section.blocks %}
+  <div class="slide" title="{{ forloop.index0 }}{{ block.settings.title-text }}">{{  block.settings.title-description }} </div>
+    {% endfor %}
 </div>
 
 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
