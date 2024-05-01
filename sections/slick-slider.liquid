@@ -17,7 +17,7 @@
 
 <div class="single-item page-width">
    {% for block in section.blocks %}
-  <div class="slide" title="0{{ forloop.index0 }}{{ block.settings.title-text }}">{{ block.settings.title-description }} </div>
+  <div class="slide" title="0{{ forloop.index1 }}{{ block.settings.title-text }}">{{ block.settings.title-description }} </div>
     {% endfor %}
 </div>
 
