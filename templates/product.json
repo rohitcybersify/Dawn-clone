@@ -13,6 +13,13 @@
           "settings": {
           }
         },
+        "text_3yXmxm": {
+          "type": "text",
+          "settings": {
+            "text": "<a href=\"\/policies\/privacy-policy\" target=\"_blank\" title=\"Privacy Policy\">View Supplement Label<\/a>",
+            "text_style": "body"
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
@@ -83,6 +90,7 @@
       "block_order": [
         "title",
         "description",
+        "text_3yXmxm",
         "price",
         "variant_picker",
         "quantity_selector",
