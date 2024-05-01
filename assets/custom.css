@@ -619,7 +619,7 @@ h1.header__heading.flex-logoes {
 }
 /* header new css ended */
 
-.custom_featured .collection .card__inner.color-background-2.gradient.ratio {
+/* .custom_featured .collection .card__inner.color-background-2.gradient.ratio {
   background: transparent;
 }
 .custom_featured .product-grid .card-wrapper {
@@ -814,7 +814,63 @@ h1.header__heading.flex-logoes {
 }
 section#shopify-section-template--22093649117495__featured_collection_dJ3xq9 {
   display: none;
-}
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* resposnive css start */
 
@@ -874,7 +930,7 @@ section#shopify-section-template--22093649117495__featured_collection_dJ3xq9 {
 
 
 
-  
+
 @media screen and (min-width: 990px) {
   h3.card__heading.h5 .underline-links-hover:hover a {
     text-decoration: none;
