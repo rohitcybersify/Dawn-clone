@@ -19,10 +19,15 @@
       infinite: true,
       slidesToShow: 1,
       slidesToScroll: 1,
-      customPaging: function (slider, i) {
-      return slider.slickCurrentSlide + '/' + (i + 1);
     }
   });
+
+
+    $('.single-item').slick({
+    customPaging: function (slider, i) {
+        return slider.slickCurrentSlide + '/' + (i + 1);
+    }
+});
 </script>
 {% schema %}
 {
