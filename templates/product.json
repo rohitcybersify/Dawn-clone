@@ -230,13 +230,22 @@
             "title-description": "Morbi tempus iaculis urna id volutpat lacus laoreet non curabitur. Ac turpis egestas mae cenas est",
             "button-url1": ""
           }
+        },
+        "slide_JgfgTE": {
+          "type": "slide",
+          "settings": {
+            "title-text": "Slide",
+            "title-description": "Morbi tempus iaculis urna id volutpat lacus laoreet non curabitur. Ac turpis egestas mae cenas est",
+            "button-url1": ""
+          }
         }
       },
       "block_order": [
         "slide_QKKhFj",
         "slide_YhVpkV",
         "slide_BTP4KB",
-        "slide_VcpPPC"
+        "slide_VcpPPC",
+        "slide_JgfgTE"
       ],
       "settings": {
       }
