@@ -6,18 +6,18 @@
         "slide_MRhpWi": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/bg-1-662ba0c77af4d.webp",
-            "bannerCaption": "Amazing look for Wooden watch",
-            "heading": "Transform functional tables",
-            "heading_size": "h0",
-            "subheading": "Elevate Your Interior Design with Stylish and Functional Tables.",
+            "image": "shopify:\/\/shop_images\/SLIDE1.png",
+            "bannerCaption": "",
+            "heading": "We have put together the best collection of watches in the world",
+            "heading_size": "h1",
+            "subheading": "",
             "button_label": "Buy Now",
             "link": "",
             "button_style_secondary": false,
             "box_align": "middle-right",
             "show_text_box": false,
             "text_alignment": "right",
-            "image_overlay_opacity": 10,
+            "image_overlay_opacity": 0,
             "color_scheme": "scheme-0d827297-8253-435d-89c9-abe01e03ee39",
             "text_alignment_mobile": "center"
           }
@@ -28,7 +28,7 @@
       ],
       "settings": {
         "layout": "full_bleed",
-        "slide_height": "small",
+        "slide_height": "adapt_image",
         "slider_visual": "counter",
         "auto_rotate": false,
         "change_slides_speed": 5,
