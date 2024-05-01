@@ -35,7 +35,9 @@ li.slick-active .tab{
        dots: true,
       dotsClass: 'custom_paging',
      arrows: false,
-       autoplay: true,
+      speed: 1000,
+     autoplay: true,
+      autoplaySpeed: 2000,
        customPaging: function(slider, i) { 
         return '<button class="tab">' + $(slider.$slides[i]).attr('title') + '</button>';
     },
