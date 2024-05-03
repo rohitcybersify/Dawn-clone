@@ -629,11 +629,7 @@ h1.header__heading.flex-logoes {
 .collection .grid__item {
   max-height: 100% !important;
 }
-.custom_featured .collection .card__inner.color-background-2.gradient.ratio {
-  display: flex;
-  background: transparent;
-  flex-direction: column-reverse;
-}
+
 .collection .quick-add {
   display: none;
 }
@@ -738,10 +734,14 @@ h1.header__heading.flex-logoes {
 }
 
 .custom_featured .collection .card__inner.color-background-2.gradient.ratio {
-  max-height: 100% !important;
+  /* max-height: 100% !important;
   min-height: 100% !important;
   height: 100% !important;
-  bottom: 0 !important;
+  bottom: 0 !important; */
+  display: flex;
+  background: transparent;
+  flex-direction: column-reverse;
+  justify-content: space-between;
 }
 .collection .collection .card__inner.color-background-2.gradient.ratio {
   max-height: 100% !important;
