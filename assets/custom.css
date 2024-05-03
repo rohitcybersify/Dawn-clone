@@ -805,12 +805,18 @@ h1.header__heading.flex-logoes {
 .section_mains button {
   color: #fff;
   padding: 0;
-  font-size: 14px;
+  font-size: 12px;
   border: 1px solid transparent;
   display: inline-block;
   border-radius: 12px;
   background: transparent;
   font-weight: 500;
+  transition: all 0.3s ease-in;
+}
+
+.section_mains img:hover .section_mains button {
+  text-decoration: underline;
+  transition: all 0.3s ease-in;
 }
 
 /* 03-05-2024  */
@@ -825,7 +831,11 @@ h1.header__heading.flex-logoes {
 #shopify-section-template--22093649117495__magazine_gallery_RVeLUx {
   margin-bottom: 70px;
 }
-
+.section_mains p {
+  margin: 0;
+  color: #fff;
+  font-size: 14px;
+}
 /* resposnive css start */
 
 /* min-media css  */
