@@ -790,8 +790,9 @@ h1.header__heading.flex-logoes {
 .gallery_content {
   position: absolute;
   top: 0;
-  padding: 30px;
+  padding: 10px 15px;
   width: 100%;
+  background: #00000047;
 }
 .section_mains h5 {
   font-size: 25px;
