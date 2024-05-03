@@ -836,7 +836,7 @@ h1.header__heading.flex-logoes {
   font-size: 14px;
 }
 
-.custom_featured .card__inner .card__content {
+.custom_featured .collection .card--media .card__inner .card__content {
   display: none !important;
 }
 /* resposnive css start */
