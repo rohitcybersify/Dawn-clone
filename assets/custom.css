@@ -835,6 +835,10 @@ h1.header__heading.flex-logoes {
   color: #fff;
   font-size: 14px;
 }
+
+.custom_featured .card__inner .card__content {
+  display: none;
+}
 /* resposnive css start */
 
 /* min-media css  */
