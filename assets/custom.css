@@ -815,67 +815,13 @@ h1.header__heading.flex-logoes {
 
 /* 03-05-2024  */
 
-.main_image  img {
-    max-height: 550px;
+.main_image img {
+  max-height: 550px;
 }
 
 .gallery-image img.each-image {
-    max-height: 255px;
+  max-height: 255px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* resposnive css start */
 
@@ -903,38 +849,7 @@ h1.header__heading.flex-logoes {
   .slideshow__controls {
     position: absolute !important;
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 @media screen and (min-width: 990px) {
   h3.card__heading.h5 .underline-links-hover:hover a {
