@@ -738,7 +738,7 @@ h1.header__heading.flex-logoes {
   min-height: 100% !important;
   height: 100% !important;
   bottom: 0 !important; */
-  max-height: 400px !important;
+  max-height: 500px !important;
 
   display: flex;
   background: transparent;
