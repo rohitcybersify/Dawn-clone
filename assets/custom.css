@@ -738,7 +738,7 @@ h1.header__heading.flex-logoes {
 }
 
 .custom_featured .collection .card__inner.color-background-2.gradient.ratio {
-  max-height: 190px !important;
+  max-height: 100% !important;
   min-height: 100% !important;
   height: 100% !important;
   bottom: 90px !important;
