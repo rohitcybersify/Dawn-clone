@@ -778,7 +778,7 @@ h1.header__heading.flex-logoes {
   flex-wrap: wrap;
   width: 49%;
   justify-content: space-between;
-  row-gap: 30px;
+  row-gap: 12px;
 }
 .gallery-image {
   width: 48.5%;
@@ -820,7 +820,7 @@ h1.header__heading.flex-logoes {
 }
 
 .gallery-image img.each-image {
-  max-height: 255px;
+  max-height: 265px;
 }
 
 /* resposnive css start */
