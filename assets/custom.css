@@ -741,18 +741,18 @@ h1.header__heading.flex-logoes {
   max-height: 100% !important;
   min-height: 100% !important;
   height: 100% !important;
-  bottom: 90px !important;
+  bottom: 0 !important;
 }
 .collection .collection .card__inner.color-background-2.gradient.ratio {
   max-height: 100% !important;
   height: 100%;
 }
-.custom_featured .card__media {
+/* .custom_featured .card__media {
   min-height: 400px;
   height: 400px;
   bottom: 90px !important;
   position: absolute;
-}
+} */
 .collection .card__media {
   min-height: 100% !important;
   height: 100% !important;
