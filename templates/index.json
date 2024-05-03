@@ -127,7 +127,6 @@
     },
     "featured_collection_dJ3xq9": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
         "className": "custom_featured",
         "title": "WATCH CATALOG",
