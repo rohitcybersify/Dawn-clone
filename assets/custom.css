@@ -342,8 +342,8 @@ ul.policy-links li a:hover {
 .product-grid li:first-child {
   /* max-width: 268px;
   width: 100%; */
-  display: flex;
-  position: relative;
+  /* display: flex;
+  position: relative; */
 }
 .featuredProductImage {
   position: relative;
