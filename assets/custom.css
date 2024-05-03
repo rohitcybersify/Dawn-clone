@@ -813,7 +813,15 @@ h1.header__heading.flex-logoes {
   font-weight: 500;
 }
 
+/* 03-05-2024  */
 
+.main_image  img {
+    max-height: 550px;
+}
+
+.gallery-image img.each-image {
+    max-height: 255px;
+}
 
 
 
