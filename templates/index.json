@@ -404,6 +404,60 @@
         "alignment": "middle"
       }
     },
+    "magazine_gallery_RVeLUx": {
+      "type": "magazine-gallery",
+      "blocks": {
+        "slide_Vij8HE": {
+          "type": "slide",
+          "settings": {
+            "collection1": "macbook-pro",
+            "button-label1": "SHOP NOW",
+            "button-icon1": "&gt;",
+            "button-url1": ""
+          }
+        },
+        "slide_7eEe4Q": {
+          "type": "slide",
+          "settings": {
+            "collection1": "gift-set-watches",
+            "button-label1": "SHOP NOW",
+            "button-icon1": "&gt;",
+            "button-url1": ""
+          }
+        },
+        "slide_qMiACK": {
+          "type": "slide",
+          "settings": {
+            "collection1": "gift-set-watches",
+            "button-label1": "SHOP NOW",
+            "button-icon1": "&gt;",
+            "button-url1": ""
+          }
+        },
+        "slide_UrawW7": {
+          "type": "slide",
+          "settings": {
+            "collection1": "macbook-pro",
+            "button-label1": "SHOP NOW",
+            "button-icon1": "&gt;",
+            "button-url1": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_Vij8HE",
+        "slide_7eEe4Q",
+        "slide_qMiACK",
+        "slide_UrawW7"
+      ],
+      "settings": {
+        "show_container": true,
+        "collection": "gift-set-watches",
+        "button-label": "SHOP NOW",
+        "button-icon": "&gt;",
+        "button-url": ""
+      }
+    },
     "image_gallery_EgWVRf": {
       "type": "Image-Gallery",
       "blocks": {
@@ -468,60 +522,6 @@
       "settings": {
         "show_container": false
       }
-    },
-    "magazine_gallery_RVeLUx": {
-      "type": "magazine-gallery",
-      "blocks": {
-        "slide_Vij8HE": {
-          "type": "slide",
-          "settings": {
-            "collection1": "macbook-pro",
-            "button-label1": "SHOP NOW",
-            "button-icon1": "&gt;",
-            "button-url1": ""
-          }
-        },
-        "slide_7eEe4Q": {
-          "type": "slide",
-          "settings": {
-            "collection1": "gift-set-watches",
-            "button-label1": "SHOP NOW",
-            "button-icon1": "&gt;",
-            "button-url1": ""
-          }
-        },
-        "slide_qMiACK": {
-          "type": "slide",
-          "settings": {
-            "collection1": "gift-set-watches",
-            "button-label1": "SHOP NOW",
-            "button-icon1": "&gt;",
-            "button-url1": ""
-          }
-        },
-        "slide_UrawW7": {
-          "type": "slide",
-          "settings": {
-            "collection1": "macbook-pro",
-            "button-label1": "SHOP NOW",
-            "button-icon1": "&gt;",
-            "button-url1": ""
-          }
-        }
-      },
-      "block_order": [
-        "slide_Vij8HE",
-        "slide_7eEe4Q",
-        "slide_qMiACK",
-        "slide_UrawW7"
-      ],
-      "settings": {
-        "show_container": true,
-        "collection": "gift-set-watches",
-        "button-label": "SHOP NOW",
-        "button-icon": "&gt;",
-        "button-url": ""
-      }
     }
   },
   "order": [
@@ -533,7 +533,7 @@
     "two_image_AGKPbC",
     "collection_slider_PePn6P",
     "custom_content_7wGX6m",
-    "image_gallery_EgWVRf",
-    "magazine_gallery_RVeLUx"
+    "magazine_gallery_RVeLUx",
+    "image_gallery_EgWVRf"
   ]
 }
