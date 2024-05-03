@@ -837,7 +837,7 @@ h1.header__heading.flex-logoes {
 }
 
 .custom_featured .card__inner .card__content {
-  display: none;
+  display: none !important;
 }
 /* resposnive css start */
 
