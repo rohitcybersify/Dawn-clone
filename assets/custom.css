@@ -776,7 +776,7 @@ h1.header__heading.flex-logoes {
 .my_gallery {
   display: flex;
   flex-wrap: wrap;
-  width: 49.5%;
+  width: 49%;
   justify-content: space-between;
   row-gap: 30px;
 }
