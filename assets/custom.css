@@ -444,9 +444,6 @@ button:after {
 .product-grid .card__content {
   padding: 0 12px !important;
 }
-.collection .grid__item {
-  max-height: 450px;
-}
 .collection .card__inner.color-background-2.gradient.ratio {
   max-height: 280px;
 }
@@ -620,9 +617,6 @@ h1.header__heading.flex-logoes {
 }
 /* header new css ended */
 
-.custom_featured .collection .card__inner.color-background-2.gradient.ratio {
-  background: transparent;
-}
 .custom_featured .product-grid .card-wrapper {
   padding: 20px;
 }
@@ -637,10 +631,7 @@ h1.header__heading.flex-logoes {
 }
 .custom_featured .collection .card__inner.color-background-2.gradient.ratio {
   display: flex;
-  flex-direction: column-reverse;
-}
-.custom_featured .collection .card__inner.color-background-2.gradient.ratio {
-  display: flex;
+  background: transparent;
   flex-direction: column-reverse;
 }
 .collection .quick-add {
@@ -748,7 +739,9 @@ h1.header__heading.flex-logoes {
 
 .custom_featured .collection .card__inner.color-background-2.gradient.ratio {
   max-height: 190px !important;
-  height: 100%;
+  min-height: 100% !important;
+  height: 100% !important;
+  bottom: 90px !important;
 }
 .collection .collection .card__inner.color-background-2.gradient.ratio {
   max-height: 100% !important;
@@ -764,11 +757,7 @@ h1.header__heading.flex-logoes {
   min-height: 100% !important;
   height: 100% !important;
 }
-.custom_featured .collection .card__inner.color-background-2.gradient.ratio {
-  min-height: 100% !important;
-  height: 100% !important;
-  bottom: 90px !important;
-}
+
 .collection .collection .card__inner.color-background-2.gradient.ratio {
   min-height: 100% !important;
   height: 100% !important;
