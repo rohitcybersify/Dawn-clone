@@ -69,7 +69,7 @@
           <div class="brand-log">
              {% if section.settings.brand_log or section.settings.brand_infor %}
            {% if section.settings.brand_log != blank %} <img class="brand_img" src="{{section.settings.brand_log | image_url }}" height="100px" width="100px"> {% endif %}
-            <p class="brand_info"> {{ section.settings.brand_infor }}</p>
+           {% if section.settings.brand_infor %} <p class="brand_info"> {{ section.settings.brand_infor }}</p> {% endif %}
              {% endif %}
 
       {%- if shop.features.follow_on_shop? and section.settings.enable_follow_on_shop -%}
