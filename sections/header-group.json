@@ -41,6 +41,7 @@
       "settings": {
         "location_image": "shopify:\/\/shop_images\/yorkdale-logo-13.svg",
         "additional_image": "shopify:\/\/shop_images\/Screenshot_2.png",
+        "location_text": "<p><strong>Phone: 98765433<\/strong><\/p>",
         "logo_position": "top-center",
         "menu": "wooden-watch",
         "menu_type_desktop": "mega",
