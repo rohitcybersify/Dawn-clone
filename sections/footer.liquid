@@ -173,19 +173,17 @@
         <div
           class="footer-block--newsletter
           {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}
-          {% if section.settings.brand_log or section.settings.brand_information %} brand-id {% endif %}
-          "
+          {% if section.settings.brand_log or section.settings.brand_information %} brand-id {% endif %}"
           {% if settings.animations_reveal_on_scroll %}
             data-cascade
-          {% endif %}
-        >
-{% if section.settings.brand_log or section.settings.brand_information %}
+          {% endif %}>
+          
+       {% if section.settings.brand_log or section.settings.brand_information %}
           <div class="brand-log">
             <img class="brand_img" src="{{section.settings.brand_log | image_url }}" height="" width="">
             <p class="brand_info"> {{ section.settings.brand_information }}</p>
           </div>
-{% endif %}
-          
+        {% endif %}          
           
           {%- if section.settings.newsletter_enable -%}            
             <div class="tu footer-block__newsletter">
