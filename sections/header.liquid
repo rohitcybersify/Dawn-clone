@@ -178,7 +178,7 @@
                    <img  src="{{ section.settings.location_image2 | image_url  }}" height="60px" width="130px"> 
                     </a>
 
-                    {{ section.settings.location_text }} 
+                 {% if section.settings.location_text != blank %}   {{ section.settings.location_text }} {% endif %}
          
   {% endif %}              
 </div>
