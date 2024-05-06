@@ -165,8 +165,8 @@
 
         {% if section.settings.disclaimer %}
  <div> 
- <h3>Disclaimer</h3> 
-  <p> This is disclaimer</p>
+ <h3>{{ section.settings.disclaimer-heading }}</h3> 
+  <p> {{ section.settings.disclaimer-text }}</p>
 </div>
       {% endif %}  
 
