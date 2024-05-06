@@ -166,7 +166,7 @@
         <h1 class="header__heading flex-logoes">
       {%- endif -%}
           
-{%- if section.settings.logo_position != 'top-center' -%}
+{%- if section.settings.logo_position == 'top-center' -%}
 <div class="locate_links">  
        {% if section.settings.location_image != blank %} 
                     <a href="https://www.google.com/maps/place/Raffi+Jewellers+-+Yorkdale+-+Rolex+Official+Retailer/@43.7250234,-79.4561887,17z/data=!3m2!4b1!5s0x882b323414fd66c5:0xebbb95527c58e388!4m5!3m4!1s0x882b3233a764027d:0xfb2010e3fa2a2463!8m2!3d43.7250195!4d-79.4539947" target="_blank">
@@ -211,7 +211,7 @@
 
 
           
- {%- if section.settings.logo_position != 'top-center' -%}         
+ {%- if section.settings.logo_position == 'top-center' -%}         
       <div class="additional_link">
          <a class="add_image" href="/rolex"><div class="LinkEnabler" ></div> <img  src="{{ section.settings.additional_image | image_url  }}" height="60px" width="130px">      </a>
      </div> 
