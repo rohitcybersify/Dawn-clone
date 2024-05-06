@@ -178,10 +178,10 @@
             data-cascade
           {% endif %}>
           
-       {% if section.settings.brand_log or section.settings.brand_information %}
+       {% if section.settings.brand_log or section.settings.brand_infor %}
           <div class="brand-log">
             <img class="brand_img" src="{{section.settings.brand_log | image_url }}" height="" width="">
-            <p class="brand_info"> {{ section.settings.brand_information }}</p>
+            <p class="brand_info"> {{ section.settings.brand_infor }}</p>
           </div>
         {% endif %}          
           
