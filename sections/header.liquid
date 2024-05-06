@@ -176,10 +176,9 @@
        {% if section.settings.location_image2 != blank %} 
                     <a href="https://www.google.com/maps/place/Rolex+Boutique+-+Raffi+Jewellers+-+Mississauga/@43.5918527,-79.6456071,17z/data=!3m2!4b1!5s0x882b4729545ef1cd:0x1b110acd93c91b12!4m5!3m4!1s0x882b472947b08ca7:0x802789e167c4ab6f!8m2!3d43.5918488!4d-79.6434131" target="_blank">
                    <img  src="{{ section.settings.location_image2 | image_url  }}" height="60px" width="130px"> 
-                    </a>
-                 {% if section.settings.location_text != blank %}   {{ section.settings.location_text }} {% endif %}
-         
-  {% endif %}              
+                    </a>         
+       {% endif %}   
+  {% if section.settings.location_text != blank %}   {{ section.settings.location_text }} {% endif %}
 </div>
  {% endif %}
           
