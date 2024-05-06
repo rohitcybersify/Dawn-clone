@@ -272,6 +272,7 @@
     {%- endunless -%}
   {%- endif -%}
 
+   {%- if section.settings.enable_country_selector or section.settings.disclaimer -%}
  <div class="page-width enable-disclaimer-local">
  {% if section.settings.disclaimer %}
  <div class="site-dislaimer"> 
@@ -360,8 +361,8 @@
           </localization-form>
         {%- endif -%}
       </div>
-</div>
-  
+  </div>
+{% endif %}
 
   <div
     class="footer__content-bottom{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
