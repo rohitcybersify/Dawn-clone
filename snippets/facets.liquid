@@ -500,10 +500,13 @@
               </noscript>
             </div>
           {%- endif -%}
+          
+          
+        {%- endif -%}
           </div>
 
-          
-          <div class="iui product-count light" role="status">
+
+              <div class="iui product-count light" role="status">
             <h2 class="product-count__text text-body">
               <span id="ProductCountDesktop">
                 {%- if results.results_count -%}
@@ -530,7 +533,6 @@
               </svg>
             </div>
           </div>
-        {%- endif -%}
       </form>
     </facet-filters-form>
     {% comment %} Sorting for vertical filter are grouped with filter when no JS{% endcomment %}
