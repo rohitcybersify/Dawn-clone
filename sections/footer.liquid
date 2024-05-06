@@ -163,6 +163,11 @@
           </div>
         {%- endif -%}
 
+        {% if settings.settings.disclaimer %}
+<div> 
+</div>
+      {% endif %}  
+
         <div
           class="footer-block--newsletter{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
           {% if settings.animations_reveal_on_scroll %}
