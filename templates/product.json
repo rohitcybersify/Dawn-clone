@@ -270,6 +270,13 @@
             "heading_size": "h1"
           }
         },
+        "text_wVt9M6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Timeless Beauty For The Modern Woman. Experience The Epitome Of Elegance.The Perfect Blend Of Fashion And Function.<\/p>",
+            "text_style": "body"
+          }
+        },
         "button_7cfii6": {
           "type": "button",
           "settings": {
@@ -281,6 +288,7 @@
       },
       "block_order": [
         "heading_K8p6Th",
+        "text_wVt9M6",
         "button_7cfii6"
       ],
       "settings": {
