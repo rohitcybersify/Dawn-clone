@@ -176,6 +176,14 @@
             data-cascade
           {% endif %}
         >
+
+          <div class="brand-log">
+            <img src="{{section.settings.brand_log | image_url }}" height="" width="">
+            <p> {{ section.settings.brand_information }}</p>
+          </div>
+
+          
+          
           {%- if section.settings.newsletter_enable -%}            
             <div class="tu footer-block__newsletter">
               {%- if section.settings.newsletter_heading != blank -%}
