@@ -6,7 +6,9 @@
 {{ 'component-list-social.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
- 
+
+.enable-disclaimer-local { display: flex;justify-content: space-between;}
+  
   .footer {
     margin-top: {{ section.settings.margin_top | times: 0.75 | round: 0 }}px;
   }
