@@ -51,16 +51,15 @@
     {%- unless only_empty_brand -%}
       <div class="footer__content-top page-width">
 
-
+        
+  {%- if section.settings.newsletter_enable -%}  
         <div
           class="footer-block--newsletter
           {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}
           {% if section.settings.brand_log or section.settings.brand_information %} brand-id {% endif %}"
           {% if settings.animations_reveal_on_scroll %}
             data-cascade
-          {% endif %}>
-          
-      
+          {% endif %}>     
           <div class="brand-log">
              {% if section.settings.brand_log or section.settings.brand_infor %}
             <img class="brand_img" src="{{section.settings.brand_log | image_url }}" height="100px" width="100px">
@@ -83,7 +82,7 @@
           </div>
              
           
-          {%- if section.settings.newsletter_enable -%}            
+                  
             <div class="tu footer-block__newsletter">
               {%- if section.settings.newsletter_heading != blank -%}
                 <h2 class="footer-block__heading inline-richtext">{{ section.settings.newsletter_heading }}</h2>
@@ -146,10 +145,9 @@
                 {%- endif -%}
               {%- endform -%}
             </div>
-          {%- endif -%}
-
-         
         </div>
+        {% endif %}
+
 
         
         {%- if section.blocks.size > 0 -%}
