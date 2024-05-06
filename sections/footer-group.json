@@ -43,7 +43,8 @@
           "type": "text",
           "settings": {
             "heading": "Wooden Watch",
-            "subtext": "<p>179 johnstone St, Fitzroy VIC 3065<br\/>sayhello@wrishwatch.com<br\/>(03) 7003 6943<\/p>"
+            "subtext": "<p>179 johnstone St, Fitzroy VIC 3065<br\/>sayhello@wrishwatch.com<br\/>(03) 7003 6943<\/p>",
+            "show_sicons": true
           }
         },
         "footer-1": {
@@ -75,8 +76,9 @@
         "link_list_eaaNaQ"
       ],
       "settings": {
+        "disclaimer": true,
         "color_scheme": "background-1",
-        "newsletter_enable": false,
+        "newsletter_enable": true,
         "newsletter_heading": "Subscribe to our emails",
         "enable_follow_on_shop": true,
         "show_social": false,
