@@ -299,7 +299,7 @@
         "icon": "",
         "image": "shopify:\/\/shop_images\/pexels-lilartsy-1374128_2.jpg",
         "height": "adapt",
-        "desktop_image_width": "medium",
+        "desktop_image_width": "large",
         "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
