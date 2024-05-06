@@ -266,12 +266,13 @@
     {%- endunless -%}
   {%- endif -%}
 
-        {% if section.settings.disclaimer %}
+  <div class="page-width">
+ {% if section.settings.disclaimer %}
  <div class="site-dislaimer"> 
  <h3 class="dis-heading">{{ section.settings.disclaimer-heading }}</h3> 
   <p class="dis-description"> {{ section.settings.disclaimer-text }}</p>
  </div>
-      {% endif %}          
+ {% endif %}          
 
      <div class="footer__column footer__localization isolate">
         {%- if section.settings.enable_country_selector and localization.available_countries.size > 1 -%}
@@ -353,7 +354,7 @@
           </localization-form>
         {%- endif -%}
       </div>
-
+</div>
   
 
   <div
