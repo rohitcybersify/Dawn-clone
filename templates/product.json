@@ -204,6 +204,7 @@
           "settings": {
             "title-text": "Digital Watch",
             "image": "shopify:\/\/shop_images\/girard-perregaux-neo-bridge-84000-21-3236-5cx-multiple-3_0ba149d5-d68f-4f65-8fd2-e7ea63d11d9b.jpg",
+            "title-heading": "",
             "title-description": "Morbi tempus iaculis urna id volutpat lacus laoreet non curabitur. Ac turpis egestas mae cenas est",
             "button-url1": ""
           }
@@ -213,6 +214,7 @@
           "settings": {
             "title-text": "Analog Watch",
             "image": "shopify:\/\/shop_images\/girard-perregaux-neo-bridge-84000-21-3236-5cx-multiple-1_606c0585-b520-458d-b9b4-0d488eb782e9.jpg",
+            "title-heading": "",
             "title-description": "Morbi tempus iaculis urna id volutpat lacus laoreet non curabitur. Ac turpis egestas mae cenas est",
             "button-url1": ""
           }
@@ -222,6 +224,7 @@
           "settings": {
             "title-text": "Smart Watch",
             "image": "shopify:\/\/shop_images\/girard-perregaux-neo-bridge-84000-21-3236-5cx-large_db857e82-5ea1-4f82-8956-28f4046d451d.jpg",
+            "title-heading": "",
             "title-description": "Morbi tempus iaculis urna id volutpat lacus laoreet non curabitur. Ac turpis egestas mae cenas est",
             "button-url1": ""
           }
@@ -231,6 +234,7 @@
           "settings": {
             "title-text": "Metal Watch",
             "image": "shopify:\/\/shop_images\/girard-perregaux-neo-bridge-8400_5d051cd2-2286-4560-9a37-be9dfdafe455.png",
+            "title-heading": "",
             "title-description": "Morbi tempus iaculis urna id volutpat lacus laoreet non curabitur. Ac turpis egestas mae cenas est",
             "button-url1": ""
           }
@@ -240,6 +244,7 @@
           "settings": {
             "title-text": "Watch",
             "image": "shopify:\/\/shop_images\/images__6_-removebg-preview_ed25467a-00e8-412c-998d-f57c354920a1.png",
+            "title-heading": "",
             "title-description": "Morbi tempus iaculis urna id volutpat lacus laoreet non curabitur. Ac turpis egestas mae cenas est",
             "button-url1": ""
           }
@@ -254,12 +259,56 @@
       ],
       "settings": {
       }
+    },
+    "image_with_text_qMcfgA": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_K8p6Th": {
+          "type": "heading",
+          "settings": {
+            "heading": "Watches that define your personality. Unlock timeless elegance on your wrist.",
+            "heading_size": "h1"
+          }
+        },
+        "button_7cfii6": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_K8p6Th",
+        "button_7cfii6"
+      ],
+      "settings": {
+        "className": "",
+        "heading": "",
+        "viewAllBtn": "",
+        "viewAlllink": "",
+        "icon": "",
+        "image": "shopify:\/\/shop_images\/pexels-lilartsy-1374128_2.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "rich_text_bAW8Ej",
     "related-products",
-    "slick_slider_4AjeaQ"
+    "slick_slider_4AjeaQ",
+    "image_with_text_qMcfgA"
   ]
 }
