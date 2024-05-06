@@ -37,8 +37,10 @@
           <input name="options[prefix]" type="hidden" value="last">
         {%- endif -%}
 
+   
         {% if enable_filtering %}
           {% comment %} Heading is the first tabbable element on filter type horizontal {% endcomment %}
+           <div>
           <div
             id="FacetsWrapperDesktop"
             {% if filter_type == 'horizontal' %}
@@ -498,7 +500,7 @@
               </noscript>
             </div>
           {%- endif -%}
-
+          </div>
 
           
           <div class="iui product-count light" role="status">
