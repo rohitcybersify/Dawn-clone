@@ -208,10 +208,15 @@
           </a>
 
         </div>
+
+
           
-<div class="additional_link">
-<a class="add_image" href="/rolex"><div class="LinkEnabler" ></div> <img  src="{{ section.settings.additional_image | image_url  }}" height="60px" width="130px">      </a>
-   </div> 
+ {%- if section.settings.logo_position != 'middle-center' -%}         
+      <div class="additional_link">
+         <a class="add_image" href="/rolex"><div class="LinkEnabler" ></div> <img  src="{{ section.settings.additional_image | image_url  }}" height="60px" width="130px">      </a>
+     </div> 
+ {% endif %} 
+
           
       {%- if request.page_type == 'index' -%}
         </h1>
