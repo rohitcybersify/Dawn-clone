@@ -175,6 +175,7 @@
                     style="--animation-order: {{ forloop.index }};"
                   {% endif %}
                 >
+                  
             {% if forloop.index == 1 %}
                 {% if section.settings.adsImage != blank %}
                <div class="featuredProductImage" style="background-image:url('{{ section.settings.adsImage | img_url : '' }}');">
@@ -200,6 +201,8 @@
                   </div>
                </div>
                 {% endif %}
+
+              
             {% else %}
                   
                   {% render 'card-product',
