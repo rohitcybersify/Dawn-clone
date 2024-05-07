@@ -1,9 +1,9 @@
 
 <style>
    .hovered-add {display:none;}
-  li.this-is-hovered.rrt.hovered-add {
+  /* li.this-is-hovered.rrt.hovered-add {
     display: block!important;
-}
+} */
 </style>
 
 {{ 'template-collection.css' | asset_url | stylesheet_tag }}
@@ -405,9 +405,11 @@
   $(document).ready(function(){
     $('.hovered').mouseover( function(){
      $(this).addClass('this-is-hovered'); 
+      $(this).find('.quick-add').removeClass('hovered-add');
     });
      $('.hovered').mouseout( function(){
      $(this).removeClass('this-is-hovered'); 
+       $(this).find('.quick-add').addClass('hovered-add');
     });
   });
 </script>
