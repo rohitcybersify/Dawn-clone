@@ -40,16 +40,6 @@
     },
     "header": {
       "type": "header",
-      "blocks": {
-        "judge_me_reviews_all_reviews_text_6mGEtg": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/all_reviews_text\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_all_reviews_text_6mGEtg"
-      ],
       "settings": {
         "transparent_header": false,
         "location_image": "shopify:\/\/shop_images\/yorkdale-logo-13.svg",
