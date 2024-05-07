@@ -189,15 +189,7 @@
                      <div class="cardTitle">
                      {{ section.settings.imageTitle }}
                      </div>
-                     {% endif %}
-                     {% if section.settings.buttonLabel != blank %}
-                     <div class="cardButton">
-                        <a href="{% if section.settings.buttonLink != blank %}{{ section.settings.buttonLink }}{% else %}#{% endif %}">
-                          {{ section.settings.buttonLabel }}
-                        </a>
-                     </div>
-                     {% endif %}
-                    
+                     {% endif %}                    
                   </div>
                </div>
                 {% endif %}
