@@ -27,6 +27,13 @@
 <noscript>{{ 'component-cart-notification.css' | asset_url | stylesheet_tag }}</noscript>
 <noscript>{{ 'component-cart-items.css' | asset_url | stylesheet_tag }}</noscript>
 
+{% if template == 'index' %}
+<style>
+.header-wrapper.color-background-1.gradient  {
+     background: transparent;
+}
+</style>
+{% endif %}
 <style>
   .header-bottom-icons { display: flex; justify-content: flex-end;}
  .header-bottom-icons .search_label {display:none;}
