@@ -8,6 +8,36 @@
         "color_scheme": "inverse"
       }
     },
+    "rich_text_Mx7UwC": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_VwJaxi": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "text_HgryJW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_VwJaxi",
+        "text_HgryJW"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
@@ -81,6 +111,7 @@
   },
   "order": [
     "banner",
+    "rich_text_Mx7UwC",
     "product-grid",
     "collapsible_content_MmHBNa"
   ]
