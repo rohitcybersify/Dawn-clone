@@ -1,7 +1,9 @@
 
 <style>
    .hovered-add {display:none;}
-  li.this-is-hovered.hovered-add {display:block!important;}
+  li.this-is-hovered.hovered-add.quick-add.no-js-hidden {
+    display: block;
+}
 </style>
 
 {{ 'template-collection.css' | asset_url | stylesheet_tag }}
