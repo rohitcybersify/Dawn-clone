@@ -406,10 +406,12 @@
     $('.hovered').mouseover( function(){
      $(this).addClass('this-is-hovered'); 
       $(this).find('.quick-add').removeClass('hovered-add');
+       $(this).find('.card__badge').removeClass('hovered-add');
     });
      $('.hovered').mouseout( function(){
      $(this).removeClass('this-is-hovered'); 
        $(this).find('.quick-add').addClass('hovered-add');
+        $(this).find('.card__badge').addClass('hovered-add');
     });
   });
 </script>
