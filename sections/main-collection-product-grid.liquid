@@ -1,8 +1,8 @@
 
 <style>
    .hovered-add {display:none;}
- .this-is-hovered {
-    display: block!important;
+  li.this-is-hovered.hovered-add {
+    display: block;
 }
 </style>
 
@@ -404,10 +404,10 @@
 <script>
   $(document).ready(function(){
     $('.hovered').mouseover( function(){
-     $(this).children('.hovered-add').addClass('this-is-hovered'); 
+     $(this).addClass('this-is-hovered'); 
     });
      $('.hovered').mouseout( function(){
-     $(this).children('.hovered-add').removeClass('this-is-hovered'); 
+     $(this).removeClass('this-is-hovered'); 
     });
   });
 </script>
