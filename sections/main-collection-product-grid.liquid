@@ -176,7 +176,7 @@
                   {% endif %}
                 >
                   
-          {% if forloop.index == 0 and section.settings.adsImage != blank %}
+          {% if forloop.index == 1 and section.settings.adsImage != blank %}
               {% if section.settings.adsImage != blank %}
                <div class="featuredProductImage" style="background-image:url('{{ section.settings.adsImage | img_url : '' }}');">
                   <div class="cardBody">
