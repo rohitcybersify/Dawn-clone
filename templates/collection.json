@@ -103,7 +103,7 @@
         "container_color_scheme": "background-1",
         "open_first_collapsible_row": true,
         "image": "shopify:\/\/shop_images\/Watch_5.png",
-        "image_ratio": "adapt",
+        "image_ratio": "small",
         "desktop_layout": "image_second",
         "padding_top": 20,
         "padding_bottom": 20
