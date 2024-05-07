@@ -41,7 +41,7 @@
     "header": {
       "type": "header",
       "settings": {
-        "transparent_header": false,
+        "transparent_header": true,
         "location_image": "shopify:\/\/shop_images\/yorkdale-logo-13.svg",
         "additional_image": "shopify:\/\/shop_images\/Screenshot_2.png",
         "location_text": "",
