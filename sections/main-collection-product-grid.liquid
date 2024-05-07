@@ -394,11 +394,11 @@
 {% endschema %}
 
 <script>
-  $(document).ready((function){
-    $('.hovered').mouseover( (function){
+  $(document).ready(function(){
+    $('.hovered').mouseover( function(){
      $(this).addClass('this-is-hovered'); 
     });
-     $('.hovered').mouseout( (function){
+     $('.hovered').mouseout( function(){
      $(this).removeClass('this-is-hovered'); 
     });
   });
