@@ -849,6 +849,7 @@ h1.header__heading.flex-logoes {
 }
 
 /* grid css*/
+
 ul#product-grid {
   column-gap: 0px !important;
   row-gap: 0px !important;
