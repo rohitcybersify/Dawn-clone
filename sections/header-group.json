@@ -27,13 +27,13 @@
       "settings": {
         "color_scheme": "background-1",
         "show_line_separator": true,
-        "show_social": true,
+        "show_social": false,
         "left-icons": true,
         "right-icons": true,
         "auto_rotate": true,
         "change_slides_speed": 5,
-        "enable_country_selector": true,
-        "enable_language_selector": true
+        "enable_country_selector": false,
+        "enable_language_selector": false
       }
     },
     "header": {
