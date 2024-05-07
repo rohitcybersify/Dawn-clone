@@ -42,6 +42,8 @@
       "type": "main-collection-product-grid",
       "settings": {
         "adsImage": "shopify:\/\/shop_images\/Watch4.png",
+        "imageTitle": "<h1><a href=\"\/collections\/imac\" target=\"_blank\" title=\"Classic Watches\"><em><strong>Try New<\/strong><\/em><\/a><\/h1>",
+        "caption": "Watches That Define Your Personality.",
         "products_per_page": 8,
         "columns_desktop": 4,
         "image_ratio": "portrait",
