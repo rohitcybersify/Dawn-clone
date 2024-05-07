@@ -26,6 +26,10 @@
 <noscript>{{ 'component-menu-drawer.css' | asset_url | stylesheet_tag }}</noscript>
 <noscript>{{ 'component-cart-notification.css' | asset_url | stylesheet_tag }}</noscript>
 <noscript>{{ 'component-cart-items.css' | asset_url | stylesheet_tag }}</noscript>
+<style>
+.header__icon .header__icon--search{ width: 400px; display: flex; border: 1px black solid;justify-content: space-between;}
+input.search-in { border: none;}
+  </style>
 
 {% if template == 'index' %}
 <style>
