@@ -630,9 +630,9 @@ h1.header__heading.flex-logoes {
   max-height: 100% !important;
 }
 
-.collection .quick-add {
+/* .collection .quick-add {
   display: none;
-}
+} */
 .custom_featured .full-unstyled-link {
   max-width: 60%;
 }
