@@ -438,7 +438,7 @@ button:after {
 .product-grid .card__badge.bottom.left {
   position: absolute;
   top: 10px;
-  left: 10px;
+  left: 14px;
   grid-row-start: none;
 }
 .product-grid .card__content {
