@@ -101,7 +101,7 @@
     <label for="{{ id }}-native" class="js-hidden label{% if hide_label %} visually-hidden{% endif %}">{{ label }}</label>
   {%- endif -%}
   <div class="js-hidden select inline-block relative">
-    <select class="custom-select__native" id="{{ id }}-native"{% if native_name %} name="{{ native_name }}"{% endif %}{% if native_form_id %} form="{{ native_form_id }}"{% endif %}>
+    <select class="custom-select__native input_width" id="{{ id }}-native"{% if native_name %} name="{{ native_name }}"{% endif %}{% if native_form_id %} form="{{ native_form_id }}"{% endif %}>
       {%- unless selected_value -%}
         <option value="">{{ default_option }}</option>
       {%- endunless -%}
