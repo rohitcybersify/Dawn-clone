@@ -127,7 +127,7 @@
             "value_no": "No",
             "value_yes": "Yes",
             "required": false,
-            "half_width": false
+            "half_width": true
           }
         }
       },
