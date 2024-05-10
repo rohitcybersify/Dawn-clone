@@ -49,7 +49,7 @@
         "icon": "",
         "backgoundImage": "shopify:\/\/shop_images\/Untitled-2-1.jpg",
         "height": "adapt",
-        "desktop_image_width": "medium",
+        "desktop_image_width": "large",
         "layout": "image_first",
         "desktop_content_position": "bottom",
         "desktop_content_alignment": "right",
