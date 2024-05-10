@@ -217,7 +217,7 @@
 
                 {% case block.type %}
                   {% when 'name_input' %}
-                 {% comment %}   <label for="contact_name">{{ 'contact.form.name' | t }}</label> {% endcomment %}
+                <label for="contact_name">{{ 'templates.contact.form.name' | t }}</label>
                     <input
                       type="text"
                       autocomplete="name"
@@ -229,7 +229,7 @@
                       value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}" />
 
                   {% when 'email_input' %}
-                  {% comment %} <label for="contact_email">{{ 'contact.form.email' | t }}</label> {% endcomment %}
+                 <label for="contact_email">{{ 'templates.contact.form.email' | t }}</label> 
                     <input
                       type="email"
                       required
@@ -243,11 +243,11 @@
                       value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}" />
 
                   {% when 'message_input' %}
-                   {% comment %} <label for="message">{{ 'contact.form.message' | t }}</label> {% endcomment %}
+                   <label for="message">{{ 'templates.contact.form.comment' | t }}</label>
                     <textarea id="message" class="input_width" placeholder="{{ 'templates.contact.form.comment' | t }}" required name="contact[body]">{{ form.body }}</textarea>
 
                   {% when 'phone_input' %}
-                 {% comment %}   <label for="contact_phone">{{ 'contact.form.phone' | t }}</label>{% endcomment %}
+                  <label for="contact_phone">{{ 'templates.contact.form.phone' | t }}</label>
                     <input
                       type="tel"
                       class="input_width"
@@ -267,7 +267,7 @@
                           <div class="errors">The label "{{ block.settings.title }}" is reserved. Please use the dedicated block for this input instead.</div>
                         {%- endif -%}
                       {%- endif -%}
-                     {% comment %}  <label for="contact_{{ title_handle }}">{{ block.settings.title | escape }}</label> {% endcomment %}
+                     <label for="contact_{{ title_handle }}">{{ block.settings.title | escape }}</label> 
                       {% if block.settings.type == 'textarea' %}
                         <textarea
                           id="contact_{{ title_handle }}"
