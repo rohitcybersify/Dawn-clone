@@ -144,8 +144,8 @@
       "settings": {
         "show_page_title": true,
         "use_columns": true,
-        "contact_title": "Contact us",
-        "contact_text": "<p><strong>Brookfield Location<\/strong>14640 W. Greenfield AveBrookfield, WI 53005262-788-5300Sunday–Monday: ClosedTuesday–Friday: 10am–6pmSaturday: 10am–4pm<strong>Greenfield Location<\/strong>7530 W. Layton Ave.Greenfield, WI414-281-0500Sunday–Monday: ClosedTuesday–Friday: 10am–6pmSaturday: 10am–4pm<\/p>"
+        "contact_title": "",
+        "contact_text": ""
       }
     }
   },
