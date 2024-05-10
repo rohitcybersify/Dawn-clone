@@ -117,8 +117,8 @@
         "custom_dropdown_kV3zDt": {
           "type": "custom_dropdown",
           "settings": {
-            "title": "Country",
-            "multiple_options": "First Option \nSecond Option\nThird Option\nFourth Option",
+            "title": "Send Notification",
+            "multiple_options": "Phone\nEmail\nWhatsapp\nText",
             "half_width": true
           }
         },
