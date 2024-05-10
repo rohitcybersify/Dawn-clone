@@ -119,7 +119,7 @@
           "settings": {
             "title": "Country",
             "multiple_options": "First Option \nSecond Option\nThird Option\nFourth Option",
-            "half_width": false
+            "half_width": true
           }
         },
         "custom_checkbox_W8BTyc": {
