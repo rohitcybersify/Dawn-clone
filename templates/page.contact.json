@@ -61,7 +61,6 @@
     },
     "form": {
       "type": "contact-form",
-      "disabled": true,
       "settings": {
         "heading": "Contact Us",
         "heading_size": "h1",
