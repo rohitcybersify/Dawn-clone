@@ -118,7 +118,7 @@
           "type": "custom_dropdown",
           "settings": {
             "title": "Country",
-            "multiple_options": "",
+            "multiple_options": "First Option \nSecond Option\nThird Option\nFourth Option",
             "half_width": true
           }
         },
