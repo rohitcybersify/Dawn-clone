@@ -212,7 +212,7 @@
           <div class="flexible-layout flexible-layout--form">
            
             {% for block in section.blocks %}
-              <div class="column column--{% if block.settings.half_width %}half{% else %}full{% endif %}" {{ block.shopify_attributes }}>
+              <div  id="col={{ forloop.index0 }}" class="column column--{% if block.settings.half_width %}half{% else %}full{% endif %}" {{ block.shopify_attributes }}>
                 
 
                 {% case block.type %}
