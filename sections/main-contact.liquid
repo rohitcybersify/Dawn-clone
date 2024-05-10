@@ -302,6 +302,16 @@
                           <div class="errors">The label "{{ block.settings.title }}" is reserved. Please use the dedicated block for this input instead.</div>
                         {%- endif -%}
                       {%- endif -%}
+  
+<select id="select">                                             
+<option value="0">System Design</option> 
+<option value="1">DSA-Online</option> 
+<option value="2">Fork Python</option> 
+<option value="3">Fork Java</option> 
+</select> 
+
+
+                       
                       <div class="option-selector" data-selector-type="dropdown">
                         <script src="{{ 'custom-select.js' | asset_url }}" defer></script>
                         {% render 'custom-select',
