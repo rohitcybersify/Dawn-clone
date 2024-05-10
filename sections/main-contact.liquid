@@ -305,22 +305,6 @@
                        
                       <div class="option-selector" data-selector-type="dropdown">
 
-<select id="select">                                             
-<option value="0">System Design</option> 
-<option value="1">DSA-Online</option> 
-<option value="2">Fork Python</option> 
-<option value="3">Fork Java</option> 
-</select> 
-
-    <select class="custom-select__native input_width" id="{{ id }}-native"{% if native_name %} name="{{ native_name }}"{% endif %}{% if native_form_id %} form="{{ native_form_id }}"{% endif %}>
- {% for values in option.values %}
-        <option value="{{ value | escape }}"{% if value == selected_value %} selected{% endif %}>
-          {{- option_names[forloop.index0] -}}
-        </option>
-      {%- endfor -%}
-    </select>
-
-                        
                         <script src="{{ 'custom-select.js' | asset_url }}" defer></script>
                         {% render 'custom-select',
                           id: input_id,
