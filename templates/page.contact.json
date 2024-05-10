@@ -117,7 +117,7 @@
         "custom_dropdown_kV3zDt": {
           "type": "custom_dropdown",
           "settings": {
-            "title": "Send Notification",
+            "title": "Send Notification on:",
             "multiple_options": "Phone\nEmail\nWhatsapp\nText",
             "half_width": true
           }
@@ -125,7 +125,7 @@
         "custom_checkbox_W8BTyc": {
           "type": "custom_checkbox",
           "settings": {
-            "main_heading": "Send Notification",
+            "main_heading": "Notification:",
             "title": "Enable",
             "value_no": "No",
             "value_yes": "Yes",
