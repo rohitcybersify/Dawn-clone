@@ -15,7 +15,7 @@
     <div class="account-form {% if page.content != blank and section.settings.use_columns %}column righty-form{% else %}reading-width{% endif %}">
       {% form 'contact' %}
         {% if form.posted_successfully? %}
-          <p><strong>{{ 'contact.form.post_success' | t }}</strong></p>
+          <p><strong>{{ 'templates.contact.form.post_success' | t }}</strong></p>
         {% else %}
 
           {% if section.settings.contact_title != blank or section.settings.contact_text != blank %}
@@ -66,7 +66,7 @@
                       autocomplete="name"
                       required
                       id="contact_name"
-                      placeholder="{{ 'contact.form.name' | t }}"
+                      placeholder="{{ 'templates.contact.form.name' | t }}"
                       name="contact[name]"
                       value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}" />
 
@@ -80,13 +80,13 @@
                       name="contact[email]"
                       autocomplete="email"
                       spellcheck="false"
-                      placeholder="{{ 'contact.form.email' | t }}"
+                      placeholder="{{ 'templates.contact.form.email' | t }}"
                       autocapitalize="off"
                       value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}" />
 
                   {% when 'message_input' %}
                    {% comment %} <label for="message">{{ 'contact.form.message' | t }}</label> {% endcomment %}
-                    <textarea id="message"  placeholder="{{ 'contact.form.message' | t }}" required name="contact[body]">{{ form.body }}</textarea>
+                    <textarea id="message"  placeholder="{{ 'templates.contact.form.comment' | t }}" required name="contact[body]">{{ form.body }}</textarea>
 
                   {% when 'phone_input' %}
                  {% comment %}   <label for="contact_phone">{{ 'contact.form.phone' | t }}</label>{% endcomment %}
@@ -94,8 +94,8 @@
                       type="tel"
                       id="contact_phone"
                       autocomplete="tel"
-                       placeholder="{{ 'contact.form.phone' | t }}"
-                      name="contact[{{ 'contact.form.phone' | t }}]"
+                       placeholder="{{ 'templates.contact.form.phone' | t }}"
+                      name="contact[{{ 'templates.contact.form.phone' | t }}]"
                       {% if block.settings.required %}required{% endif %}
                       value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}" />
 
