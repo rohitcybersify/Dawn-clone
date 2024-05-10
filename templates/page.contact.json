@@ -117,8 +117,8 @@
         "custom_dropdown_kV3zDt": {
           "type": "custom_dropdown",
           "settings": {
-            "title": "select option",
-            "multiple_options": "Option 1\nOption 2\nOption 3",
+            "title": "Country",
+            "multiple_options": "",
             "half_width": true
           }
         },
