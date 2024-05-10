@@ -7,7 +7,7 @@
   .main_contact { margin: 55px auto;}
   .account-form.column.righty-form { width: 60%;padding: 0px 15px;}
   .column.rte.spaced-row { width: 40%;}
- .slim-column-left-layout { display: flex; justify-content: space-around;gap: 2%;}
+
   .flexible-layout,
 .fixed-layout {
   display: flex;
@@ -74,7 +74,10 @@
 .flexible-layout--form .column {
   margin-bottom: 20px;
 }
-
+@media (min-width: 768px) {
+  .slim-column-left-layout { display: flex; justify-content: space-around;gap: 2%;} 
+}
+  
 @media (min-width: 1300px) {
   .fixed-layout--no-wide-gutter {
     margin-left: -20px;
