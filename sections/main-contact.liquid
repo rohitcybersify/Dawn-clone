@@ -330,6 +330,7 @@
                         name="contact[{{ title_handle }}]"
                         value="{{ block.settings.value_no | escape }}" />
 
+                      <div class="checkbox-row">
                       <label> Send Notiications </label>
                       <label class="checkbox-label">
                         <input
@@ -342,6 +343,7 @@
                           {% if form[title_handle] == block.settings.value_yes %} checked{% endif %} />
                         {{ block.settings.title | escape }}
                       </label>
+                   </div>
                     {% endif %}
 
                   {% when 'text' %}
