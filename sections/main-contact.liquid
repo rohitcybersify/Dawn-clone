@@ -218,6 +218,7 @@
                     <input
                       type="text"
                       autocomplete="name"
+                      class="input_width"
                       required
                       id="contact_name"
                       placeholder="{{ 'templates.contact.form.name' | t }}"
@@ -230,7 +231,7 @@
                       type="email"
                       required
                       id="contact_email"
-                      class="email"
+                      class="email input_width"
                       name="contact[email]"
                       autocomplete="email"
                       spellcheck="false"
@@ -240,12 +241,13 @@
 
                   {% when 'message_input' %}
                    {% comment %} <label for="message">{{ 'contact.form.message' | t }}</label> {% endcomment %}
-                    <textarea id="message"  placeholder="{{ 'templates.contact.form.comment' | t }}" required name="contact[body]">{{ form.body }}</textarea>
+                    <textarea id="message" class="input_width" placeholder="{{ 'templates.contact.form.comment' | t }}" required name="contact[body]">{{ form.body }}</textarea>
 
                   {% when 'phone_input' %}
                  {% comment %}   <label for="contact_phone">{{ 'contact.form.phone' | t }}</label>{% endcomment %}
                     <input
                       type="tel"
+                      class="input_width"
                       id="contact_phone"
                       autocomplete="tel"
                        placeholder="{{ 'templates.contact.form.phone' | t }}"
@@ -266,6 +268,7 @@
                       {% if block.settings.type == 'textarea' %}
                         <textarea
                           id="contact_{{ title_handle }}"
+                          class="input_width"
                           placeholder="{{ block.settings.title | escape }}"
                           name="contact[{{ title_handle }}]"
                           {% if block.settings.required %}required{% endif %}>
@@ -276,6 +279,7 @@
                           type="{{ block.settings.type }}"
                           placeholder="{{ block.settings.title | escape }}"
                           id="contact_{{ title_handle }}"
+                          class="input_width"
                           name="contact[{{ title_handle }}]"
                           value="{{ form[title_handle] }}"
                           {% if block.settings.required %}required{% endif %}/>
@@ -323,6 +327,7 @@
                       <label class="checkbox-label">
                         <input
                           type="checkbox"
+                          class="input_width"
                           id="contact_{{ title_handle }}"
                           name="contact[{{ title_handle }}]"
                           value="{{ block.settings.value_yes | escape }}"
