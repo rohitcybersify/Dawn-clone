@@ -125,7 +125,8 @@
         "custom_checkbox_W8BTyc": {
           "type": "custom_checkbox",
           "settings": {
-            "title": "Custom checkbox",
+            "main_heading": "Send Notification",
+            "title": "Enable",
             "value_no": "No",
             "value_yes": "Yes",
             "required": false,
