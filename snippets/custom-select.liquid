@@ -50,7 +50,7 @@
   endif
 -%}
 
-{% comment %}
+
 {%- if country_selector -%}
   <country-selector>
 {%- else -%}
@@ -94,8 +94,9 @@
 {%- else -%}
   </custom-select>
 {%- endif -%}
- {% endcomment %}
 
+
+          
 {%- if include_native -%}
   {%- if label -%}
     <label for="{{ id }}-native" class="js-hidden label{% if hide_label %} visually-hidden{% endif %}">{{ label }}</label>
