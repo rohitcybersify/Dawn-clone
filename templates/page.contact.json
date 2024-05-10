@@ -143,7 +143,7 @@
       ],
       "settings": {
         "show_page_title": true,
-        "use_columns": false,
+        "use_columns": true,
         "contact_title": "",
         "contact_text": ""
       }
