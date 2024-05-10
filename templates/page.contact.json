@@ -115,7 +115,7 @@
         "custom_dropdown_kV3zDt": {
           "type": "custom_dropdown",
           "settings": {
-            "title": "Custom dropdown",
+            "title": "select option",
             "multiple_options": "Option 1\nOption 2\nOption 3",
             "half_width": true
           }
