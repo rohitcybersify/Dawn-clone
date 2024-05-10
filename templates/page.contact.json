@@ -148,7 +148,7 @@
         "show_page_title": false,
         "use_columns": true,
         "contact_title": "",
-        "contact_text": "<p>Contact us for more details!<\/p>"
+        "contact_text": "<h3><strong>Contact us for more details!<\/strong><\/h3>"
       }
     }
   },
