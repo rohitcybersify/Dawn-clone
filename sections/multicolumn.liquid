@@ -157,7 +157,7 @@
                     {% endif %}
                   >
                     {{- block.settings.link_label | escape -}}
-                    <span class="icon-wrap">&nbsp;{% render 'icon-arrow' %}</span> </a
+                 {% if block.settings.enable_icon %}   <span class="icon-wrap">&nbsp;{% render 'icon-arrow' %}</span> {% endif %} </a
                   >
                 {%- endif -%}
               </div>
