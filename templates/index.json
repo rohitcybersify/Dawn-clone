@@ -655,6 +655,17 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "custom_image_aRARaK": {
+      "type": "custom-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_2.png",
+        "position-absolute": true,
+        "left-image-position": 0,
+        "right-image-position": 0,
+        "top-image-position": 0,
+        "bottom-image-position": 0
+      }
     }
   },
   "order": [
@@ -669,6 +680,7 @@
     "custom_content_7wGX6m",
     "magazine_gallery_RVeLUx",
     "image_gallery_EgWVRf",
-    "image_banner_Ye3teP"
+    "image_banner_Ye3teP",
+    "custom_image_aRARaK"
   ]
 }
