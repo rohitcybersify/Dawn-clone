@@ -705,12 +705,22 @@
             "image-width": 160,
             "image-height": 50
           }
+        },
+        "slide_LYcwNa": {
+          "type": "slide",
+          "settings": {
+            "text": "",
+            "image": "shopify:\/\/shop_images\/div.elementor-repeater-item-5cace67.png",
+            "image-width": 160,
+            "image-height": 50
+          }
         }
       },
       "block_order": [
         "slide_pY4mzi",
         "slide_hWd9Pm",
-        "slide_qQ8GbX"
+        "slide_qQ8GbX",
+        "slide_LYcwNa"
       ],
       "settings": {
       }
