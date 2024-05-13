@@ -273,15 +273,14 @@ input.search-in { display: none;}
       {%- endif -%}
     {%- endif -%}
 
-    
- 
- <div class="header-bottom-icons">
-   {%- liquid
+    {%- liquid
       if section.settings.menu != blank
         render 'header-drawer'
       endif
     -%} 
-
+   
+ 
+ <div class="header-bottom-icons">  
    {% if  section.settings.enable_header_icons %}
    {%- if section.settings.logo_position == 'middle-left' or section.settings.logo_position == 'middle-center' or section.settings.logo_position == 'top-left' -%}   
     <div class="header__icons{% if section.settings.enable_country_selector or section.settings.enable_language_selector %} header__icons--localization header-localization{% endif %}">
