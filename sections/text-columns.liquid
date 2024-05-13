@@ -7,7 +7,7 @@
 }
 </style>
 
-<section class="text-columns {% if section.settings.show_container %} page-width {% endif %}">
+<section class="text-columns {% if section.settings.show_container %} page-width {% endif %} {% if section.settings.show_small_container %} small-page-width {% endif %} ">
 <div class="double-columns">
  
   <div class="left-column">
@@ -50,6 +50,12 @@
   "id": "show_container",
   "label": "Enable Container",
   "default": false
+},
+      {
+  "type": "checkbox",
+  "id": "show_small_container",
+  "label": "Enable Small Container",
+  "default": true
 }  
     ],
     "blocks":[
