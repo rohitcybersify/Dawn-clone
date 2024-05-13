@@ -724,6 +724,68 @@
         "top-image-position": 500,
         "bottom-image-position": 0
       }
+    },
+    "image_with_text_bjh3cC": {
+      "type": "image-with-text",
+      "blocks": {
+        "caption_CztWpW": {
+          "type": "caption",
+          "settings": {
+            "caption": "ABOUT OUR HAIR ROUTINE",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading_fGapLX": {
+          "type": "heading",
+          "settings": {
+            "heading": "Hair & skincare good foryour health, your skinand the planet.",
+            "heading_size": "h1"
+          }
+        },
+        "icon_69pMFd": {
+          "type": "icon",
+          "settings": {
+            "iconImage1": "shopify:\/\/shop_images\/Icon.svg",
+            "iconText1": "CRUELTY FREE",
+            "iconImage2": "shopify:\/\/shop_images\/Icon_1.svg",
+            "iconText2": "SULFATE FREE"
+          }
+        },
+        "button_rcMjpJ": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "caption_CztWpW",
+        "heading_fGapLX",
+        "icon_69pMFd",
+        "button_rcMjpJ"
+      ],
+      "settings": {
+        "className": "",
+        "heading": "",
+        "viewAllBtn": "",
+        "viewAlllink": "",
+        "icon": "",
+        "image": "shopify:\/\/shop_images\/div.bt_bb_column.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -740,6 +802,7 @@
     "image_gallery_EgWVRf",
     "image_banner_Ye3teP",
     "marquee_slider_RWmRUc",
-    "custom_image_aRARaK"
+    "custom_image_aRARaK",
+    "image_with_text_bjh3cC"
   ]
 }
