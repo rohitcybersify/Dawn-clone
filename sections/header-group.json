@@ -26,6 +26,7 @@
         "announcement_yrEWpY",
         "announcement_CFPwX8"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "background-1",
         "show_line_separator": true,
