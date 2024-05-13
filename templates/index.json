@@ -896,6 +896,31 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "text_columns_cdTBN3": {
+      "type": "text-columns",
+      "blocks": {
+        "text_nAGbaU": {
+          "type": "text",
+          "settings": {
+            "text-label": "<p>HAIR SALON & PRODUCTS<\/p><h3>Natural cuts & styling<\/h3><p>Designed to maintain your current colour, blend out a growing root orbalance your blonde while providing full and demi-permanentcoverage. Our custom kit can disguise grey-white hair.<\/p>"
+          }
+        },
+        "button_zifkGn": {
+          "type": "button",
+          "settings": {
+            "btn-label": "Book an appointment",
+            "btn-label-url": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_nAGbaU",
+        "button_zifkGn"
+      ],
+      "settings": {
+        "show_container": false
+      }
     }
   },
   "order": [
@@ -914,6 +939,7 @@
     "marquee_slider_RWmRUc",
     "custom_image_aRARaK",
     "image_with_text_bjh3cC",
-    "multicolumn_LxVqyn"
+    "multicolumn_LxVqyn",
+    "text_columns_cdTBN3"
   ]
 }
