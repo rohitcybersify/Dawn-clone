@@ -750,7 +750,9 @@
             "iconImage1": "shopify:\/\/shop_images\/Icon.svg",
             "iconText1": "CRUELTY FREE",
             "iconImage2": "shopify:\/\/shop_images\/Icon_1.svg",
-            "iconText2": "SULFATE FREE"
+            "iconText2": "SULFATE FREE",
+            "iconImage3": "shopify:\/\/shop_images\/Icon_2.svg",
+            "iconText3": "GMO FREE"
           }
         },
         "button_rcMjpJ": {
