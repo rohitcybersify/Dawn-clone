@@ -219,19 +219,25 @@
         "slide_UxzAHj": {
           "type": "slide",
           "settings": {
-            "text": "<h3><em>chocolate trufflle choco rol delights wedding cakes peach pie<\/em><\/h3>"
+            "text": "<h3><em>chocolate trufflle choco rol delights wedding cakes peach pie<\/em><\/h3>",
+            "image-width": 500,
+            "image-height": 700
           }
         },
         "slide_xLXEty": {
           "type": "slide",
           "settings": {
-            "text": "<h3><em>chocolate trufflle choco rol delights wedding cakes peach pie<\/em><\/h3>"
+            "text": "<h3><em>chocolate trufflle choco rol delights wedding cakes peach pie<\/em><\/h3>",
+            "image-width": 500,
+            "image-height": 700
           }
         },
         "slide_bq8TXf": {
           "type": "slide",
           "settings": {
-            "text": "<h3><em>chocolate trufflle choco rol delights wedding cakes peach pie<\/em><\/h3>"
+            "text": "<h3><em>chocolate trufflle choco rol delights wedding cakes peach pie<\/em><\/h3>",
+            "image-width": 500,
+            "image-height": 700
           }
         }
       },
@@ -676,7 +682,10 @@
         "slide_pY4mzi": {
           "type": "slide",
           "settings": {
-            "text": "<p>ttutuututu<\/p>"
+            "text": "",
+            "image": "shopify:\/\/shop_images\/div.elementor-repeater-item-5cace67.png",
+            "image-width": 160,
+            "image-height": 50
           }
         }
       },
