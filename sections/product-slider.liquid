@@ -8,7 +8,7 @@
       <p>{{ block.settings.product.title }}</p>
    </div>
     <div class="image_2"> 
-         {% if block.settings.product.featured_media != blank %} <img  class="slide-image" src="{{ block.settings.featured_media | image_url  }}" height="350px" width="350px"> {% endif %}
+         {% if block.settings.product.featured_image != blank %} <img  class="slide-image" src="{{ block.settings.featured_image | image_url  }}" height="350px" width="350px"> {% endif %}
     </div>
     <div class="image_3"> 
        {% if block.settings.image_3 != blank %} <img  class="slide-image" src="{{ block.settings.image_3 | image_url  }}" height="350px" width="350px"> {% endif %}
