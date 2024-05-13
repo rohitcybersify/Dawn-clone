@@ -1,6 +1,19 @@
+<div class="custom-image"> 
+         <img  src="{{ section.settings.image | image_url  }}" height="" width="">        
+     </div>
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Custom Image",
+    "settings": [
+      {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Select Image"
+    }
+    ],
+     "presets": [
+     {"name": "Custom Image"}
+    ]
   }
 {% endschema %}
