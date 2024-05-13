@@ -2,14 +2,14 @@
 <div class="double-columns">
  
   <div class="left-column">
-   {% for block in section.blocks %}
+   {% for block in settings.blocks %}
     {% case block.type %}      
      
       {%- when 'text' -%}      
-      <div> {{ block.section.text-label }} </div>
+      <div> {{ block.settings.text-label }} </div>
         
       {%- when 'button' -%}      
-      <a class="button" href="{{ block.section.btn-label-url }}"> {{ block.section.btn-label }} </a>     
+      <a class="button" href="{{ block.settings.btn-label-url }}"> {{ block.settings.btn-label }} </a>     
    
       {% endcase %}
     {% endfor %}
@@ -21,8 +21,8 @@
     {% case block.type %}  
       
      {%- when 'icon' -%}      
-      <div> <span>{{ block.section.icon }}</span>
-        <span>{{ block.section.icon-label }}</span>
+      <div> <span>{{ block.settings.icon }}</span>
+        <span>{{ block.settings.icon-label }}</span>
       </div>     
      {% endcase %}
     
