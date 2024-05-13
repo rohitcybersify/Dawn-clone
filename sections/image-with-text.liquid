@@ -112,7 +112,18 @@
                           <div class="iconText">{{ block.settings.iconText2 }}</div>
                        {% endif %}
                    </div>
-                 {% endif %}               
+                 {% endif %} 
+
+                                  {% if block.settings.iconImage3 or block.settings.iconText3 %}
+                   <div class="icon3">
+                     {% if block.settings.iconImage3 != blank %}
+                  <div class="{% if block.settings.enable-icon-background %} imageBg {% endif %}">   <img class="iconImage" height="25px" width="25px" src="{{ block.settings.iconImage3 | img_url : '' }}" /> </div>
+                        {% endif %}
+                       {% if block.settings.iconText3 != blank %}
+                          <div class="iconText">{{ block.settings.iconText3 }}</div>
+                       {% endif %}
+                   </div>
+                 {% endif %}    
   
                </div>
              {% when "block-image" %}
@@ -490,6 +501,16 @@
          {
            "type": "text",
             "id" : "iconText2",
+             "label": "Text"
+         } ,
+          {
+           "type": "image_picker",
+            "id" : "iconImage3",
+             "label": "Icon"
+         },
+         {
+           "type": "text",
+            "id" : "iconText3",
              "label": "Text"
          }  
        ]
