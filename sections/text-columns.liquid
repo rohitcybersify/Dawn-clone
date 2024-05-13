@@ -1,6 +1,43 @@
+<section class="text-columns {% if section.settings.show_container %} page-width {% endif %}">
+   
+
+   {% for block in section.blocks %}
+   
+     
+    {% endfor %}
+ 
+</section>
+
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Text Columns",
+    "settings": [ 
+      {
+  "type": "checkbox",
+  "id": "show_container",
+  "label": "Enable Container",
+  "default": false
+}  
+    ],
+    "blocks":[
+      
+  {
+    "name": "Text",
+    "type": "slide",
+    "settings": [
+        
+  {
+  "type": "text",
+  "id": "button-label",
+  "label": "Button Label",
+  "default": "SHOP NOW"
+}
+    ]
+  }
+    ],
+    "presets": [
+     {"name": "Text Columns"}
+    ]
   }
 {% endschema %}
