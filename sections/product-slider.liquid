@@ -1,14 +1,11 @@
 <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
 
-{%  assign block.settings.product.title = product_title %}
-
-
 <div class="single-item page-width">
    {% for block in section.blocks %}
  
   <div class="slide" title="0{{ forloop.index }}">
    <div class="image_1">  
-       {% if block.settings.image_1 != blank %} <img  class="slide-image" src="{{ block.settings.image_1 | image_url  }}" height="350px" width="350px"> {% endif %}
+      <p>{{ block.settings.product.title }}</p>
    </div>
     <div class="image_2"> 
          {% if block.settings.image_2 != blank %} <img  class="slide-image" src="{{ block.settings.image_2 | image_url  }}" height="350px" width="350px"> {% endif %}
