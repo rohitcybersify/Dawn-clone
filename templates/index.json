@@ -980,55 +980,18 @@
         "padding_bottom": 36
       }
     },
-    "slick_slider_9wfq6p": {
-      "type": "slick-slider",
+    "product_slider_wPrJfQ": {
+      "type": "product-slider",
       "blocks": {
-        "slide_YLjnyM": {
+        "slide_ezB7JJ": {
           "type": "slide",
           "settings": {
-            "title-text": "Slide",
-            "image": "shopify:\/\/shop_images\/div.bt_bb_column_55b669f7-979c-4cc4-be6c-c8b5937a9c5e.png",
-            "title-heading": "",
-            "title-description": "",
-            "button-url1": ""
-          }
-        },
-        "slide_BwmF8c": {
-          "type": "slide",
-          "settings": {
-            "title-text": "Slide",
-            "image": "shopify:\/\/shop_images\/Link_product_12-360x540_png.png",
-            "title-heading": "",
-            "title-description": "",
-            "button-url1": ""
-          }
-        },
-        "slide_cHctYi": {
-          "type": "slide",
-          "settings": {
-            "title-text": "Slide",
-            "image": "shopify:\/\/shop_images\/Link_product_14-360x540_png.png",
-            "title-heading": "",
-            "title-description": "",
-            "button-url1": ""
-          }
-        },
-        "slide_Jnj43j": {
-          "type": "slide",
-          "settings": {
-            "title-text": "Slide",
-            "image": "shopify:\/\/shop_images\/Link_product_03-360x540_png.png",
-            "title-heading": "",
-            "title-description": "",
-            "button-url1": ""
+            "product": "oils"
           }
         }
       },
       "block_order": [
-        "slide_YLjnyM",
-        "slide_BwmF8c",
-        "slide_cHctYi",
-        "slide_Jnj43j"
+        "slide_ezB7JJ"
       ],
       "settings": {
       }
@@ -1053,6 +1016,6 @@
     "multicolumn_LxVqyn",
     "text_columns_cdTBN3",
     "best_collection_XiVkkL",
-    "slick_slider_9wfq6p"
+    "product_slider_wPrJfQ"
   ]
 }
