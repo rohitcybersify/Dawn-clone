@@ -1,10 +1,12 @@
 <section class="text-columns {% if section.settings.show_container %} page-width {% endif %}">
-   
+
+  <div class="">
    {% for block in section.blocks %}
     {% case block.type %}
      {%- when 'text' -%}
      {% endcase %}
     {% endfor %}
+  </div>
 </section>
 
 
