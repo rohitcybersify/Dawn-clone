@@ -284,6 +284,7 @@
       "disabled": true,
       "settings": {
         "className": "watch_buy",
+        "flex-content": true,
         "heading": "",
         "viewAllBtn": "",
         "viewAlllink": "",
@@ -780,6 +781,7 @@
       ],
       "settings": {
         "className": "",
+        "flex-content": false,
         "heading": "",
         "viewAllBtn": "",
         "viewAlllink": "",
