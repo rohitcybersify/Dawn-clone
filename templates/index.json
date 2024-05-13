@@ -935,7 +935,8 @@
         "icon_V7PHqQ"
       ],
       "settings": {
-        "show_container": true
+        "show_container": false,
+        "show_small_container": true
       }
     }
   },
