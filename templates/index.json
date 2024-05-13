@@ -964,7 +964,7 @@
         "columns_desktop": 3,
         "full_width": true,
         "show_view_all": true,
-        "view_all_style": "solid",
+        "view_all_style": "outline",
         "enable_desktop_slider": false,
         "color_scheme": "scheme-0fad5e73-329e-4a2c-b409-7feb40835271",
         "image_ratio": "adapt",
