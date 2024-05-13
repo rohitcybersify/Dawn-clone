@@ -1,15 +1,21 @@
 <section class="text-columns {% if section.settings.show_container %} page-width {% endif %}">
 <div class="double-columns">
+ 
   <div class="left-column">
    {% for block in section.blocks %}
     {% case block.type %}      
-     {%- when 'text' -%}      
+     
+      {%- when 'text' -%}      
       <div> {{ block.section.text-label }} </div>
-         {%- when 'button' -%}      
+        
+      {%- when 'button' -%}      
       <a class="button" href="{{ block.section.btn-label-url }}"> {{ block.section.btn-label }} </a>     
-     {% endcase %}
+   
+      {% endcase %}
     {% endfor %}
   </div>
+  
+  
   <div class="right-column">
    {% for block in section.blocks %}
     {% case block.type %}  
@@ -19,7 +25,8 @@
         <span>{{ block.section.icon-label }}</span>
       </div>     
      {% endcase %}
-    {% endfor %}
+    
+     {% endfor %}
   </div>
   </div>
 </section>
@@ -39,7 +46,7 @@
     "blocks":[
       
   {
-    "name": "Text",
+    "name": "text",
     "type": "text",
      "limit": 10,
       "settings": [        
@@ -51,7 +58,7 @@
   ]
    },
        {
-    "name": "Button",
+    "name": "button",
     "type": "button",
      "limit": 2,
       "settings": [        
@@ -68,7 +75,7 @@
     ]
   },
       {
-    "name": "Icon",
+    "name": "icon",
     "type": "icon",
      "limit": 10,
       "settings": [        
