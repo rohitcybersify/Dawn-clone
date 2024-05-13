@@ -1,6 +1,94 @@
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+<style>
+  ul.slick-dots { display: inline-block !important;}
+ .single-item { display: flex;  flex-direction: row-reverse;align-items: center; gap: 10%;}
+  ul.custom_paging { list-style: none;}
+ .flex_laout{display:flex; justify-content: space-evenly;align-items: center;gap:10%;}
+li.slick-active .tab{
+    color: #089660!important;
+}
+</style>
+
+<div class="single-item page-width">
+   {% for block in section.blocks %}
+ 
+  <div class="slide" title="0{{ forloop.index }} {{ block.settings.title-text }}">
+    <div class="flex_laout">
+ {% if block.settings.image != blank %}  <img  class="slide-image" src="{{ block.settings.image | image_url  }}" height="350px" width="350px"> {% endif %} 
+
+      <div> {{ block.settings.title-heading }}
+        {% if block.settings.title-text != blank or block.settings.title-description != blank %} 
+   <p>{{ block.settings.title-description }} </p>{% endif %}</div>
+ </div>
+  </div>
+    {% endfor %}
+</div>
+
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function () {
+    $('.single-item').slick({
+      infinite: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+       dots: true,
+      dotsClass: 'custom_paging',
+     arrows: false,
+      speed: 1000,
+     autoplay: true,
+      autoplaySpeed: 2000,
+       customPaging: function(slider, i) { 
+        return '<button class="tab">' + $(slider.$slides[i]).attr('title') + '</button>';
+    },
+       
+    });
+  });
+</script>
 {% schema %}
+{
+  "name": "Product Slider",
+  "settings": [],
+  "presets": [
+    {
+      "name": "Product Slider"
+    }
+  ],
+   "blocks":[
+      
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Image",
+    "type": "slide",
+    "settings": [
+      {
+  "type": "text",
+  "id": "title-text",
+  "label": "Block Title",
+  "default": "Slide"
+  },
+      {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Select Image"
+    },
+      {
+  "type": "richtext",
+  "id": "title-heading",
+  "label": "Block Heading"
+  },
+  {
+  "type": "text",
+  "id": "title-description",
+  "label": "Block Description",
+  "default": "Morbi tempus iaculis urna id volutpat lacus laoreet non curabitur. Ac turpis egestas mae cenas est"
+  }, 
+   {
+  "type": "url",
+  "id": "button-url1",
+  "label": "Button Url"
+   }
+    ]
   }
+    ]
+}
 {% endschema %}
