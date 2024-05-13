@@ -70,7 +70,9 @@
             "title": "Easy Return",
             "text": "<p>Hassle-Free Return<\/p>",
             "link_label": "",
-            "link": ""
+            "link": "",
+            "btn-bodr": true,
+            "enable_icon": false
           }
         },
         "column_7993Xf": {
@@ -82,7 +84,9 @@
             "title": "Free Shipping",
             "text": "<p>Free Shipping on Order<\/p>",
             "link_label": "",
-            "link": ""
+            "link": "",
+            "btn-bodr": true,
+            "enable_icon": false
           }
         },
         "column_3dgnEE": {
@@ -94,7 +98,9 @@
             "title": "Secure Payment",
             "text": "<p>100% Secured Payment<\/p>",
             "link_label": "",
-            "link": ""
+            "link": "",
+            "btn-bodr": true,
+            "enable_icon": false
           }
         },
         "column_BX8hjq": {
@@ -106,7 +112,9 @@
             "title": "Quality  Assured",
             "text": "<p>Assured 100% Quality<\/p>",
             "link_label": "",
-            "link": ""
+            "link": "",
+            "btn-bodr": true,
+            "enable_icon": false
           }
         }
       },
@@ -816,10 +824,12 @@
           "settings": {
             "custom-background": true,
             "bg-color": "#f4ede6",
-            "title": "Natural haircare",
+            "title": "<strong>Natural haircare<\/strong>",
             "text": "<p>We are happy to be offering our full range of services in the salon, wash and blow drys included!<\/p>",
             "link_label": "View More",
-            "link": ""
+            "link": "",
+            "btn-bodr": true,
+            "enable_icon": false
           }
         },
         "column_9nJnxq": {
@@ -827,10 +837,12 @@
           "settings": {
             "custom-background": true,
             "bg-color": "#8fa97a",
-            "title": "Best products",
+            "title": "<strong>Best products<\/strong>",
             "text": "<p>Specializing in: precision cutting, balayage, creative hair colour and keratin smoothing treatments.<\/p>",
             "link_label": "View More",
-            "link": ""
+            "link": "",
+            "btn-bodr": true,
+            "enable_icon": false
           }
         },
         "column_j7Gdt7": {
@@ -838,10 +850,12 @@
           "settings": {
             "custom-background": true,
             "bg-color": "#f4ede6",
-            "title": "Our top team",
+            "title": "<strong>Our top team<\/strong>",
             "text": "<p>We are looking forward to providing you with a fun, relaxing and safe appointment experience.<\/p>",
             "link_label": "View More",
-            "link": ""
+            "link": "",
+            "btn-bodr": true,
+            "enable_icon": false
           }
         },
         "column_3gGcqB": {
@@ -849,10 +863,12 @@
           "settings": {
             "custom-background": true,
             "bg-color": "#8fa97a",
-            "title": "Best products",
+            "title": "<strong>Best products<\/strong>",
             "text": "<p>Specializing in: precision cutting, balayage, creative hair colour and keratin smoothing treatments.<\/p>",
             "link_label": "View More",
-            "link": ""
+            "link": "",
+            "btn-bodr": true,
+            "enable_icon": false
           }
         }
       },
