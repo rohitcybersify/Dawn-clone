@@ -1,9 +1,23 @@
 <section class="text-columns {% if section.settings.show_container %} page-width {% endif %}">
 
-  <div class="">
+  <div class="left-column">
    {% for block in section.blocks %}
-    {% case block.type %}
-     {%- when 'text' -%}
+    {% case block.type %}      
+     {%- when 'text' -%}      
+      <div> {{ block.section.text-label }} </div>
+         {%- when 'button' -%}      
+      <a class="button" href="{{ block.section.btn-label-url }}"> {{ block.section.btn-label }} </a>     
+     {% endcase %}
+    {% endfor %}
+  </div>
+  <div class="right-column">
+   {% for block in section.blocks %}
+    {% case block.type %}  
+      
+     {%- when 'icon' -%}      
+      <div> <span>{{ block.section.icon }}</span>
+        <span>{{ block.section.icon-label }}</span>
+      </div>     
      {% endcase %}
     {% endfor %}
   </div>
@@ -30,8 +44,8 @@
       "settings": [        
   {
   "type": "richtext",
-  "id": "button-label",
-  "label": "Button Label"
+  "id": "text-label",
+  "label": "Text"
 }
     ]
   }
