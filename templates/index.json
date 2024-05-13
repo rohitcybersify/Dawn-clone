@@ -64,6 +64,8 @@
         "column_dCU97r": {
           "type": "column",
           "settings": {
+            "custom-background": false,
+            "bg-color": "#ffffff",
             "image": "shopify:\/\/shop_images\/return-box.png",
             "title": "Easy Return",
             "text": "<p>Hassle-Free Return<\/p>",
@@ -74,6 +76,8 @@
         "column_7993Xf": {
           "type": "column",
           "settings": {
+            "custom-background": false,
+            "bg-color": "#ffffff",
             "image": "shopify:\/\/shop_images\/free-delivery.png",
             "title": "Free Shipping",
             "text": "<p>Free Shipping on Order<\/p>",
@@ -84,6 +88,8 @@
         "column_3dgnEE": {
           "type": "column",
           "settings": {
+            "custom-background": false,
+            "bg-color": "#ffffff",
             "image": "shopify:\/\/shop_images\/money.png",
             "title": "Secure Payment",
             "text": "<p>100% Secured Payment<\/p>",
@@ -94,6 +100,8 @@
         "column_BX8hjq": {
           "type": "column",
           "settings": {
+            "custom-background": false,
+            "bg-color": "#ffffff",
             "image": "shopify:\/\/shop_images\/badge.png",
             "title": "Quality  Assured",
             "text": "<p>Assured 100% Quality<\/p>",
@@ -805,6 +813,8 @@
         "column_BLF98J": {
           "type": "column",
           "settings": {
+            "custom-background": true,
+            "bg-color": "#f4ede6",
             "title": "Natural haircare",
             "text": "<p>We are happy to be offering our full range of services in the salon, wash and blow drys included!<\/p>",
             "link_label": "View More",
@@ -814,6 +824,8 @@
         "column_9nJnxq": {
           "type": "column",
           "settings": {
+            "custom-background": true,
+            "bg-color": "#8fa97a",
             "title": "Best products",
             "text": "<p>Specializing in: precision cutting, balayage, creative hair colour and keratin smoothing treatments.<\/p>",
             "link_label": "View More",
@@ -823,6 +835,8 @@
         "column_j7Gdt7": {
           "type": "column",
           "settings": {
+            "custom-background": true,
+            "bg-color": "#f4ede6",
             "title": "Our top team",
             "text": "<p>We are looking forward to providing you with a fun, relaxing and safe appointment experience.<\/p>",
             "link_label": "View More",
@@ -832,6 +846,8 @@
         "column_3gGcqB": {
           "type": "column",
           "settings": {
+            "custom-background": true,
+            "bg-color": "#8fa97a",
             "title": "Best products",
             "text": "<p>Specializing in: precision cutting, balayage, creative hair colour and keratin smoothing treatments.<\/p>",
             "link_label": "View More",
