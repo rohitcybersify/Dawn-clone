@@ -1,5 +1,5 @@
 <section class="text-columns {% if section.settings.show_container %} page-width {% endif %}">
-
+<div class="double-columns">
   <div class="left-column">
    {% for block in section.blocks %}
     {% case block.type %}      
@@ -20,6 +20,7 @@
       </div>     
      {% endcase %}
     {% endfor %}
+  </div>
   </div>
 </section>
 
