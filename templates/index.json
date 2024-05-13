@@ -119,6 +119,7 @@
       "disabled": true,
       "settings": {
         "className": "multiColumns",
+        "grid-gap-s": false,
         "title": "",
         "heading_size": "h1",
         "image_width": "third",
@@ -863,6 +864,7 @@
       ],
       "settings": {
         "className": "",
+        "grid-gap-s": true,
         "title": "",
         "heading_size": "h2",
         "image_width": "full",
