@@ -603,6 +603,13 @@
     "image_banner_Ye3teP": {
       "type": "image-banner",
       "blocks": {
+        "text_DJfyha": {
+          "type": "text",
+          "settings": {
+            "text": "Restart you life ",
+            "text_style": "subtitle"
+          }
+        },
         "heading_XGYGKw": {
           "type": "heading",
           "settings": {
@@ -630,6 +637,7 @@
         }
       },
       "block_order": [
+        "text_DJfyha",
         "heading_XGYGKw",
         "text_F3hnRr",
         "buttons_WfJDzC"
