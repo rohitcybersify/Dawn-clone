@@ -646,7 +646,7 @@
         "image": "shopify:\/\/shop_images\/Rectangle_6.png",
         "image_overlay_opacity": 0,
         "image_height": "medium",
-        "desktop_content_position": "top-left",
+        "desktop_content_position": "top-center",
         "show_text_box": false,
         "desktop_content_alignment": "left",
         "color_scheme": "scheme-cc52f0cf-4f96-463d-922a-4d20ea40f998",
