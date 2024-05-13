@@ -17,9 +17,8 @@
  <marquee class="marquee-section" style="--marquee-speed: 20s; --direction:scroll-left" direction="left" behavior="scroll" scrollamount="10">
   <div class="marquee-flex">
   {% for block in section.blocks %}
- <div class="marq-text">  {% if block.settings.text != blank %}  {{ block.settings.text }} {% endif %} </div>
-  <div class="marq-image"> {% if block.settings.image != blank %}   <img  src="{{ block.settings.image | image_url  }}" height="{{ block.settings.image-height }}" width="{{ block.settings.image-width }}">   {% endif %}
-  </div> 
+ {% if block.settings.text != blank %}  <div class="marq-text">  {{ block.settings.text }} </div>{% endif %} 
+ {% if block.settings.image != blank %} <div class="marq-image">  <img  src="{{ block.settings.image | image_url  }}" height="{{ block.settings.image-height }}" width="{{ block.settings.image-width }}">  </div> {% endif %}
     {% endfor %}
     </div>
     </marquee>
