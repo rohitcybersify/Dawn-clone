@@ -988,10 +988,31 @@
           "settings": {
             "product": "oils"
           }
+        },
+        "slide_QhFFbW": {
+          "type": "slide",
+          "settings": {
+            "product": "hair-conditioner"
+          }
+        },
+        "slide_mezDCU": {
+          "type": "slide",
+          "settings": {
+            "product": "serum-vitamin-drops"
+          }
+        },
+        "slide_6iWMiC": {
+          "type": "slide",
+          "settings": {
+            "product": ""
+          }
         }
       },
       "block_order": [
-        "slide_ezB7JJ"
+        "slide_ezB7JJ",
+        "slide_QhFFbW",
+        "slide_mezDCU",
+        "slide_6iWMiC"
       ],
       "settings": {
       }
