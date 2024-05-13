@@ -660,14 +660,14 @@
       "type": "custom-image",
       "settings": {
         "image": "shopify:\/\/shop_images\/image_2.png",
-        "image-width": 670,
+        "image-width": 530,
         "image-height": 460,
         "position-relative": false,
         "position-absolute": true,
         "left-image-position": 0,
         "right-image-position": 0,
-        "top-image-position": 405,
-        "bottom-image-position": 0
+        "top-image-position": 0,
+        "bottom-image-position": 35
       }
     }
   },
