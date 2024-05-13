@@ -2,6 +2,18 @@
   .grid-gp{column-gap: 0px !important;}
 </style>
 
+{% if section.settings.grid-gap-s %} 
+<style>
+ @media screen and (min-width: 990px) {
+    .grid--4-col-desktop .grid__item {
+        width: calc(25% - var(--grid-desktop-horizontal-spacing)* 3 / 4);
+        max-width: 100%;
+    }
+}
+</style>
+{% endif %}
+
+
 {{ 'section-multicolumn.css' | asset_url | stylesheet_tag }}
 {{ 'component-slider.css' | asset_url | stylesheet_tag }}
 
