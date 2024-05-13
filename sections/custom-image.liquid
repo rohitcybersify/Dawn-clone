@@ -1,5 +1,5 @@
- <div class="custom-image"> 
-         <img  src="{{ section.settings.image | image_url  }}" height="" width="">        
+ <div class="custom-image" style="position:relateive;"> 
+         <img style="position:absolute; left:{{ section.settings.left-image-position }}; right:{{ section.settings.right-image-position }}; top:{{ section.settings.top-image-position }}; bottom:{{ section.settings.bottom-image-position }};" src="{{ section.settings.image | image_url  }}" height="" width="">        
      </div>
 
 {% schema %}
@@ -13,12 +13,42 @@
     },
       {
   "type": "range",
-  "id": "image-position",
+  "id": "left-image-position",
   "min": 0,
   "max": 500,
   "step": 5,
   "unit": "px",
   "label": "Left-position",
+  "default": 0
+},
+      {
+  "type": "range",
+  "id": "right-image-position",
+  "min": 0,
+  "max": 500,
+  "step": 5,
+  "unit": "px",
+  "label": "Right-position",
+  "default": 0
+},
+      {
+  "type": "range",
+  "id": "top-image-position",
+  "min": 0,
+  "max": 500,
+  "step": 5,
+  "unit": "px",
+  "label": "Top-position",
+  "default": 0
+},
+      {
+  "type": "range",
+  "id": "bottom-image-position",
+  "min": 0,
+  "max": 500,
+  "step": 5,
+  "unit": "px",
+  "label": "bottom-position",
   "default": 0
 }
     ],
