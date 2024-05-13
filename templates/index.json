@@ -701,8 +701,9 @@
           "type": "slide",
           "settings": {
             "text": "",
-            "image-width": 500,
-            "image-height": 700
+            "image": "shopify:\/\/shop_images\/div.elementor-repeater-item-5cace67.png",
+            "image-width": 160,
+            "image-height": 50
           }
         }
       },
