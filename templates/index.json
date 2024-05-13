@@ -663,7 +663,7 @@
         "position-absolute": true,
         "left-image-position": 0,
         "right-image-position": 0,
-        "top-image-position": 500,
+        "top-image-position": 0,
         "bottom-image-position": 0
       }
     }
