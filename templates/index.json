@@ -660,13 +660,13 @@
       "type": "custom-image",
       "settings": {
         "image": "shopify:\/\/shop_images\/image_2.png",
-        "image-width": 500,
-        "image-height": 500,
+        "image-width": 390,
+        "image-height": 380,
         "position-relative": false,
         "position-absolute": true,
         "left-image-position": 0,
         "right-image-position": 0,
-        "top-image-position": 265,
+        "top-image-position": 365,
         "bottom-image-position": 0
       }
     }
