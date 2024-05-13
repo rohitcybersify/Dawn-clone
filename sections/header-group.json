@@ -48,7 +48,7 @@
         "location_text": "",
         "logo_position": "middle-center",
         "menu": "wooden-watch",
-        "menu_type_desktop": "mega",
+        "menu_type_desktop": "drawer",
         "sticky_header_type": "none",
         "show_line_separator": false,
         "color_scheme": "background-1",
