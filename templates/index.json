@@ -687,10 +687,29 @@
             "image-width": 160,
             "image-height": 50
           }
+        },
+        "slide_hWd9Pm": {
+          "type": "slide",
+          "settings": {
+            "text": "",
+            "image": "shopify:\/\/shop_images\/div.elementor-repeater-item-5cace67.png",
+            "image-width": 160,
+            "image-height": 50
+          }
+        },
+        "slide_qQ8GbX": {
+          "type": "slide",
+          "settings": {
+            "text": "",
+            "image-width": 500,
+            "image-height": 700
+          }
         }
       },
       "block_order": [
-        "slide_pY4mzi"
+        "slide_pY4mzi",
+        "slide_hWd9Pm",
+        "slide_qQ8GbX"
       ],
       "settings": {
       }
