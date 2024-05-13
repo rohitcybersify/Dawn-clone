@@ -284,7 +284,6 @@
       "disabled": true,
       "settings": {
         "className": "watch_buy",
-        "flex-content": true,
         "heading": "",
         "viewAllBtn": "",
         "viewAlllink": "",
@@ -748,6 +747,7 @@
           "type": "icon",
           "settings": {
             "enable-icon-background": false,
+            "inline-icons": true,
             "iconImage1": "shopify:\/\/shop_images\/Icon.svg",
             "iconText1": "CRUELTY FREE",
             "iconImage2": "shopify:\/\/shop_images\/Icon_1.svg",
@@ -781,7 +781,6 @@
       ],
       "settings": {
         "className": "",
-        "flex-content": false,
         "heading": "",
         "viewAllBtn": "",
         "viewAlllink": "",
@@ -796,6 +795,70 @@
         "color_scheme": "",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_LxVqyn": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_BLF98J": {
+          "type": "column",
+          "settings": {
+            "title": "Natural haircare",
+            "text": "<p>We are happy to be offering our full range of services in the salon, wash and blow drys included!<\/p>",
+            "link_label": "View More",
+            "link": ""
+          }
+        },
+        "column_9nJnxq": {
+          "type": "column",
+          "settings": {
+            "title": "Best products",
+            "text": "<p>Specializing in: precision cutting, balayage, creative hair colour and keratin smoothing treatments.<\/p>",
+            "link_label": "View More",
+            "link": ""
+          }
+        },
+        "column_j7Gdt7": {
+          "type": "column",
+          "settings": {
+            "title": "Our top team",
+            "text": "<p>We are looking forward to providing you with a fun, relaxing and safe appointment experience.<\/p>",
+            "link_label": "View More",
+            "link": ""
+          }
+        },
+        "column_3gGcqB": {
+          "type": "column",
+          "settings": {
+            "title": "Best products",
+            "text": "<p>Specializing in: precision cutting, balayage, creative hair colour and keratin smoothing treatments.<\/p>",
+            "link_label": "View More",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_BLF98J",
+        "column_9nJnxq",
+        "column_j7Gdt7",
+        "column_3gGcqB"
+      ],
+      "settings": {
+        "className": "",
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -816,6 +879,7 @@
     "image_banner_Ye3teP",
     "marquee_slider_RWmRUc",
     "custom_image_aRARaK",
-    "image_with_text_bjh3cC"
+    "image_with_text_bjh3cC",
+    "multicolumn_LxVqyn"
   ]
 }
