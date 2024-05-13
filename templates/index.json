@@ -936,7 +936,9 @@
       ],
       "settings": {
         "show_container": false,
-        "show_small_container": true
+        "show_small_container": true,
+        "margin-top": 70,
+        "margin-bottom": 70
       }
     }
   },
