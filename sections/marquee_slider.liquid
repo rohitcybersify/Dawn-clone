@@ -18,7 +18,7 @@
   <div class="marquee-flex">
   {% for block in section.blocks %}
    {% if block.settings.text != blank %}  {{ block.settings.text }} {% endif %}
-   {% if block.settings.text != blank %}   <img  src="{{ block.settings.image | image_url  }}" height="{{ section.settings.image-height }}" width="{{ section.settings.image-width }}">   {% endif %}
+   {% if block.settings.image != blank %}   <img  src="{{ block.settings.image | image_url  }}" height="{{ section.settings.image-height }}" width="{{ section.settings.image-width }}">   {% endif %}
      {% endfor %}
     </div>
     </marquee>
