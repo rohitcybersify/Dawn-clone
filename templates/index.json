@@ -669,6 +669,22 @@
         "top-image-position": 500,
         "bottom-image-position": 0
       }
+    },
+    "marquee_slider_RWmRUc": {
+      "type": "marquee_slider",
+      "blocks": {
+        "slide_pY4mzi": {
+          "type": "slide",
+          "settings": {
+            "text": "<p>ttutuututu<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "slide_pY4mzi"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -684,6 +700,7 @@
     "magazine_gallery_RVeLUx",
     "image_gallery_EgWVRf",
     "image_banner_Ye3teP",
-    "custom_image_aRARaK"
+    "custom_image_aRARaK",
+    "marquee_slider_RWmRUc"
   ]
 }
