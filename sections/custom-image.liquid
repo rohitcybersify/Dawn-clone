@@ -1,4 +1,4 @@
-     <div class="custom-image" style="position:relateive;"> 
+     <div class="custom-image" {% if section.settings.position-absolute %} style="position:relateive;" {% endif %} > 
          <img {% if section.settings.position-absolute %} style="position:absolute; left:{{ section.settings.left-image-position }}; right:{{ section.settings.right-image-position }}; top:{{ section.settings.top-image-position }}; bottom:{{ section.settings.bottom-image-position }};" {% endif %} src="{{ section.settings.image | image_url  }}" height="" width="">        
      </div>
 
