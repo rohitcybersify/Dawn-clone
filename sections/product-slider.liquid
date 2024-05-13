@@ -4,13 +4,7 @@
    {% for block in section.blocks %}
  
   <div class="slide" title="0{{ forloop.index }}">
-    <div class="flex_laout">
- {% if block.settings.image != blank %}  <img  class="slide-image" src="{{ block.settings.image | image_url  }}" height="350px" width="350px"> {% endif %} 
-
-      <div> {{ block.settings.title-heading }}
-        {% if block.settings.title-text != blank or block.settings.title-description != blank %} 
-   <p>{{ block.settings.title-description }} </p>{% endif %}</div>
- </div>
+ 
   </div>
     {% endfor %}
 </div>
