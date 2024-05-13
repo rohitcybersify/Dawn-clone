@@ -18,7 +18,7 @@
   <div class="marquee-flex">
   {% for block in section.blocks %}
    {% if block.settings.text != blank %}  {{ block.settings.text }} {% endif %}
-   {% if block.settings.text != blank %}  {{ block.settings.image }} {% endif %}
+   {% if block.settings.text != blank %}   <img  src="{{ block.settings.image | image_url  }}" height="" width="">   {% endif %}
      {% endfor %}
     </div>
     </marquee>
@@ -38,7 +38,32 @@
       "type": "richtext",
       "id": "text",
       "label": "Add text"
-    }
+    },
+      {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Select Image"
+    },
+      {
+  "type": "range",
+  "id": "image-width",
+  "min": 50,
+  "max": 1000,
+  "step": 10,
+  "unit": "px",
+  "label": "Image Width",
+  "default": 500
+},
+      {
+  "type": "range",
+  "id": "image-height",
+  "min": 50,
+  "max": 1000,
+  "step": 10,
+  "unit": "px",
+  "label": "Image Height",
+  "default": 700
+}
     ]
   }
     ],
