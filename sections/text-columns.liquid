@@ -1,11 +1,10 @@
 <section class="text-columns {% if section.settings.show_container %} page-width {% endif %}">
    
-
    {% for block in section.blocks %}
-   
-     
+    {% case block.type %}
+     {%- when 'text' -%}
+     {% endcase %}
     {% endfor %}
- 
 </section>
 
 
@@ -23,7 +22,7 @@
     "blocks":[
       
   {
-    "name": "Text",
+    "name": "text",
     "type": "slide",
     "settings": [
         
