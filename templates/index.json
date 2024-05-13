@@ -724,55 +724,6 @@
         "top-image-position": 500,
         "bottom-image-position": 0
       }
-    },
-    "custom_content_N6kwB4": {
-      "type": "custom-content",
-      "blocks": {
-        "image_6FdVXK": {
-          "type": "image",
-          "settings": {
-            "width": "half",
-            "image": "shopify:\/\/shop_images\/div.bt_bb_column.png",
-            "callout_image": "",
-            "height": "adapt",
-            "height_desktop": 600,
-            "height_mobile": 500,
-            "subheading": "",
-            "title": "",
-            "text": "",
-            "enlarge_text": false,
-            "button_label": "",
-            "button_style": "primary",
-            "image_link": "",
-            "text_alignment": "center center",
-            "mobile_overlay_under": false,
-            "overlay_style": "shadow"
-          }
-        },
-        "text_q7ThJf": {
-          "type": "text",
-          "settings": {
-            "width": "half",
-            "subheading": "ABOUT OUR HAIR ROUTINE",
-            "title": "Hair & skincare good foryour health, your skinand the planet.",
-            "show_animationh": false,
-            "text": "",
-            "show_animation": false,
-            "button_label": "Our team",
-            "button_link": "",
-            "button_style": "primary",
-            "text_alignment": "left"
-          }
-        }
-      },
-      "block_order": [
-        "image_6FdVXK",
-        "text_q7ThJf"
-      ],
-      "settings": {
-        "customclass": "",
-        "alignment": "middle"
-      }
     }
   },
   "order": [
@@ -789,7 +740,6 @@
     "image_gallery_EgWVRf",
     "image_banner_Ye3teP",
     "marquee_slider_RWmRUc",
-    "custom_image_aRARaK",
-    "custom_content_N6kwB4"
+    "custom_image_aRARaK"
   ]
 }
