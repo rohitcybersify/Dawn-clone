@@ -92,11 +92,11 @@
                 {{ block.settings.caption | escape }}
               </p>
             {%- when 'text' -%}
-              <div class="image-with-text__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
+              <div class="inline-block image-with-text__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
                 {{ block.settings.text }}
               </div>
              {% when 'icon' %}
-               <div class="iconsBlock">
+               <div class="inline-block iconsBlock">
                   {% if block.settings.iconImage1 or block.settings.iconText1 %}
                    <div class="inline-block icon1">
                      {% if block.settings.iconImage1 != blank %}
@@ -118,7 +118,7 @@
                    </div>
                  {% endif %} 
 
-                                  {% if block.settings.iconImage3 or block.settings.iconText3 %}
+                   {% if block.settings.iconImage3 or block.settings.iconText3 %}
                    <div class="inline-block icon3">
                      {% if block.settings.iconImage3 != blank %}
                   <div class="{% if block.settings.enable-icon-background %} imageBg {% endif %}">   <img class="iconImage" height="25px" width="25px" src="{{ block.settings.iconImage3 | img_url : '' }}" /> </div>
@@ -150,7 +150,7 @@
                   {% else %}
                     href="{{ block.settings.button_link }}"
                   {% endif %}
-                  class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"
+                  class="inline-block button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"
                   {{ block.shopify_attributes }}
                 >
                   {{ block.settings.button_label | escape }}
