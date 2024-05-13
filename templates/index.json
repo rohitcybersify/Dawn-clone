@@ -664,9 +664,9 @@
         "image-height": 500,
         "position-relative": false,
         "position-absolute": true,
-        "left-image-position": 0,
+        "left-image-position": 20,
         "right-image-position": 0,
-        "top-image-position": 0,
+        "top-image-position": 265,
         "bottom-image-position": 0
       }
     }
