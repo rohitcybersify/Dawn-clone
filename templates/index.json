@@ -762,13 +762,21 @@
             "button_link": "",
             "button_style_secondary": false
           }
+        },
+        "text_VjDrFF": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"\/pages\/policy\" title=\"Policy\">Our services<\/a><\/p>",
+            "text_style": "body"
+          }
         }
       },
       "block_order": [
         "caption_CztWpW",
         "heading_fGapLX",
         "icon_69pMFd",
-        "button_rcMjpJ"
+        "button_rcMjpJ",
+        "text_VjDrFF"
       ],
       "settings": {
         "className": "",
