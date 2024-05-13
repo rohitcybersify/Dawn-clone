@@ -986,33 +986,29 @@
         "slide_ezB7JJ": {
           "type": "slide",
           "settings": {
-            "product": "oils"
+            "product": "oils",
+            "text": "<h2><strong>Volume Up<\/strong><\/h2>"
           }
         },
         "slide_QhFFbW": {
           "type": "slide",
           "settings": {
-            "product": "hair-conditioner"
+            "product": "hair-conditioner",
+            "text": ""
           }
         },
         "slide_mezDCU": {
           "type": "slide",
           "settings": {
-            "product": "serum-vitamin-drops"
-          }
-        },
-        "slide_6iWMiC": {
-          "type": "slide",
-          "settings": {
-            "product": ""
+            "product": "serum-vitamin-drops",
+            "text": ""
           }
         }
       },
       "block_order": [
         "slide_ezB7JJ",
         "slide_QhFFbW",
-        "slide_mezDCU",
-        "slide_6iWMiC"
+        "slide_mezDCU"
       ],
       "settings": {
       }
