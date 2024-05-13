@@ -746,6 +746,7 @@
         "icon_69pMFd": {
           "type": "icon",
           "settings": {
+            "enable-icon-background": false,
             "iconImage1": "shopify:\/\/shop_images\/Icon.svg",
             "iconText1": "CRUELTY FREE",
             "iconImage2": "shopify:\/\/shop_images\/Icon_1.svg",
