@@ -92,11 +92,11 @@
                 {{ block.settings.caption | escape }}
               </p>
             {%- when 'text' -%}
-              <div class="inline-block image-with-text__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
+              <div class="image-with-text__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
                 {{ block.settings.text }}
               </div>
              {% when 'icon' %}
-               <div class="inline-block iconsBlock">
+               <div class=" iconsBlock">
                   {% if block.settings.iconImage1 or block.settings.iconText1 %}
                    <div class="inline-block icon1">
                      {% if block.settings.iconImage1 != blank %}
