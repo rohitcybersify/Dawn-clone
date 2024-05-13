@@ -46,6 +46,7 @@
         "slide_MRhpWi",
         "slide_BMJRak"
       ],
+      "disabled": true,
       "settings": {
         "layout": "full_bleed",
         "slide_height": "adapt_image",
@@ -107,6 +108,7 @@
         "column_3dgnEE",
         "column_BX8hjq"
       ],
+      "disabled": true,
       "settings": {
         "className": "multiColumns",
         "title": "",
@@ -159,6 +161,7 @@
         "text_UbMWjL",
         "buttons_Nepeqm"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Untitled-2-1.jpg",
         "image_overlay_opacity": 0,
@@ -175,6 +178,7 @@
     },
     "featured_collection_dJ3xq9": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "className": "custom_featured page-width",
         "title": "WATCH CATALOG",
@@ -236,6 +240,7 @@
         "slide_xLXEty",
         "slide_bq8TXf"
       ],
+      "disabled": true,
       "settings": {
       }
     },
@@ -270,6 +275,7 @@
         "text_RLUQUh",
         "button_cQaggr"
       ],
+      "disabled": true,
       "settings": {
         "className": "watch_buy",
         "heading": "",
@@ -331,6 +337,7 @@
         "slider_UPzwLk",
         "slider_rFbdCp"
       ],
+      "disabled": true,
       "settings": {
         "customclass": "tablinks-section",
         "full_width": true,
@@ -518,6 +525,7 @@
         "slide_qMiACK",
         "slide_UrawW7"
       ],
+      "disabled": true,
       "settings": {
         "show_container": true,
         "collection": "gift-set-watches",
@@ -587,6 +595,7 @@
         "slide_fWqHKX",
         "slide_FYQVzW"
       ],
+      "disabled": true,
       "settings": {
         "show_container": false
       }
