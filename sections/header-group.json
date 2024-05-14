@@ -26,7 +26,6 @@
         "announcement_yrEWpY",
         "announcement_CFPwX8"
       ],
-      "disabled": true,
       "settings": {
         "color_scheme": "background-1",
         "show_line_separator": true,
@@ -46,9 +45,9 @@
         "location_image": "shopify:\/\/shop_images\/yorkdale-logo-13.svg",
         "additional_image": "shopify:\/\/shop_images\/Screenshot_2.png",
         "location_text": "",
-        "logo_position": "middle-center",
+        "logo_position": "top-center",
         "menu": "wooden-watch",
-        "menu_type_desktop": "drawer",
+        "menu_type_desktop": "mega",
         "sticky_header_type": "none",
         "show_line_separator": false,
         "color_scheme": "background-1",
