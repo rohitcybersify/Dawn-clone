@@ -162,6 +162,134 @@
         "padding_bottom": 36
       }
     },
+    "rich_text_3yPTWQ": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_DXiURc": {
+          "type": "heading",
+          "settings": {
+            "heading": "OUR DELICIOUS OFFER",
+            "heading_size": "h1"
+          }
+        },
+        "text_NDiHqT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Nest Cam plugs into power so it won't miss a second, can send helpful notifications to your phone, and is designed with an all-glass lens and premium materials.<\/p>"
+          }
+        },
+        "button_KGLJKi": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_DXiURc",
+        "text_NDiHqT",
+        "button_KGLJKi"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_XeHaXm": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_k3qyqa": {
+          "type": "column",
+          "settings": {
+            "custom-background": false,
+            "bg-color": "#ffffff",
+            "image": "shopify:\/\/shop_images\/serviceV1-icon1.webp",
+            "title": "STRAP WATCH",
+            "text": "<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque<\/p>",
+            "link_label": "",
+            "link": "",
+            "btn-bodr": true,
+            "enable_icon": false
+          }
+        },
+        "column_7xwnVD": {
+          "type": "column",
+          "settings": {
+            "custom-background": false,
+            "bg-color": "#ffffff",
+            "image": "shopify:\/\/shop_images\/serviceV1-icon2.png",
+            "title": "DIAL WATCH",
+            "text": "<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque<\/p>",
+            "link_label": "",
+            "link": "",
+            "btn-bodr": true,
+            "enable_icon": false
+          }
+        },
+        "column_bj9Jxh": {
+          "type": "column",
+          "settings": {
+            "custom-background": false,
+            "bg-color": "#ffffff",
+            "image": "shopify:\/\/shop_images\/serviceV1-icon3.webp",
+            "title": "ALARM WATCH",
+            "text": "<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque<\/p>",
+            "link_label": "",
+            "link": "",
+            "btn-bodr": true,
+            "enable_icon": false
+          }
+        },
+        "column_HiAakj": {
+          "type": "column",
+          "settings": {
+            "custom-background": false,
+            "bg-color": "#ffffff",
+            "image": "shopify:\/\/shop_images\/serviceV1-icon4_1_ba46623c-57eb-4e17-a592-bd2327273d1e.webp",
+            "title": "ANALOG WATCH",
+            "text": "<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque<\/p>",
+            "link_label": "",
+            "link": "",
+            "btn-bodr": true,
+            "enable_icon": false
+          }
+        }
+      },
+      "block_order": [
+        "column_k3qyqa",
+        "column_7xwnVD",
+        "column_bj9Jxh",
+        "column_HiAakj"
+      ],
+      "settings": {
+        "className": "",
+        "grid-gap-s": false,
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "circle",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 72
+      }
+    },
     "image_banner_RJNEdN": {
       "type": "image-banner",
       "blocks": {
@@ -639,6 +767,8 @@
   "order": [
     "slideshow_zMxiqB",
     "multicolumn_ip8qta",
+    "rich_text_3yPTWQ",
+    "multicolumn_XeHaXm",
     "image_banner_RJNEdN",
     "featured_collection_dJ3xq9",
     "collection_slider_PePn6P",
