@@ -296,24 +296,24 @@
         "heading_WrPEgk": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
+            "heading": "Spring Winter 2024",
             "heading_size": "h1"
           }
         },
         "text_UbMWjL": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
             "text_style": "body"
           }
         },
         "buttons_Nepeqm": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Button label",
+            "button_label_1": "Shop the look",
             "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
           }
@@ -329,10 +329,10 @@
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-right",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
         "color_scheme": "",
-        "image_behavior": "none",
+        "image_behavior": "fixed",
         "mobile_content_alignment": "right",
         "stack_images_on_mobile": true,
         "show_text_below": true
