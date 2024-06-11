@@ -40,11 +40,31 @@
             "color_scheme": "background-1",
             "text_alignment_mobile": "center"
           }
+        },
+        "slide_dAwxF4": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "bannerCaption": "",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
         "slide_MRhpWi",
-        "slide_BMJRak"
+        "slide_BMJRak",
+        "slide_dAwxF4"
       ],
       "settings": {
         "layout": "full_bleed",
@@ -192,6 +212,7 @@
     },
     "featured_collection_dJ3xq9": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "className": "custom_featured page-width",
         "title": "WATCH CATALOG",
@@ -222,6 +243,51 @@
         "enableAddToCart": true,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collection_slider_PePn6P": {
+      "type": "collection-slider",
+      "blocks": {
+        "slider_UPzwLk": {
+          "type": "Slider",
+          "settings": {
+            "title": "<p>Featured<\/p>",
+            "collection": "imac",
+            "show_view_all": true,
+            "view_all_style": "solid"
+          }
+        },
+        "slider_rFbdCp": {
+          "type": "Slider",
+          "settings": {
+            "title": "<p>Best Selling<\/p>",
+            "collection": "macbook",
+            "show_view_all": true,
+            "view_all_style": "solid"
+          }
+        }
+      },
+      "block_order": [
+        "slider_UPzwLk",
+        "slider_rFbdCp"
+      ],
+      "settings": {
+        "customclass": "tablinks-section",
+        "full_width": true,
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "enable_desktop_slider": true,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": true,
+        "enable_quick_add": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -326,51 +392,6 @@
         "title2": "Woman's Watch",
         "button2": "Shop Now",
         "link2": "shopify:\/\/collections"
-      }
-    },
-    "collection_slider_PePn6P": {
-      "type": "collection-slider",
-      "blocks": {
-        "slider_UPzwLk": {
-          "type": "Slider",
-          "settings": {
-            "title": "<p>Featured<\/p>",
-            "collection": "imac",
-            "show_view_all": true,
-            "view_all_style": "solid"
-          }
-        },
-        "slider_rFbdCp": {
-          "type": "Slider",
-          "settings": {
-            "title": "<p>Best Selling<\/p>",
-            "collection": "macbook",
-            "show_view_all": true,
-            "view_all_style": "solid"
-          }
-        }
-      },
-      "block_order": [
-        "slider_UPzwLk",
-        "slider_rFbdCp"
-      ],
-      "settings": {
-        "customclass": "tablinks-section",
-        "full_width": true,
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "enable_desktop_slider": true,
-        "color_scheme": "",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": true,
-        "show_rating": true,
-        "enable_quick_add": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "custom_content_7wGX6m": {
@@ -620,10 +641,10 @@
     "multicolumn_ip8qta",
     "image_banner_RJNEdN",
     "featured_collection_dJ3xq9",
+    "collection_slider_PePn6P",
     "marquee_slider_F8YBj4",
     "image_with_text_q9wFd4",
     "two_image_AGKPbC",
-    "collection_slider_PePn6P",
     "custom_content_7wGX6m",
     "magazine_gallery_RVeLUx",
     "image_gallery_EgWVRf"
