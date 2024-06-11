@@ -289,6 +289,9 @@ ul.policy-links li a:hover {
 .multiColumns .multicolumn-list p {
   line-height: 24px;
 }
+.our_delicious .multicolumn-card__image-wrapper {
+    max-width: 70px;
+}
 /*services css end  */
 
 /*collection section css start  */
