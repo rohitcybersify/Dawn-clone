@@ -440,13 +440,6 @@
             "heading_size": "h1"
           }
         },
-        "text_VC38qf": {
-          "type": "text",
-          "settings": {
-            "text": "",
-            "text_style": "body"
-          }
-        },
         "buttons_c4k8Fz": {
           "type": "buttons",
           "settings": {
@@ -462,7 +455,6 @@
       "block_order": [
         "text_p6drkB",
         "heading_XbiD8L",
-        "text_VC38qf",
         "buttons_c4k8Fz"
       ],
       "settings": {
