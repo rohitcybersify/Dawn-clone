@@ -790,7 +790,7 @@ h1.header__heading.flex-logoes {
 .gallery_content {
     position: absolute;
     top: 0;
-    padding: 10px 15px;
+    padding: 20px;
     width: 100%;
     background: linear-gradient(179deg, #000000ad, transparent);
     bottom: 0;
