@@ -138,6 +138,9 @@
                         class: 'multicolumn-card__image'
                     }}
                   </div>
+                  {% if block.settings.image != blank %}
+                    <img src='{{ block.settings.image | image_url:'original' }}' height="{{ section.settings.imageAdjust }}px" width="{{ section.settings.imageAdjust }}px" />
+                  {% endif %}
                 </div>
               {%- endif -%}
               <div class="multicolumn-card__info">
