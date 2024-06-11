@@ -357,7 +357,7 @@
       "settings": {
         "customclass": "tablinks-section",
         "full_width": true,
-        "products_to_show": 10,
+        "products_to_show": 8,
         "columns_desktop": 4,
         "enable_desktop_slider": true,
         "color_scheme": "",
