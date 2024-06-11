@@ -477,7 +477,7 @@
         "button_cQaggr": {
           "type": "button",
           "settings": {
-            "button_label": "EXPLORE NOW",
+            "button_label": "Explore Now",
             "button_link": "",
             "button_style_secondary": false
           }
