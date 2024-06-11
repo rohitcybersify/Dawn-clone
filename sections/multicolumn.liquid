@@ -138,7 +138,7 @@
                         class: 'multicolumn-card__image'
                     }} {% endcomment %}
                      {% if block.settings.image != blank %}
-                    <img src='{{ block.settings.image | img_url:'original' }}' height="{{ section.settings.imageAdjust }}px" width="{{ section.settings.imageAdjust }}px" />
+                    <img src='{{ block.settings.image | img_url:'' }}' height="{{ section.settings.imageAdjust }}px" width="{{ section.settings.imageAdjust }}px" />
                   {% endif %}
                   </div>
                  
