@@ -253,91 +253,6 @@
         "show_text_below": true
       }
     },
-    "multicolumn_ip8qta": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_dCU97r": {
-          "type": "column",
-          "settings": {
-            "custom-background": false,
-            "bg-color": "#ffffff",
-            "image": "shopify:\/\/shop_images\/return-box.png",
-            "title": "Easy Return",
-            "text": "<p>Hassle-Free Return<\/p>",
-            "link_label": "",
-            "link": "",
-            "btn-bodr": true,
-            "enable_icon": false
-          }
-        },
-        "column_7993Xf": {
-          "type": "column",
-          "settings": {
-            "custom-background": false,
-            "bg-color": "#ffffff",
-            "image": "shopify:\/\/shop_images\/free-delivery.png",
-            "title": "Free Shipping",
-            "text": "<p>Free Shipping on Order<\/p>",
-            "link_label": "",
-            "link": "",
-            "btn-bodr": true,
-            "enable_icon": false
-          }
-        },
-        "column_3dgnEE": {
-          "type": "column",
-          "settings": {
-            "custom-background": false,
-            "bg-color": "#ffffff",
-            "image": "shopify:\/\/shop_images\/money.png",
-            "title": "Secure Payment",
-            "text": "<p>100% Secured Payment<\/p>",
-            "link_label": "",
-            "link": "",
-            "btn-bodr": true,
-            "enable_icon": false
-          }
-        },
-        "column_BX8hjq": {
-          "type": "column",
-          "settings": {
-            "custom-background": false,
-            "bg-color": "#ffffff",
-            "image": "shopify:\/\/shop_images\/badge.png",
-            "title": "Quality  Assured",
-            "text": "<p>Assured 100% Quality<\/p>",
-            "link_label": "",
-            "link": "",
-            "btn-bodr": true,
-            "enable_icon": false
-          }
-        }
-      },
-      "block_order": [
-        "column_dCU97r",
-        "column_7993Xf",
-        "column_3dgnEE",
-        "column_BX8hjq"
-      ],
-      "settings": {
-        "className": "multiColumns",
-        "grid-gap-s": true,
-        "title": "",
-        "heading_size": "h2",
-        "image_width": "third",
-        "image_ratio": "adapt",
-        "columns_desktop": 4,
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 0
-      }
-    },
     "featured_collection_dJ3xq9": {
       "type": "featured-collection",
       "disabled": true,
@@ -732,6 +647,91 @@
         "button-url": ""
       }
     },
+    "multicolumn_ip8qta": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_dCU97r": {
+          "type": "column",
+          "settings": {
+            "custom-background": false,
+            "bg-color": "#ffffff",
+            "image": "shopify:\/\/shop_images\/return-box.png",
+            "title": "Easy Return",
+            "text": "<p>Hassle-Free Return<\/p>",
+            "link_label": "",
+            "link": "",
+            "btn-bodr": true,
+            "enable_icon": false
+          }
+        },
+        "column_7993Xf": {
+          "type": "column",
+          "settings": {
+            "custom-background": false,
+            "bg-color": "#ffffff",
+            "image": "shopify:\/\/shop_images\/free-delivery.png",
+            "title": "Free Shipping",
+            "text": "<p>Free Shipping on Order<\/p>",
+            "link_label": "",
+            "link": "",
+            "btn-bodr": true,
+            "enable_icon": false
+          }
+        },
+        "column_3dgnEE": {
+          "type": "column",
+          "settings": {
+            "custom-background": false,
+            "bg-color": "#ffffff",
+            "image": "shopify:\/\/shop_images\/money.png",
+            "title": "Secure Payment",
+            "text": "<p>100% Secured Payment<\/p>",
+            "link_label": "",
+            "link": "",
+            "btn-bodr": true,
+            "enable_icon": false
+          }
+        },
+        "column_BX8hjq": {
+          "type": "column",
+          "settings": {
+            "custom-background": false,
+            "bg-color": "#ffffff",
+            "image": "shopify:\/\/shop_images\/badge.png",
+            "title": "Quality  Assured",
+            "text": "<p>Assured 100% Quality<\/p>",
+            "link_label": "",
+            "link": "",
+            "btn-bodr": true,
+            "enable_icon": false
+          }
+        }
+      },
+      "block_order": [
+        "column_dCU97r",
+        "column_7993Xf",
+        "column_3dgnEE",
+        "column_BX8hjq"
+      ],
+      "settings": {
+        "className": "multiColumns",
+        "grid-gap-s": true,
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 72
+      }
+    },
     "image_gallery_EgWVRf": {
       "type": "Image-Gallery",
       "blocks": {
@@ -803,7 +803,6 @@
     "rich_text_3yPTWQ",
     "multicolumn_XeHaXm",
     "image_banner_RJNEdN",
-    "multicolumn_ip8qta",
     "featured_collection_dJ3xq9",
     "collection_slider_PePn6P",
     "marquee_slider_F8YBj4",
@@ -811,6 +810,7 @@
     "image_banner_n4Ha8K",
     "custom_content_7wGX6m",
     "magazine_gallery_RVeLUx",
+    "multicolumn_ip8qta",
     "image_gallery_EgWVRf"
   ]
 }
