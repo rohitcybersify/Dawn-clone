@@ -508,6 +508,54 @@
         "padding_bottom": 36
       }
     },
+    "image_banner_n4Ha8K": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_XbiD8L": {
+          "type": "heading",
+          "settings": {
+            "heading": "Be The First ToGet Limited Editions",
+            "heading_size": "h1"
+          }
+        },
+        "text_VC38qf": {
+          "type": "text",
+          "settings": {
+            "text": "10% Off & The Best Indie Art Ever!",
+            "text_style": "body"
+          }
+        },
+        "buttons_c4k8Fz": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop New Collections",
+            "button_link_1": "shopify:\/\/collections",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_XbiD8L",
+        "text_VC38qf",
+        "buttons_c4k8Fz"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/banner.jpg",
+        "image_overlay_opacity": 30,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "accent-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "custom_content_7wGX6m": {
       "type": "custom-content",
       "blocks": {
@@ -645,7 +693,7 @@
         "slide_7eEe4Q": {
           "type": "slide",
           "settings": {
-            "collection1": "gift-set-watches",
+            "collection1": "",
             "button-label1": "SHOP NOW",
             "button-icon1": "&gt;",
             "button-url1": ""
@@ -760,6 +808,7 @@
     "collection_slider_PePn6P",
     "marquee_slider_F8YBj4",
     "image_with_text_q9wFd4",
+    "image_banner_n4Ha8K",
     "custom_content_7wGX6m",
     "magazine_gallery_RVeLUx",
     "image_gallery_EgWVRf"
