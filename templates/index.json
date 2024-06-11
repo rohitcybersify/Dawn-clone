@@ -530,7 +530,7 @@
           "settings": {
             "button_label_1": "Shop New Collections",
             "button_link_1": "shopify:\/\/collections",
-            "button_style_secondary_1": true,
+            "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
@@ -550,7 +550,7 @@
         "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "accent-1",
-        "image_behavior": "none",
+        "image_behavior": "ambient",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
