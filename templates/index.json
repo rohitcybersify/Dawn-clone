@@ -426,6 +426,13 @@
     "image_banner_n4Ha8K": {
       "type": "image-banner",
       "blocks": {
+        "text_p6drkB": {
+          "type": "text",
+          "settings": {
+            "text": "10% Off & The Best Indie Art Ever!",
+            "text_style": "body"
+          }
+        },
         "heading_XbiD8L": {
           "type": "heading",
           "settings": {
@@ -436,7 +443,7 @@
         "text_VC38qf": {
           "type": "text",
           "settings": {
-            "text": "10% Off & The Best Indie Art Ever!",
+            "text": "",
             "text_style": "body"
           }
         },
@@ -453,6 +460,7 @@
         }
       },
       "block_order": [
+        "text_p6drkB",
         "heading_XbiD8L",
         "text_VC38qf",
         "buttons_c4k8Fz"
