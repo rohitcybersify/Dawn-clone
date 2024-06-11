@@ -149,7 +149,7 @@
         "title": "",
         "heading_size": "h2",
         "image_width": "third",
-        "image_ratio": "circle",
+        "image_ratio": "adapt",
         "columns_desktop": 4,
         "column_alignment": "left",
         "background_style": "none",
