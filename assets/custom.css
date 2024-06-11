@@ -825,7 +825,8 @@ h1.header__heading.flex-logoes {
 }
 
 .gallery-image img.each-image {
-  max-height: 265px;
+    max-height: 265px;
+    min-height: 265px;
 }
 #shopify-section-template--22093649117495__magazine_gallery_RVeLUx {
   margin: 70px 0px;
