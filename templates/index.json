@@ -453,6 +453,7 @@
         "slide_xLXEty",
         "slide_bq8TXf"
       ],
+      "disabled": true,
       "settings": {
       }
     },
@@ -505,21 +506,6 @@
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "two_image_AGKPbC": {
-      "type": "twoImage",
-      "disabled": true,
-      "settings": {
-        "pageWidthType": "",
-        "image1": "shopify:\/\/shop_images\/time-3091031_1920.jpg",
-        "title1": "Men's Watch",
-        "button1": "Shop Now",
-        "link1": "shopify:\/\/collections\/macbook",
-        "image2": "shopify:\/\/shop_images\/pocket-watch-665871_1920.jpg",
-        "title2": "Woman's Watch",
-        "button2": "Shop Now",
-        "link2": "shopify:\/\/collections"
       }
     },
     "custom_content_7wGX6m": {
@@ -774,7 +760,6 @@
     "collection_slider_PePn6P",
     "marquee_slider_F8YBj4",
     "image_with_text_q9wFd4",
-    "two_image_AGKPbC",
     "custom_content_7wGX6m",
     "magazine_gallery_RVeLUx",
     "image_gallery_EgWVRf"
