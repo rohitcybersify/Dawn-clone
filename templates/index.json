@@ -206,7 +206,7 @@
         "description_style": "body",
         "enableStocks": false,
         "collection": "imac",
-        "products_to_show": 8,
+        "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": true,
         "show_view_all": false,
