@@ -469,6 +469,12 @@ button:after {
     color: #111;
     cursor: pointer;
 }
+.collection .quick-add .quick-add__submit svg, .collection .quick-add .addwishlist svg{
+  fill:#111;
+}
+.collection .quick-add .addwishlist:hover svg, .collection .quick-add .quick-add__submit:hover svg{
+  fill:#fff;
+}
 .collection .quick-add .addwishlist:hover, .collection .quick-add .quick-add__submit:hover {
     border: .5px solid  #cbba9c;
     background-color: #cbba9c;
