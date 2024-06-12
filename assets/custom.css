@@ -927,7 +927,7 @@ h1.header__heading.flex-logoes {
 }
 .footer .footer__blocks-wrapper.grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
 }
 
 .footer .footer__blocks-wrapper.grid .footer-block.grid__item {
