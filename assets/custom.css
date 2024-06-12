@@ -1020,6 +1020,12 @@ ul#product-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+  .footer .footer__blocks-wrapper.grid>div:nth-child(3) ul {
+    justify-content: left !important;
+}
+    .footer .footer-block__details-content>p, .footer-block__details-content>li {
+    text-align: left;
+}
 }
 @media screen and (max-width: 768px) {
   .footer-block.grid__item {
