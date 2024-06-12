@@ -429,9 +429,9 @@
 {%- endif -%}
 
  <script>
-   $('.inputid').click(function(){
+   $('.addwishlist').click(function(){
      
-     var wishproductid = $(this).find('.inputid').val();    
+     var wishproductid = $(this).siblings('.inputid').val();    
        console.log(wishproductid);
    });
  </script> 
