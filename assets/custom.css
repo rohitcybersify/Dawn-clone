@@ -1084,6 +1084,11 @@ align-items:center;
     grid-template-columns: 1fr;
 }
   section#shopify-section-template--22093649117495__multicolumn_ip8qta ul li {
+    max-width: 47%;
+}
+}
+@media (max-width:479px){
+    section#shopify-section-template--22093649117495__multicolumn_ip8qta ul li {
     max-width: 100%;
 }
 }
