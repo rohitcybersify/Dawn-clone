@@ -434,7 +434,7 @@
 
 jQuery.ajax({
     type: 'GET',
-    url:'/product/',
+    url:'{!!URL::to('wishproductid')!!}',
     data:{'id':wishproductid},
     success: function(response) {
     console.log("Product Object: ", response);
