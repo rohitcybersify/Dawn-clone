@@ -73,7 +73,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/logo.webp",
-            "image_width": 100,
+            "image_width": 140,
             "alignment": "center"
           }
         }
