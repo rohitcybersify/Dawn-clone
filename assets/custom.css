@@ -979,6 +979,12 @@ ul#product-grid {
   }
 }
 
+
+@media (max-width:1024px){
+  section#shopify-section-template--22093649117495__multicolumn_ip8qta ul li {
+    max-width: 49%;
+}
+}
 @media screen and (min-width: 990px) {
   h3.card__heading.h5 .underline-links-hover:hover a {
     text-decoration: none;
@@ -1069,5 +1075,8 @@ ul#product-grid {
   .footer .footer__blocks-wrapper.grid {
     display: grid;
     grid-template-columns: 1fr;
+}
+  section#shopify-section-template--22093649117495__multicolumn_ip8qta ul li {
+    max-width: 100%;
 }
 }
