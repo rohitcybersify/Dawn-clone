@@ -1004,6 +1004,10 @@ ul#product-grid {
   .footer-block.grid__item {
     width: 23%;
   }
+  .footer .footer__blocks-wrapper.grid>div:nth-child(3) .footer-block__image-wrapper {
+    margin: 0 auto;
+    margin-left: 0px;
+}
   .footer__blocks-wrapper .footer-block.grid__item:nth-child(2),
   .footer__blocks-wrapper .footer-block.grid__item:nth-child(3),
   .footer__blocks-wrapper .footer-block.grid__item:last-child {
