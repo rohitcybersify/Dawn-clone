@@ -802,13 +802,69 @@
             "btn-bodr": true,
             "enable_icon": false
           }
+        },
+        "column_LKxAJF": {
+          "type": "column",
+          "settings": {
+            "custom-background": false,
+            "bg-color": "#ffffff",
+            "title": "<strong>Summer Offer<\/strong>",
+            "text": "<p><strong>Flat 35% off<\/strong><\/p><p>Lorem Ipsum is simply dummy text of the printing<\/p>",
+            "link_label": "Get Now",
+            "link": "",
+            "btn-bodr": true,
+            "enable_icon": false
+          }
+        },
+        "column_6ty9cw": {
+          "type": "column",
+          "settings": {
+            "custom-background": false,
+            "bg-color": "#ffffff",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": "",
+            "btn-bodr": true,
+            "enable_icon": false
+          }
+        },
+        "column_nKJwT8": {
+          "type": "column",
+          "settings": {
+            "custom-background": false,
+            "bg-color": "#ffffff",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": "",
+            "btn-bodr": true,
+            "enable_icon": false
+          }
+        },
+        "column_zpXm4U": {
+          "type": "column",
+          "settings": {
+            "custom-background": false,
+            "bg-color": "#ffffff",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": "",
+            "btn-bodr": true,
+            "enable_icon": false
+          }
         }
       },
       "block_order": [
         "column_FHgy7z",
         "column_LRFf8F",
         "column_xntUjj",
-        "column_JBL4Yc"
+        "column_JBL4Yc",
+        "column_LKxAJF",
+        "column_6ty9cw",
+        "column_nKJwT8",
+        "column_zpXm4U"
       ],
       "settings": {
         "className": "",
