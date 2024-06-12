@@ -515,6 +515,14 @@ button:after {
 .multi_columnSec ul .media--transparent.media--square, .multi_columnSec ul .multicolumn-card__image-wrapper.multicolumn-card__image-wrapper--full-width  {
     height: 100%;
 }
+.multi_columnSec ul .multicolumn-card__info a {
+    width: fit-content;
+    margin: 20px auto 0px;
+    max-width: 200px;
+    min-width: 140px;
+    background: #111;
+    color: #fff;
+}
 /* header new css started */
 .top_announcement {
   display: flex !important;
