@@ -58,7 +58,7 @@
         "image_BhVM78": {
           "type": "image",
           "settings": {
-            "additionaltext": "",
+            "additionaltext": "<p>Classic Designs That Will Never Go Out Of Style.<\/p>",
             "image": "shopify:\/\/shop_images\/logo.webp",
             "image_width": 140,
             "alignment": "center"
