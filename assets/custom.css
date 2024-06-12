@@ -28,6 +28,10 @@ body {
   max-width: 100%;
   padding: 0;
 }
+
+.header-bottom-icons input#Search-In-Modal::placeholder {
+    opacity: 0 !important;
+}
 .card-information > .price {
   color: #fff;
 }
