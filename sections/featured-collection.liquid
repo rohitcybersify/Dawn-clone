@@ -472,13 +472,13 @@
 
  <script>
    $('.addwishlist').click(function(){     
-     var wishproductid = $(this).children('.inputid').val();    
-       console.log(wishproductid);
+     var productid = $(this).children('.inputid').val();    
+       console.log(productid);
 
 jQuery.ajax({
     type: 'GET',
-   url: '/admin/products/' + wishproductid + '.json',
-    data:{'id':wishproductid},
+   url: '/admin/products/' + productid + '.json',
+    data:{'id':productid},
     success: function(response) {
     console.log("Product Object: ", response);
     },
