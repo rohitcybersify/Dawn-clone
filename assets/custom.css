@@ -443,6 +443,7 @@ button:after {
 }
 .collection .grid__item:hover .quick-add{
   opacity: 1;
+  transform: scale(1);
 }
 .collection .product-grid .quick-add__submit {
   background: transparent;
