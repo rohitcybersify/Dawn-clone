@@ -803,7 +803,7 @@
         "show_description": false,
         "description_style": "body",
         "enableStocks": false,
-        "collection": "imac",
+        "collection": "best-seller",
         "products_to_show": 16,
         "columns_desktop": 4,
         "full_width": false,
