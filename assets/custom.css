@@ -661,9 +661,11 @@ h1.header__heading.flex-logoes {
   margin-top: 0 !important;
 }
 .collection__title.title-wrapper.title-wrapper--no-top-margin.page-width {
-  padding: 0 !important;
-  margin: 40px auto 30px !important;
-  /* border-bottom: 1px solid #eeee; */
+    padding: 0!important;
+    margin: 40px auto 30px!important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .collection .slider-component-full-width .slider--desktop .slider__slide {
