@@ -893,6 +893,47 @@ h1.header__heading.flex-logoes {
     justify-content: center;
 }
 
+.multi_columnSec .multi_columnSec ul .multicolumn-card__info{
+    position: relative;
+}
+.multi_columnSec .multi_columnSec ul .multicolumn-card__info:after{
+    position:absolute;
+    content:"";
+    border:2px solid #D2D2D2;
+    top:0;
+        bottom:0;
+        right:0;
+    left:0;
+        margin:auto;
+    width:90%;
+    height:92%;
+}
+.multi_columnSec  .multicolumn-list h3 {
+    font-size: 30px;
+}
+.multi_columnSec  .multicolumn-card__info>:nth-child(2) {
+    margin-top: 0 !important;
+}
+.multi_columnSec  .rte>*:first-child {
+    margin-top: 0;
+    font-weight: 300 !important;
+    font-size: 20px;
+}
+.multi_columnSec  .rte>*:last-child {
+    margin-bottom: 0;
+    max-width: 70%;
+    margin: auto;
+    font-size: 14px;
+}
+.footer .footer__blocks-wrapper.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.footer .footer__blocks-wrapper.grid .footer-block.grid__item {
+    padding-left: 0px;
+    width: 100%;
+}
 /* grid css */
 
 ul#product-grid {
