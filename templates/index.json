@@ -821,11 +821,12 @@
           "settings": {
             "custom-background": false,
             "bg-color": "#ffffff",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/girard-perregaux-neo-bridge-84000-21-3236-5cx-multiple-4_b4ff70fd-64df-4823-954f-7b450e7bfe40.jpg",
+            "title": "",
+            "text": "",
             "link_label": "",
             "link": "",
-            "btn-bodr": true,
+            "btn-bodr": false,
             "enable_icon": false
           }
         },
