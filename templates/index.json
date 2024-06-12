@@ -835,9 +835,9 @@
           "settings": {
             "custom-background": false,
             "bg-color": "#ffffff",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
+            "title": "Festival Offer",
+            "text": "<p><strong>Get flat 25% off<\/strong><\/p><p>Lorem Ipsum is simply dummy text of the printing<\/p>",
+            "link_label": "Get Now",
             "link": "",
             "btn-bodr": true,
             "enable_icon": false
