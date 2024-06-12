@@ -476,6 +476,7 @@ button:after {
     display: flex;
     align-items: center;
     justify-content: center;
+  border:0px !important;
 }
 .collection .quick-add .quick-add__submit svg, .collection .quick-add .addwishlist svg{
   fill:#111;
@@ -484,7 +485,6 @@ button:after {
   fill:#fff;
 }
 .collection .quick-add .addwishlist:hover, .collection .quick-add .quick-add__submit:hover {
-    border: .5px solid  #cbba9c;
     background-color: #cbba9c;
 }
 /* feature collection end */
