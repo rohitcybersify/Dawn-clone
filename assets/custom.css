@@ -501,7 +501,17 @@ button:after {
 .watch_buy .button {
   opacity: 1 !important;
 }
+.multi_columnSec ul {
+    gap: 0px;
+}
 
+.multi_columnSec ul .multicolumn-card__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
 /* header new css started */
 .top_announcement {
   display: flex !important;
