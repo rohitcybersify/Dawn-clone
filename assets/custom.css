@@ -512,6 +512,9 @@ button:after {
     height: 100%;
     width: 100%;
 }
+.multi_columnSec ul .media--transparent.media--square, .multi_columnSec ul .multicolumn-card__image-wrapper.multicolumn-card__image-wrapper--full-width  {
+    height: 100%;
+}
 /* header new css started */
 .top_announcement {
   display: flex !important;
