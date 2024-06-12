@@ -1026,6 +1026,9 @@ ul#product-grid {
     .footer .footer-block__details-content>p, .footer-block__details-content>li {
     text-align: left;
 }
+  .footer .footer__blocks-wrapper.grid .footer-block.grid__item {
+    margin: 0px;
+}
 }
 @media screen and (max-width: 768px) {
   .footer-block.grid__item {
