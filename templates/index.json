@@ -770,7 +770,7 @@
             "bg-color": "#ffffff",
             "title": "Weakend offer",
             "text": "<p><strong>25% off on every brand<\/strong><\/p><p>Lorem Ipsum is simply dummy text of the printing<\/p>",
-            "link_label": "",
+            "link_label": "Get Now",
             "link": "",
             "btn-bodr": true,
             "enable_icon": false
