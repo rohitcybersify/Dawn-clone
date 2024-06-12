@@ -468,11 +468,9 @@ button:after {
     transition: .5s;
     color: #111;
     cursor: pointer;
-    padding: 10px;
 }
 .collection .quick-add .addwishlist:hover, .collection .quick-add .quick-add__submit:hover {
     border: .5px solid  #cbba9c;
-    fill: #fff;
     background-color: #cbba9c;
 }
 /* feature collection end */
