@@ -296,7 +296,7 @@
         "slider_UPzwLk": {
           "type": "Slider",
           "settings": {
-            "title": "<p>Featured<\/p>",
+            "title": "",
             "collection": "imac",
             "show_view_all": true,
             "view_all_style": "solid"
@@ -304,6 +304,7 @@
         },
         "slider_rFbdCp": {
           "type": "Slider",
+          "disabled": true,
           "settings": {
             "title": "<p>Best Selling<\/p>",
             "collection": "macbook",
