@@ -695,9 +695,9 @@ h1.header__heading.flex-logoes {
   background: #fff;
   object-fit: contain;
 }
-.collection .card__inner.color-background-2.gradient.ratio img {
+/* .collection .card__inner.color-background-2.gradient.ratio img {
   object-fit: contain;
-}
+} */
 .collection .card__information,
 .collection .product-grid .card-information {
   width: 100%;
