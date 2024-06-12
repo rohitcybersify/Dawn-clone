@@ -202,6 +202,147 @@
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
+        "padding_bottom": 40
+      }
+    },
+    "multicolumn_qGx4Ea": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_FHgy7z": {
+          "type": "column",
+          "settings": {
+            "custom-background": false,
+            "bg-color": "#ffffff",
+            "image": "shopify:\/\/shop_images\/girard-perregaux-neo-bridge-84000-21-3236-5cx-multiple-6_a9e26c59-502c-428d-8b94-c76866689f0b.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "btn-bodr": false,
+            "enable_icon": false
+          }
+        },
+        "column_LRFf8F": {
+          "type": "column",
+          "settings": {
+            "custom-background": false,
+            "bg-color": "#fffdfd",
+            "title": "<strong>Weakend offer<\/strong>",
+            "text": "<p><strong>25% off on every brand<\/strong><\/p><p>Lorem Ipsum is simply dummy text of the printing<\/p>",
+            "link_label": "Get Now",
+            "link": "",
+            "btn-bodr": true,
+            "enable_icon": false
+          }
+        },
+        "column_xntUjj": {
+          "type": "column",
+          "settings": {
+            "custom-background": false,
+            "bg-color": "#ffffff",
+            "image": "shopify:\/\/shop_images\/Watch2_95ef9dff-63da-4ef9-91eb-cd2c927cdabd.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "btn-bodr": false,
+            "enable_icon": false
+          }
+        },
+        "column_JBL4Yc": {
+          "type": "column",
+          "settings": {
+            "custom-background": false,
+            "bg-color": "#ffffff",
+            "title": "<strong>Sunday Special<\/strong>",
+            "text": "<p><strong>Get about 50% off<\/strong><\/p><p>Lorem Ipsum is simply dummy text of the printing<\/p>",
+            "link_label": "Get Now",
+            "link": "",
+            "btn-bodr": true,
+            "enable_icon": false
+          }
+        },
+        "column_LKxAJF": {
+          "type": "column",
+          "settings": {
+            "custom-background": false,
+            "bg-color": "#ffffff",
+            "title": "<strong>Summer Offer<\/strong>",
+            "text": "<p><strong>Flat 35% off<\/strong><\/p><p>Lorem Ipsum is simply dummy text of the printing<\/p>",
+            "link_label": "Get Now",
+            "link": "",
+            "btn-bodr": true,
+            "enable_icon": false
+          }
+        },
+        "column_6ty9cw": {
+          "type": "column",
+          "settings": {
+            "custom-background": false,
+            "bg-color": "#ffffff",
+            "image": "shopify:\/\/shop_images\/girard-perregaux-neo-bridge-84000-21-3236-5cx-multiple-4_b4ff70fd-64df-4823-954f-7b450e7bfe40.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "btn-bodr": false,
+            "enable_icon": false
+          }
+        },
+        "column_nKJwT8": {
+          "type": "column",
+          "settings": {
+            "custom-background": false,
+            "bg-color": "#ffffff",
+            "title": "<strong>Festival Offer<\/strong>",
+            "text": "<p><strong>Get flat 25% off<\/strong><\/p><p>Lorem Ipsum is simply dummy text of the printing<\/p>",
+            "link_label": "Get Now",
+            "link": "",
+            "btn-bodr": true,
+            "enable_icon": false
+          }
+        },
+        "column_zpXm4U": {
+          "type": "column",
+          "settings": {
+            "custom-background": false,
+            "bg-color": "#ffffff",
+            "image": "shopify:\/\/shop_images\/girard-perregaux-neo-bridge-84000-21-3236-5cx-multiple-8.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "btn-bodr": true,
+            "enable_icon": false
+          }
+        }
+      },
+      "block_order": [
+        "column_FHgy7z",
+        "column_LRFf8F",
+        "column_xntUjj",
+        "column_JBL4Yc",
+        "column_LKxAJF",
+        "column_6ty9cw",
+        "column_nKJwT8",
+        "column_zpXm4U"
+      ],
+      "settings": {
+        "className": "multi_columnSec",
+        "grid-gap-s": true,
+        "title": "",
+        "heading_size": "h0",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-cc52f0cf-4f96-463d-922a-4d20ea40f998",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
         "padding_bottom": 72
       }
     },
@@ -418,147 +559,6 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
-      }
-    },
-    "multicolumn_qGx4Ea": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_FHgy7z": {
-          "type": "column",
-          "settings": {
-            "custom-background": false,
-            "bg-color": "#ffffff",
-            "image": "shopify:\/\/shop_images\/girard-perregaux-neo-bridge-84000-21-3236-5cx-multiple-6_a9e26c59-502c-428d-8b94-c76866689f0b.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "btn-bodr": false,
-            "enable_icon": false
-          }
-        },
-        "column_LRFf8F": {
-          "type": "column",
-          "settings": {
-            "custom-background": false,
-            "bg-color": "#fffdfd",
-            "title": "<strong>Weakend offer<\/strong>",
-            "text": "<p><strong>25% off on every brand<\/strong><\/p><p>Lorem Ipsum is simply dummy text of the printing<\/p>",
-            "link_label": "Get Now",
-            "link": "",
-            "btn-bodr": true,
-            "enable_icon": false
-          }
-        },
-        "column_xntUjj": {
-          "type": "column",
-          "settings": {
-            "custom-background": false,
-            "bg-color": "#ffffff",
-            "image": "shopify:\/\/shop_images\/Watch2_95ef9dff-63da-4ef9-91eb-cd2c927cdabd.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "btn-bodr": false,
-            "enable_icon": false
-          }
-        },
-        "column_JBL4Yc": {
-          "type": "column",
-          "settings": {
-            "custom-background": false,
-            "bg-color": "#ffffff",
-            "title": "<strong>Sunday Special<\/strong>",
-            "text": "<p><strong>Get about 50% off<\/strong><\/p><p>Lorem Ipsum is simply dummy text of the printing<\/p>",
-            "link_label": "Get Now",
-            "link": "",
-            "btn-bodr": true,
-            "enable_icon": false
-          }
-        },
-        "column_LKxAJF": {
-          "type": "column",
-          "settings": {
-            "custom-background": false,
-            "bg-color": "#ffffff",
-            "title": "<strong>Summer Offer<\/strong>",
-            "text": "<p><strong>Flat 35% off<\/strong><\/p><p>Lorem Ipsum is simply dummy text of the printing<\/p>",
-            "link_label": "Get Now",
-            "link": "",
-            "btn-bodr": true,
-            "enable_icon": false
-          }
-        },
-        "column_6ty9cw": {
-          "type": "column",
-          "settings": {
-            "custom-background": false,
-            "bg-color": "#ffffff",
-            "image": "shopify:\/\/shop_images\/girard-perregaux-neo-bridge-84000-21-3236-5cx-multiple-4_b4ff70fd-64df-4823-954f-7b450e7bfe40.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "btn-bodr": false,
-            "enable_icon": false
-          }
-        },
-        "column_nKJwT8": {
-          "type": "column",
-          "settings": {
-            "custom-background": false,
-            "bg-color": "#ffffff",
-            "title": "<strong>Festival Offer<\/strong>",
-            "text": "<p><strong>Get flat 25% off<\/strong><\/p><p>Lorem Ipsum is simply dummy text of the printing<\/p>",
-            "link_label": "Get Now",
-            "link": "",
-            "btn-bodr": true,
-            "enable_icon": false
-          }
-        },
-        "column_zpXm4U": {
-          "type": "column",
-          "settings": {
-            "custom-background": false,
-            "bg-color": "#ffffff",
-            "image": "shopify:\/\/shop_images\/girard-perregaux-neo-bridge-84000-21-3236-5cx-multiple-8.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "btn-bodr": true,
-            "enable_icon": false
-          }
-        }
-      },
-      "block_order": [
-        "column_FHgy7z",
-        "column_LRFf8F",
-        "column_xntUjj",
-        "column_JBL4Yc",
-        "column_LKxAJF",
-        "column_6ty9cw",
-        "column_nKJwT8",
-        "column_zpXm4U"
-      ],
-      "settings": {
-        "className": "multi_columnSec",
-        "grid-gap-s": true,
-        "title": "",
-        "heading_size": "h0",
-        "image_width": "full",
-        "image_ratio": "square",
-        "columns_desktop": 4,
-        "column_alignment": "center",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "scheme-cc52f0cf-4f96-463d-922a-4d20ea40f998",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 72,
-        "padding_bottom": 0
       }
     },
     "custom_content_7wGX6m": {
@@ -819,8 +819,8 @@
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 72,
+        "padding_bottom": 68
       }
     },
     "image_gallery_EgWVRf": {
@@ -893,12 +893,12 @@
     "slideshow_zMxiqB",
     "rich_text_3yPTWQ",
     "multicolumn_XeHaXm",
+    "multicolumn_qGx4Ea",
     "image_banner_RJNEdN",
     "featured_collection_pwkYmQ",
     "marquee_slider_F8YBj4",
     "image_with_text_q9wFd4",
     "image_banner_n4Ha8K",
-    "multicolumn_qGx4Ea",
     "custom_content_7wGX6m",
     "magazine_gallery_RVeLUx",
     "multicolumn_ip8qta",
