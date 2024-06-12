@@ -893,10 +893,10 @@ h1.header__heading.flex-logoes {
     justify-content: center;
 }
 
-.multi_columnSec .multi_columnSec ul .multicolumn-card__info{
+.multi_columnSec  ul .multicolumn-card__info{
     position: relative;
 }
-.multi_columnSec .multi_columnSec ul .multicolumn-card__info:after{
+.multi_columnSec  ul .multicolumn-card__info:after{
     position:absolute;
     content:"";
     border:2px solid #D2D2D2;
