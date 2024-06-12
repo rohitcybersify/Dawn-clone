@@ -703,7 +703,6 @@ h1.header__heading.flex-logoes {
 .collection .card__information,
 .collection .product-grid .card-information {
   width: 100%;
-  text-align: left;
 }
 .collection .product-grid s.price-item.price-item--regular {
   color: #a70707;
