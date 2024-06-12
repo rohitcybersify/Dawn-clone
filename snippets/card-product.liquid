@@ -431,7 +431,7 @@
  <script>
    $('.addwishlist').click(function(){
      
-     var wishproductid = {{ card_product.id }}      
+     var wishproductid = $(this).find('.inputid').val();    
        alert(wishproductid);
    });
  </script> 
