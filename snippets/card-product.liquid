@@ -312,7 +312,7 @@
       </div>
     </div>
 
-    <div> Wishlist </div>
+   
     
      {%- if show_quick_add -%}
           <div class=" hovered-add quick-add no-js-hidden">
@@ -323,6 +323,7 @@
                 assign qty_rules = true
               endif
             -%}
+             <div> Wishlist </div>
             {%- if card_product.variants.size > 1 or qty_rules -%}
               <modal-opener data-modal="#QuickAdd-{{ card_product.id }}">
                 <button
