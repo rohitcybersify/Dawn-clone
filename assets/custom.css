@@ -690,8 +690,8 @@ h1.header__heading.flex-logoes {
   color: #fff;
 }
 .collection .card__inner.color-background-2.gradient.ratio {
-  max-height: 280px;
-  min-height: 280px;
+  max-height: 350px;
+  min-height: 350px;
   background: #fff;
   object-fit: contain;
 }
