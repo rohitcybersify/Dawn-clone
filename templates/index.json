@@ -768,8 +768,8 @@
           "settings": {
             "custom-background": false,
             "bg-color": "#ffffff",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Weakend offer",
+            "text": "<p><strong>25% off on every brand<\/strong><\/p><p>Lorem Ipsum is simply dummy text of the printing<\/p>",
             "link_label": "",
             "link": "",
             "btn-bodr": true,
