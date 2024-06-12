@@ -427,22 +427,3 @@
   </div>
 {%- endif -%}
 
- <script>
-   $('.addwishlist').click(function(){     
-     var wishproductid = $(this).children('.inputid').val();    
-       console.log(wishproductid);
-
-jQuery.ajax({
-    type: 'GET',
-   url: '/admin/products/' + wishproductid + '.json',
-    data:{'id':wishproductid},
-    success: function(response) {
-    console.log("Product Object: ", response);
-    },
-    error: function(error) {
-        console.log("Error: "+ error);
-    }
-});
-     
-   });
- </script> 
