@@ -986,6 +986,12 @@ ul#product-grid {
   }
 }
 /* max-media css  */
+@media (max-width:1200px){
+  .footer .footer__blocks-wrapper.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+}
 @media screen and (max-width: 1140px) {
   .footer__blocks-wrapper .footer-block.grid__item:nth-child(2),
   .footer__blocks-wrapper .footer-block.grid__item:nth-child(3),
