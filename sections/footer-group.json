@@ -55,6 +55,14 @@
             "menu": "footer"
           }
         },
+        "image_BhVM78": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/logo.webp",
+            "image_width": 140,
+            "alignment": "center"
+          }
+        },
         "footer-0": {
           "type": "link_list",
           "settings": {
@@ -68,22 +76,14 @@
             "heading": "Services",
             "menu": "footer"
           }
-        },
-        "image_BhVM78": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/logo.webp",
-            "image_width": 140,
-            "alignment": "center"
-          }
         }
       },
       "block_order": [
         "text_i4Lr9p",
         "footer-1",
+        "image_BhVM78",
         "footer-0",
-        "link_list_eaaNaQ",
-        "image_BhVM78"
+        "link_list_eaaNaQ"
       ],
       "settings": {
         "disclaimer": false,
