@@ -1012,6 +1012,10 @@ ul#product-grid {
   .header.header--top-center {
     align-items: end;
   }
+  .footer .footer__blocks-wrapper.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 }
 @media screen and (max-width: 768px) {
   .footer-block.grid__item {
@@ -1043,4 +1047,10 @@ ul#product-grid {
   .my_gallery {
     row-gap: 10px;
   }
+}
+@media (max-width:576px){
+  .footer .footer__blocks-wrapper.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
 }
