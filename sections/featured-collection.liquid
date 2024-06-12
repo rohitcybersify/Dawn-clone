@@ -97,32 +97,7 @@
               style="--animation-order: {{ forloop.index }};"
             {% endif %}
           > 
-            {% if forloop.index == 1 %}
-                {% if section.settings.adsImage != blank %}
-               <div class="featuredProductImage" style="background-image:url('{{ section.settings.adsImage | img_url : '' }}');">
-                  <div class="cardBody">
-                    {% if section.settings.caption != blank %}
-                     <div class="cardCaption">
-                      {{ section.settings.caption }}
-                      </div>
-                     {% endif %}
-                     {% if section.settings.imageTitle != blank %}
-                     <div class="cardTitle">
-                     {{ section.settings.imageTitle }}
-                     </div>
-                     {% endif %}
-                     {% if section.settings.buttonLabel != blank %}
-                     <div class="cardButton">
-                        <a href="{% if section.settings.buttonLink != blank %}{{ section.settings.buttonLink }}{% else %}#{% endif %}">
-                          {{ section.settings.buttonLabel }}
-                        </a>
-                     </div>
-                     {% endif %}
-                    
-                  </div>
-               </div>
-                {% endif %}
-            {% else %}
+             
             {% render 'cards_product',
               card_product: product,
               media_aspect_ratio: section.settings.image_ratio,
@@ -135,7 +110,7 @@
               show_instock : section.settings.enableStocks
               enableAddToCart : section.settings.enableAddToCart
             %}
-            {% endif %}
+         
           </li>
         {%- else -%}
           {%- for i in (1..4) -%}
