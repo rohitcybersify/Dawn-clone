@@ -929,6 +929,9 @@ h1.header__heading.flex-logoes {
     display: grid;
     grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
 }
+.footer .footer__blocks-wrapper.grid>div:nth-child(3) .footer-block__image-wrapper {
+    margin: 0px auto;
+}
 
 .footer .footer__blocks-wrapper.grid .footer-block.grid__item {
     padding-left: 0px;
