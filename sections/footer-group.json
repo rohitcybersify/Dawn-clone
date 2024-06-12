@@ -68,20 +68,29 @@
             "heading": "Services",
             "menu": "footer"
           }
+        },
+        "image_BhVM78": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/logo.webp",
+            "image_width": 100,
+            "alignment": "center"
+          }
         }
       },
       "block_order": [
         "text_i4Lr9p",
         "footer-1",
         "footer-0",
-        "link_list_eaaNaQ"
+        "link_list_eaaNaQ",
+        "image_BhVM78"
       ],
       "settings": {
-        "disclaimer": true,
+        "disclaimer": false,
         "disclaimer-heading": "Disclaimer",
         "disclaimer-text": "A website disclaimer states the limitations of your liability for the use of your website and the information it contains.",
         "color_scheme": "background-1",
-        "newsletter_enable": true,
+        "newsletter_enable": false,
         "brand_log": "shopify:\/\/shop_images\/slide-2.png",
         "brand_infor": "Classic Designs That Will Never Go Out Of Style.",
         "newsletter_heading": "Subscribe to our emails",
