@@ -936,6 +936,7 @@ h1.header__heading.flex-logoes {
 }
 .footer .footer__content-top.page-width {
     max-width: 90% !important;
+    padding-top: 60px !important;
 }
 /* grid css */
 
