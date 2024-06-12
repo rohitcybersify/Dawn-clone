@@ -1057,7 +1057,14 @@ ul#product-grid {
     display: flex important;
     margin: 10px !important;
   }
-
+section#shopify-section-template--22093649117495__multicolumn_ip8qta ul li .multicolumn-card.content-container {
+align-items:center;
+  gap:10px;
+}
+  section#shopify-section-template--22093649117495__multicolumn_ip8qta ul li .multicolumn-card__image-wrapper {
+    max-width: 44px;
+    height: 44px;
+}
   .collection .slider-component.page-width {
     padding: 0 !important;
   }
