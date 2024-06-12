@@ -2,8 +2,8 @@
   "current": {
     "enableLogoText": true,
     "logoText": "Wooden Watch",
-    "logo": "shopify:\/\/shop_images\/RJ-logo-15.svg",
-    "logo_width": 50,
+    "logo": "shopify:\/\/shop_images\/logo.webp",
+    "logo_width": 130,
     "type_header_font": "cabin_n4",
     "heading_scale": 100,
     "type_body_font": "open_sans_n4",
