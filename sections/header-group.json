@@ -43,7 +43,7 @@
       "settings": {
         "transparent_header": false,
         "location_text": "",
-        "logo_position": "top-center",
+        "logo_position": "top-left",
         "menu": "wooden-watch",
         "menu_type_desktop": "mega",
         "sticky_header_type": "none",
