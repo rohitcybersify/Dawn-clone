@@ -455,8 +455,8 @@ button:after {
   margin-top:10px;
 }
 .collection .quick-add svg {
-    width: 46px;
-    height: 46px;
+    width: 42px;
+    height: 42px;
     line-height: 46px;
     background-color: #fff;
     box-shadow: 0 15px 25px #00000014;
@@ -467,8 +467,8 @@ button:after {
     margin-bottom: 13px;
     transition: .5s;
     color: #111;
-    font-size: 0;
     cursor: pointer;
+    padding: 10px;
 }
 .collection .quick-add svg:hover {
     border: .5px solid  #cbba9c;
