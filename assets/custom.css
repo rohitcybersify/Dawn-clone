@@ -454,7 +454,7 @@ button:after {
   background-color: rgb(0 0 0);
   margin-top:10px;
 }
-.collection .quick-add svg {
+.collection .quick-add .quick-add__submit, .collection .quick-add .addwishlist {
     width: 42px;
     height: 42px;
     line-height: 46px;
@@ -470,7 +470,7 @@ button:after {
     cursor: pointer;
     padding: 10px;
 }
-.collection .quick-add svg:hover {
+.collection .quick-add .addwishlist:hover, .collection .quick-add .quick-add__submit:hover {
     border: .5px solid  #cbba9c;
     fill: #fff;
     background-color: #cbba9c;
