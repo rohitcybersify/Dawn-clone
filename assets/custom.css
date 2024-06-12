@@ -438,12 +438,12 @@ button:after {
     right: 20px;
     text-align: center;
     opacity: 0;
-    transform: scale(.4);
+    /* transform: scale(.4); */
     transition: .5s all;
 }
 .collection .grid__item:hover .quick-add{
   opacity: 1;
-  transform: scale(1);
+  /* transform: scale(1); */
 }
 .collection .product-grid .quick-add__submit {
   background: transparent;
