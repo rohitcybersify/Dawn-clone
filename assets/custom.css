@@ -455,20 +455,25 @@ button:after {
   margin-top:10px;
 }
 .collection .quick-add svg {
-    width: 30px !important;
-    height: 30px !important;
-    /* background: #000; */
+    width: 46px;
+    height: 46px;
+    line-height: 46px;
+    background-color: #fff;
+    box-shadow: 0 15px 25px #00000014;
     border-radius: 50%;
-    padding: 7px;
-    border: .5px solid #00000030;
-    fill: #111;
-    transition: .5s all;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: block;
+    margin-bottom: 13px;
+    transition: .5s;
+    color: #111;
+    font-size: 0;
     cursor: pointer;
 }
 .collection .quick-add svg:hover {
-    background: #000;
-    border: .5px solid #000;
+    border: .5px solid  #cbba9c;
     fill: #fff;
+    background-color: #cbba9c;
 }
 /* feature collection end */
 
