@@ -543,7 +543,7 @@
         "column_zpXm4U"
       ],
       "settings": {
-        "className": "",
+        "className": "multi_columnSec",
         "grid-gap-s": true,
         "title": "",
         "heading_size": "h0",
