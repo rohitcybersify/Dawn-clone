@@ -1018,6 +1018,9 @@ section#shopify-section-template--22093649117495__slideshow_zMxiqB .banner>div:n
   .footer-block.grid__item {
     width: 23%;
   }
+  .multi_columnSec .multicolumn-list h3 {
+    font-size: 22px;
+}
   .collection .quick-add {
     top: 15px;
     right: 10px;
