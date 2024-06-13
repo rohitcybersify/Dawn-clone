@@ -1133,7 +1133,7 @@ align-items:center;
     row-gap: 10px;
   }
   .banner__content {
-    align-items: flex-start;
+    align-items: flex-start !important;
 }
 }
 @media (max-width:576px){
