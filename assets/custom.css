@@ -1013,6 +1013,10 @@ ul#product-grid {
   .footer-block.grid__item {
     width: 23%;
   }
+  .collection .quick-add {
+    top: 15px;
+    right: 10px;
+}
   .collection .quick-add .quick-add__submit, .collection .quick-add .addwishlist{
     width: 28px;
     height: 28px;
@@ -1021,6 +1025,7 @@ ul#product-grid {
     min-height: 28px;
     max-height: 28px;
     line-height: 25px;
+    margin-bottom: 7px;
   }
   .collection .quick-add .quick-add__submit svg, .collection .quick-add .addwishlist svg {
     width: 14px;
