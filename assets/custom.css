@@ -1084,6 +1084,10 @@ ul#product-grid {
 }
 }
 @media (max-width:990px){
+  .multi_columnSec ul>li {
+    width: 100%;
+    max-width: 47% !important;
+}
   .multi_columnSec ul>li:nth-child(1) {
     order: 2;
 }
