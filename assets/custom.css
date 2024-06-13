@@ -1180,6 +1180,9 @@ align-items:center;
     section#shopify-section-template--22093649117495__multicolumn_ip8qta ul li {
     max-width: 47%;
 }
+  .multi_columnSec ul .multicolumn-card__info:after {
+display:none;
+}
   .multi_columnSec ul>li:nth-child(1) {
     order: 1;
 }
