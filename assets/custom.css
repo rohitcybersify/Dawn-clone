@@ -953,7 +953,7 @@ ul#product-grid {
   column-gap: 0px !important;
   row-gap: 0px !important;
 }
-.slideshow banner>div:first-child .banner__content.banner__content--middle-center {
+.slideshow>div.slideshow__slide:first-child .banner__content.banner__content--middle-center {
     align-items: flex-start !important;
 }
 /* resposnive css start */
