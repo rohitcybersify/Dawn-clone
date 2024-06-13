@@ -1041,6 +1041,9 @@ ul#product-grid {
     font-size: 8px;
     padding: 2px 10px 4px;
 }
+  .card-information>*:not(.visually-hidden:first-child)+*:not(.rating):not(.card__information-volume-pricing-note) {
+    margin-top: 0px;
+}
   .footer .footer__blocks-wrapper.grid>div:nth-child(3) .footer-block__image-wrapper {
     margin: 0 auto;
     margin-left: 0px;
