@@ -1036,6 +1036,14 @@ ul#product-grid {
  .collection h3.card__heading.h5 .full-unstyled-link {
     font-size: 14px;
 }
+  .collection__description p {
+    max-width: 550px;
+    font-size: 14px;
+}
+  .collection__title h2 {
+    font-size: 28px;
+    font-weight: 400;
+}
   .footer .footer__content-top.page-width {
     max-width: 100%!important;
     padding-top: 40px!important;
