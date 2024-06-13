@@ -26,6 +26,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/slider-3.jpg",
+            "image1": "shopify:\/\/shop_images\/slider-3.png",
             "bannerCaption": "",
             "heading": "Be The First ToGet Limited Editions",
             "heading_size": "h1",
