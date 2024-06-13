@@ -1177,9 +1177,23 @@ align-items:center;
     display: grid;
     grid-template-columns: 1fr;
 }
-  section#shopify-section-template--22093649117495__multicolumn_ip8qta ul li {
+    section#shopify-section-template--22093649117495__multicolumn_ip8qta ul li {
     max-width: 47%;
 }
+  .multi_columnSec ul>li:nth-child(1) {
+    order: 1;
+}
+  .multi_columnSec ul>li:nth-child(6) {
+    order: 5;
+}
+  .multi_columnSec ul>li:nth-child(5) {
+    order: 6;
+}
+  .multi_columnSec ul>li {
+    width: 100%;
+    max-width: 100% !important;
+}
+
 }
 @media (max-width:479px){
     section#shopify-section-template--22093649117495__multicolumn_ip8qta ul li {
