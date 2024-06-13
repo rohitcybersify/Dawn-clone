@@ -956,6 +956,9 @@ ul#product-grid {
 .slideshow>div.slideshow__slide:first-child .banner__content.banner__content--middle-center {
     align-items: flex-start !important;
 }
+section#shopify-section-template--22093649117495__slideshow_zMxiqB .banner>div:nth-child(2) .banner__content {
+    align-items: flex-start !important;
+}
 /* resposnive css start */
 
 /* min-media css  */
@@ -1168,9 +1171,6 @@ align-items:center;
   .my_gallery {
     row-gap: 10px;
   }
-  .banner__content {
-    align-items: flex-start !important;
-}
 }
 @media (max-width:576px){
   .footer .footer__blocks-wrapper.grid {
