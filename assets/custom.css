@@ -1068,9 +1068,19 @@ ul#product-grid {
   .newsletter__subheading p {
     font-size: 13px;
   }
+  .rrt .price--on-sale .price__sale {
+    display: flex;
+    align-items: center;
+}
   .collection .card__inner.color-background-2.gradient.ratio {
     max-height: 240px;
     min-height: 240px;
+}
+  .product-grid span.price-item.price-item--sale.price-item--last {
+    font-size: 12px;
+}
+  .card__content .price__regular {
+    font-size: 13px;
 }
 }
 
