@@ -1083,6 +1083,36 @@ ul#product-grid {
     margin: 0px;
 }
 }
+@media (max-width:990px){
+  .multi_columnSec ul>li:nth-child(1) {
+    order: 2;
+}
+
+.multi_columnSec ul>li:nth-child(2) {
+    order: 1;
+}
+
+.multi_columnSec ul>li:nth-child(3) {
+    order: 3;
+}
+.multi_columnSec ul>li:nth-child(4) {
+    order: 4;
+}
+.multi_columnSec ul>li:nth-child(5) {
+    order: 5;
+}
+.multi_columnSec ul>li:nth-child(6) {
+    order: 6;
+}
+.multi_columnSec ul>li:nth-child(7) {
+    order: 8;
+}
+
+.multi_columnSec ul>li:nth-child(8) {
+    order: 7;
+}
+
+}
 @media screen and (max-width: 768px) {
   .footer-block.grid__item {
     width: 48%;
