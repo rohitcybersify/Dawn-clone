@@ -15,21 +15,22 @@
             "link": "",
             "button_style_secondary": false,
             "box_align": "top-center",
-            "show_text_box": false,
+            "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
             "color_scheme": "scheme-0d827297-8253-435d-89c9-abe01e03ee39",
             "text_alignment_mobile": "center"
           }
         },
-        "slide_zHBE9H": {
+        "slide_BMJRak": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/slider-3.jpg",
             "bannerCaption": "",
-            "heading": "Image slide",
+            "heading": "Be The First ToGet Limited Editions",
             "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
+            "subheading": "Hurry up to own our best products on the occasion of discounts togive to friends and relatives",
+            "button_label": "",
             "link": "",
             "button_style_secondary": false,
             "box_align": "middle-center",
@@ -62,14 +63,14 @@
       },
       "block_order": [
         "slide_MRhpWi",
-        "slide_zHBE9H",
+        "slide_BMJRak",
         "slide_dAwxF4"
       ],
       "settings": {
         "layout": "full_bleed",
         "slide_height": "large",
         "slider_visual": "dots",
-        "auto_rotate": true,
+        "auto_rotate": false,
         "change_slides_speed": 5,
         "image_behavior": "none",
         "show_text_below": false,
