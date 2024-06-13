@@ -1021,8 +1021,10 @@ ul#product-grid {
     min-height: 28px;
     max-height: 28px;
     line-height: 25px;
-    padding: 7px;
   }
+  .collection .quick-add .quick-add__submit svg, .collection .quick-add .addwishlist svg {
+    width: 14px;
+}
   .collection .quick-add {
     opacity: 1;
 }
