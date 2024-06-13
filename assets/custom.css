@@ -1033,7 +1033,7 @@ ul#product-grid {
   .collection .quick-add {
     opacity: 1;
 }
-  h3.card__heading.h5 .full-unstyled-link {
+ .collection h3.card__heading.h5 .full-unstyled-link {
     font-size: 14px;
 }
   .footer .footer__content-top.page-width {
