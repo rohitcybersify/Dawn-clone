@@ -12,6 +12,12 @@
         content: '';
         display: block;
       }
+          .devdesktop{
+      display: none;
+    }
+    .devMobile{
+      display: block;
+    }
     }
 
     @media screen and (min-width: 750px) {
@@ -21,6 +27,12 @@
         content: '';
         display: block;
       }
+         .devdesktop{
+      display: block;
+    }
+    .devMobile{
+      display: none;
+    }
     }
   {%- endstyle -%}
 {%- endif -%}
@@ -399,7 +411,12 @@
         {
           "type": "image_picker",
           "id": "image",
-          "label": "t:sections.slideshow.blocks.slide.settings.image.label"
+          "label": "desktop image"
+        },
+       {
+          "type": "image_picker",
+          "id": "image1",
+          "label": "mobile image"
         },
         {
           "type" :"text",
