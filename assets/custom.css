@@ -15,7 +15,9 @@ body {
 .card-information > .price {
   color: #fff;
 }
-
+.multi_columnSec ul li:nth-child(6) .multicolumn-card__info::after, .multi_columnSec ul li:nth-child(8) .multicolumn-card__info::after {
+    display: none;
+}
 body,
 h2 {
   font-weight: 400;
