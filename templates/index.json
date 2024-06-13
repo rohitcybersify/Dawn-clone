@@ -3,78 +3,44 @@
     "slideshow_zMxiqB": {
       "type": "slideshow",
       "blocks": {
-        "slide_MRhpWi": {
-          "type": "slide",
+        "image_slide_gixjgM": {
+          "type": "image_slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/slide-2.png",
-            "bannerCaption": "",
-            "heading": "We have put together the best collection of watches in the world",
-            "heading_size": "h2",
+            "mobile_image": "shopify:\/\/shop_images\/SLIDE1.png",
             "subheading": "",
+            "title": "We have put together the best collection of watches in the world",
+            "button_link": "",
             "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "top-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-0d827297-8253-435d-89c9-abe01e03ee39",
-            "text_alignment_mobile": "center"
+            "image_overlay_opacity": 0
           }
         },
-        "slide_BMJRak": {
-          "type": "slide",
+        "image_slide_6DcxMr": {
+          "type": "image_slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/slider-3.jpg",
-            "bannerCaption": "",
-            "heading": "Be The First ToGet Limited Editions",
-            "heading_size": "h1",
             "subheading": "Hurry up to own our best products on the occasion of discounts togive to friends and relatives",
+            "title": "Be The First ToGet Limited Editions",
+            "button_link": "",
             "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_dAwxF4": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "bannerCaption": "",
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
+            "image_overlay_opacity": 0
           }
         }
       },
       "block_order": [
-        "slide_MRhpWi",
-        "slide_BMJRak",
-        "slide_dAwxF4"
+        "image_slide_gixjgM",
+        "image_slide_6DcxMr"
       ],
       "settings": {
-        "layout": "full_bleed",
-        "slide_height": "large",
-        "slider_visual": "dots",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "image_behavior": "none",
+        "slide_height": "adapt_image",
+        "layout": "full_width",
         "show_text_below": false,
-        "accessibility_info": "Slideshow about our brand"
+        "image_behavior": "scale",
+        "auto_rotate": true,
+        "change_slides_speed": 5,
+        "slider_visual": "counter",
+        "accessibility_info": false,
+        "animations_reveal_on_scroll": false
       }
     },
     "rich_text_3yPTWQ": {
