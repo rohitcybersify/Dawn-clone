@@ -1132,6 +1132,9 @@ align-items:center;
   .my_gallery {
     row-gap: 10px;
   }
+  .banner__content {
+    align-items: flex-start;
+}
 }
 @media (max-width:576px){
   .footer .footer__blocks-wrapper.grid {
