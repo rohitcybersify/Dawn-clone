@@ -22,15 +22,14 @@
             "text_alignment_mobile": "center"
           }
         },
-        "slide_BMJRak": {
+        "slide_zHBE9H": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/slider-3.jpg",
             "bannerCaption": "",
-            "heading": "Be The First ToGet Limited Editions",
+            "heading": "Image slide",
             "heading_size": "h1",
-            "subheading": "Hurry up to own our best products on the occasion of discounts togive to friends and relatives",
-            "button_label": "",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
             "link": "",
             "button_style_secondary": false,
             "box_align": "middle-center",
@@ -63,7 +62,7 @@
       },
       "block_order": [
         "slide_MRhpWi",
-        "slide_BMJRak",
+        "slide_zHBE9H",
         "slide_dAwxF4"
       ],
       "settings": {
